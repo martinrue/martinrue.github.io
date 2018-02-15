@@ -1,0 +1,29 @@
+---
+title: "Passion"
+date: 2013-11-27
+redirect_from: "/passio"
+---
+
+In [Foundation episode 3](http://foundation.bz/3/) with [Philip Rosedale](https://twitter.com/philiprosedale) (the founder of Second Life) [Kevin Rose](https://twitter.com/kevinrose) asks about entrepreneurship. Philip has some interesting opinions that resonate with my own.
+
+Philip:
+
+> Here in San Francisco, it's almost like the style is to be an entrepreneur. We're all supposed to be entrepreneurs. The reality is, psychologically, most of us aren't, and then just a few of us are kind of crazy.
+
+Kevin:
+
+> After you've had have an idea, is there something you can ask yourself to get a reality check to see if you're really cut out for founding a startup?
+
+Philip:
+
+> One thing I always say about entrepreneurship: if you feel compelled beyond all reason to work on something, if you just feel that regardless of the salary or anything else that you just need to see if this idea works, that's when you want to go do it.
+
+I love Philip's answer because it cuts out the shit and really boils down to passion. I've always believed that if you genuinely care enough to make something happen, it will happen. It may not (and probably won't) happen the way you first thought, but being passionate about it will drive you to continue trying, learning and making progress.
+
+Of course, not all ideas work in terms of being viable businesses, but it shouldn't just be a single incarnation of an idea that you're so passionate about. You should be passionate about the underlying subject/context, where many potential ideas as extensions of your original, or new ones entirely, excite you just the same.
+
+This is why I'm so excited about [Yakk](https://yakkapp.com). I'm finally working on a problem that has also been my hobby for years. Language learning is something I really care about and something I love working on, even if that results in something very different to [Yakk](https://yakkapp.com) in the end.
+
+So take Philip's advice.
+
+Find an idea that excites you beyond reason and go do it.
