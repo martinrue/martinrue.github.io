@@ -1,0 +1,36 @@
+title: Martin Rue
+description: 'Software developer. Language geek. <br>Manchester &amp; Berlin.'
+url: 'https://martinrue.com'
+baseurl: ''
+
+author:
+  name: 'Martin Rue'
+  email: hello@martinrue.com
+  twitter_username: martinrue
+  instagram_username: martinrue
+  github_username: martinrue
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+destination: _site
+paginate: 100
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
