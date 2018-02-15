@@ -32,5 +32,5 @@ kramdown:
   input: GFM
   hard_wrap: false
 
-plugins: ['jekyll-paginate']
+plugins: ['jekyll-paginate', 'jekyll-redirect-from']
 exclude: ['README.md', 'LICENSE', 'run', 'Gemfile', 'Gemfile.lock']
