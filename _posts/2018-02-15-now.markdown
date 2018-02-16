@@ -1,7 +1,0 @@
----
-title: "Now"
-date: 2018-02-15
-exclude: true
----
-
-. . .

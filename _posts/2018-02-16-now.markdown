@@ -1,0 +1,33 @@
+---
+title: "What I'm doing now"
+date: 2018-02-16
+exclude: true
+---
+
+This is a [now page](https://nownownow.com/about), inspired by the wonderful [Derek Sivers](https://sivers.org).
+
+---
+
+I'm at home in Manchester, England.
+
+### Projects
+
+I'm spending most of my time during the week working on [DashRoots](https://blog.dashroots.fund/2018/01/04/project-update/), which is a crowd-funding system for the [Dash](https://www.dash.org/) crypto currency project. I'm excited about DashRoots because it will help people at the grassroots level get paid to bring their skills and time to the Dash ecosystem.
+
+One day per week, a friend and I are hacking on an interesting (but ambitious) idea to see how far we can get with it. It's a fun mix of distributed computing problems and network programming, but it's a bit too early to go into details.
+
+### Health
+It has been 6 weeks since I started doing intermittent fasting. I'm averaging 17 hours per day (consuming only water). After seeing a big improvement in energy levels and sleep, I'm continuing it for at least the next 4 weeks.
+
+I'm trying my best to get at least 3 solid training sessions in the gym per week. Due to intermittent fasting, it's a challenge to get the right balance of macros in the small eating window, but so far I haven't seen any reduction in muscle or strength.
+
+### Books
+I just finished reading [Reminiscences of a Stock Operator](https://en.wikipedia.org/wiki/Reminiscences_of_a_Stock_Operator) for the second time. It's a wonderful book that tells the story of an early Wall Street, and the rampant speculation and manipulation that occurred in the early 1900s. I wanted to read it a second time to draw parallels with the kind of trading activity and dynamics occurring in the crypto markets.
+
+The next book I will begin reading is [The Internet of Money Volume Two](https://www.amazon.co.uk/dp/B075VB7LVG/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1). After recently finishing the first volume, I'm hooked. [Andreas](https://twitter.com/aantonop) is a great public speaker, author, and leading thinker on the current state of crypto currency and blockchain innovation.
+
+### Language
+
+My German has not improved much during the last year. I need to fix that, so I'm doing at least one hour of German practice per week. I'm hoping it will help me maintain my current level, while slowly improving it. I'm currently using [Coffee Break German](https://radiolingua.com/coffeebreakgerman/) and [Lingvist](https://lingvist.com/).
+
+In April, I'm hoping to attend the [Brita Kongreso](https://britakongreso.org/eo/), which is the 99th British Esperanto conference (which started way back in 1908). In preparation, I'm spending around an hour per week brushing up on my Esperanto. I'm also reading Murdo en la Orienta Ekspreso, an Esperanto translations of the classic Agatha Christie novel.
