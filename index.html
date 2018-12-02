@@ -4,13 +4,14 @@ robots: noindex
 ---
 
 <div class="main-post-list">
+  <h1>Blog</h1>
 
   <ol class="post-list">
     {% for post in paginator.posts %}
       {% unless post.exclude %}
       <li>
         <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}&hellip;</p>
+        <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}&hellip;</p>
         <div class="post-list__meta">
             <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>
         </div>
