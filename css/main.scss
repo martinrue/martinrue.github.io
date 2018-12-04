@@ -53,3 +53,277 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.shelf {
+  padding-bottom: 15px;
+}
+
+.shelf:last-child {
+  padding-bottom: 0px;
+}
+
+.shelves-of-15 {
+  display: block;
+}
+
+.shelves-of-10 {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .shelves-of-15 {
+    display: none;
+  }
+
+  .shelves-of-10 {
+    display: block;
+  }
+}
+
+.books {
+  display: inline-block;
+  border-bottom: solid 3px #806517;
+  padding: 0 5px;
+
+  .book {
+    float: left;
+    width: 22px;
+    height: 67px;
+    margin-right: 3px;
+    margin-bottom: 1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(57, 69, 79, 0.6);
+    border-radius: 4px;
+    transition: transform .2s;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &.diamond-1 {
+      background-image: url('/images/books/stems/diamond-1.svg');
+    }
+
+    &.diamond-2 {
+      width: 18px;
+      background-image: url('/images/books/stems/diamond-2.svg');
+    }
+
+    &.diamond-3 {
+      width: 18px;
+      height: 52px;
+      margin-top: 67px - 52px;
+      background-image: url('/images/books/stems/diamond-3.svg');
+    }
+
+    &.diamond-4 {
+      width: 18px;
+      height: 42px;
+      margin-top: 67px - 42px;
+      background-image: url('/images/books/stems/diamond-4.svg');
+    }
+
+    &.plain-1 {
+      background-image: url('/images/books/stems/plain-1.svg');
+    }
+
+    &.plain-2 {
+      width: 18px;
+      background-image: url('/images/books/stems/plain-2.svg');
+    }
+
+    &.plain-3 {
+      width: 18px;
+      height: 52px;
+      margin-top: 67px - 52px;
+      background-image: url('/images/books/stems/plain-3.svg');
+    }
+
+    &.plain-4 {
+      width: 18px;
+      height: 42px;
+      margin-top: 67px - 42px;
+      background-image: url('/images/books/stems/plain-4.svg');
+    }
+
+    &.good-life {
+      background-color: rgba(201,206,211,0.7);
+    }
+
+    &.fluent-forever {
+      background-color: rgba(254,254,225,0.7);
+    }
+
+    &.teorio-nakamura {
+      background-color: rgba(214,209,206,0.7);
+    }
+
+    &.how-to-learn {
+      background-color: rgba(255,255,255,0.7);
+    }
+
+    &.rakonto-ovoj {
+      background-color: rgba(7,141,0,0.7);
+    }
+
+    &.internet-money-1 {
+      background-color: rgba(255,123,0,0.7);
+    }
+
+    &.internet-money-2 {
+      background-color: rgba(96,25,142,0.7);
+    }
+
+    &.esperanto-learning-using {
+      background-color: rgba(253,209,22,0.7);
+    }
+
+    &.being-colloquial {
+      background-color: rgba(243,243,164,0.7);
+    }
+
+    &.five-elements {
+      background-color: rgba(252,255,254,0.7);
+    }
+
+    &.fluent-3-months {
+      background-color: rgba(40,45,180,0.8);
+    }
+
+    &.art-fear {
+      background-color: rgba(219,207,175,0.7);
+    }
+
+    &.fail-at-everything {
+      background-color: rgba(219,42,15,0.7);
+    }
+
+    &.hegarty-on-creativity {
+      background-color: rgba(255,182,0,0.7);
+    }
+
+    &.do-the-work {
+      background-color: rgba(255,255,255,0.7);
+    }
+
+    &.steal-like-an-artist {
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    &.show-your-work {
+      background-color: rgba(255,204,0,0.7);
+    }
+
+    &.there-were-none {
+      background-color: rgba(192,192,179,0.7);
+    }
+
+    &.children-succeed {
+      background-color: rgba(255,255,255,0.7);
+    }
+
+    &.win-friends {
+      background-color: rgba(168,0,11,0.7);
+    }
+
+    &.stock-operator {
+      background-color: rgba(237,199,115,0.7);
+    }
+
+    &.delivering-happiness {
+      background-color: rgba(119,153,177,0.7);
+    }
+
+    &.thank-you-economy {
+      background-color: rgba(238,60,24,0.7);
+    }
+
+    &.predictably-irrational {
+      background-color: rgba(0,92,165,0.7);
+    }
+
+    &.madness-of-crowds {
+      background-color: rgba(115,35,43,0.7);
+    }
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.selected-book {
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+  margin-top: 15px;
+
+  .cover {
+    width: 50px;
+    height: 90px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .details {
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+
+    .title {
+      display: block;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .rating {
+      display: block;
+      margin-top: 8px;
+      font-size: 14px;
+      letter-spacing: 4px;
+      font-weight: 900;
+    }
+  }
+}
+
+hr {
+  &.full {
+    width: 100%;
+  }
+}
+
+.full-cover {
+  width: 200px;
+}
+
+.title {
+  font-size: 1.8em;
+  line-height: 1.15em;
+  display: block;
+  color: #333;
+}
+
+.title:hover {
+  color: #26acdc;
+}
+
+.details {
+  margin-top: -5px;
+
+  div {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.notes {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 18px;
+}

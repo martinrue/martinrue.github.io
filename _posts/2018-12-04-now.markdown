@@ -1,0 +1,43 @@
+---
+title: "What I'm doing now"
+date: 2018-12-04
+exclude: true
+---
+
+This is a [now page](https://nownownow.com/about), inspired by the wonderful [Derek Sivers](https://sivers.org).
+
+---
+
+I'm in Berlin. I like to visit the city a few times per year to get out of my normal routine/habits and refocus. I'm sat in a dimly lit co-working cafe, with a few other late workers.
+
+### Projects
+
+In October DashRoots was [released](https://blog.dashroots.fund/2018/10/10/launch/), which had been my exclusive focus for the prior 12+ months. Following the release, a second treasury [proposal](https://www.dashcentral.org/p/dashroots-crowdfunding-system) was created seeking support for continued development. Unfortunately, the network decided not to support the project. With the tough market conditions in mind, and no means to fund further development, the project has been [shelved](https://blog.dashroots.fund/2018/11/27/hiatus/) until better conditions emerge.
+
+In order to begin work on DashRoots, I decided to put [Yakk](https://yakkapp.com) on hold. Yakk was my first attempt at building an engaging and effective language learning app that focused on building conversational ability from day one. Over the last year and a half, Yakk has continued to grow and now has almost 1000 users.
+
+Language and language education have always being deep interests of mine. With the opening up of my schedule, I've decided to apply many lessons learned from Yakk 1 and reboot the project. Yakk 2 will be a completely new project, retaining Yakk 1's core focus on building conversational language ability from day one, but bringing a whole new set of ideas and features.
+
+After weeks of planning, I'm excited to get started. There is nothing like a fresh start, a fresh focus, and the drive to do your best work. I’m looking forward to sharing more as soon as possible.
+
+### Books
+
+Speaking of books, I've just digitalised [my bookshelf](/books). There you can see every non-programming book I've read. Bit by bit I'll centralise my key notes from each book on that page, as well as give each book an impact score out of 5. The higher the score, the more the book impacted me personally.
+
+Having recently finished [A Guide to the Good Life](/books/#good-life) and [Fluent Forever](/books/#fluent-forever), I'll be finishing off a couple of Esperanto books before the year is over.
+
+### Language
+
+I haven't properly returned to serious study of German due to time constraints. I'm still doing about an hour per week of flashcard study, but nothing in the form of hard progress.
+
+My language learning time has almost entirely been spent with Esperanto. Back in April I attended the week-long [Brita Kongreso](https://britakongreso.org) and I was amazed at how well everyone could use the language in real life situations. Following the Brita Kongreso, in which my level of Esperanto noticeably improved, I decided to focus solely on Esperanto for the rest of the year.
+
+July came, and with it one of the biggest Esperanto events of the year. [SES](https://ses.ikso.net/2018/en) sees anywhere from 200 to 250 Esperantists from all over the world live together for 8 days in a small Slovakian town, speaking only Esperanto. I decided to take myself out of my comfort zone completely and attend.
+
+I'm so glad I did, as it was a very [unique and rewarding experience](/seek-out-new-experiences).
+
+---
+
+#### Previous Entries
+
++ [16th Feb 2018](/now-feb-18)
