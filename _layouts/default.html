@@ -13,4 +13,21 @@
       {% include footer.html %}
     </div>
   </body>
+
+  <script type="text/javascript">
+    (function() {
+      var mobileButton = document.getElementsByClassName('btn-mobile-menu')[0];
+      var navWrapper = document.getElementsByClassName('navigation-wrapper')[0];
+
+      var hiddenClass = navWrapper.getAttribute('class');
+      var visibleClass = hiddenClass + ' visible';
+
+      if (mobileButton !== undefined && navWrapper !== undefined) {
+        mobileButton.addEventListener('click', function() {
+          var isVisible = !!navWrapper.getAttribute('class').match(/visible/g);
+          navWrapper.setAttribute('class', isVisible ? hiddenClass : visibleClass);
+        });
+      }
+    })();
+  </script>
 </html>
