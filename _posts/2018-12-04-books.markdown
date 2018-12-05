@@ -674,172 +674,184 @@ _Notes coming soon._
 
 
 <script type="text/javascript">
-  var books = {
-    'good-life': {
-      cover: '/images/books/covers/a-guide-to-the-good-life.jpg',
-      title: 'A Guide to the Good Life:<br/>The Ancient Art of Stoic Joy',
-      rating: '★★★★☆'
-    },
-    'fluent-forever': {
-      cover: '/images/books/covers/fluent-forever.jpg',
-      title: 'Fluent Forever',
-      rating: '★★★★☆'
-    },
-    'teorio-nakamura': {
-      cover: '/images/books/covers/la-teorio-nakamura.jpg',
-      title: 'La Teorio Nakamura',
-      rating: '★★☆☆☆'
-    },
-    'how-to-learn': {
-      cover: '/images/books/covers/how-to-learn-a-foreign-language.jpg',
-      title: 'How to Learn a Foreign Language',
-      rating: '★★★★☆'
-    },
-    'rakonto-ovoj': {
-      cover: '/images/books/covers/rakonto-de-ovoj.jpg',
-      title: 'Rakonto de Ovoj',
-      rating: '★★★☆☆'
-    },
-    'internet-money-1': {
-      cover: '/images/books/covers/the-internet-of-money-1.jpg',
-      title: 'The Internet of Money: Volume 1',
-      rating: '★★★★★'
-    },
-    'internet-money-2': {
-      cover: '/images/books/covers/the-internet-of-money-2.jpg',
-      title: 'The Internet of Money: Volume 2',
-      rating: '★★★★★'
-    },
-    'esperanto-learning-using': {
-      cover: '/images/books/covers/esperanto-learning-and-using.jpg',
-      title: 'Esperanto: Learning and Using<br/>the International Language',
-      rating: '★★★★★'
-    },
-    'being-colloquial': {
-      cover: '/images/books/covers/being-colloquial-in-esperanto.jpg',
-      title: 'Being Colloquial in Esperanto',
-      rating: '★★★★☆'
-    },
-    'five-elements': {
-      cover: '/images/books/covers/the-5-elements.jpg',
-      title: 'The 5 Elements of Effective Thinking',
-      rating: '★★★★☆'
-    },
-    'fluent-3-months': {
-      cover: '/images/books/covers/fluent-in-3-months.jpg',
-      title: 'Fluent in 3 Months',
-      rating: '★★★☆☆'
-    },
-    'art-fear': {
-      cover: '/images/books/covers/art-and-fear.jpg',
-      title: 'Art & Fear: Observations On<br/>the Perils (and Rewards) of Artmaking',
-      rating: '★★★★★'
-    },
-    'fail-at-everything': {
-      cover: '/images/books/covers/how-to-fail-at-almost-everything.jpg',
-      title: 'How to Fail at Almost Everything<br/>and Still Win Big',
-      rating: '★★★☆☆'
-    },
-    'hegarty-on-creativity': {
-      cover: '/images/books/covers/hegarty-on-creativity.jpg',
-      title: 'Hegarty on Creativity:<br/>There Are No Rules',
-      rating: '★★★★☆'
-    },
-    'do-the-work': {
-      cover: '/images/books/covers/do-the-work.jpg',
-      title: 'Do the Work',
-      rating: '★★★☆☆'
-    },
-    'steal-like-an-artist': {
-      cover: '/images/books/covers/steal-like-an-artist.jpg',
-      title: 'Steal Like An Artist ',
-      rating: '★★★☆☆'
-    },
-    'show-your-work': {
-      cover: '/images/books/covers/show-your-work.jpg',
-      title: 'Show Your Work!',
-      rating: '★★★☆☆'
-    },
-    'there-were-none': {
-      cover: '/images/books/covers/and-then-there-were-none.jpg',
-      title: 'And Then There Were None',
-      rating: '★☆☆☆☆'
-    },
-    'children-succeed': {
-      cover: '/images/books/covers/how-children-succeed.jpg',
-      title: 'How Children Succeed',
-      rating: '★★★★★'
-    },
-    'win-friends': {
-      cover: '/images/books/covers/how-to-win-friends.jpg',
-      title: 'How to Win Friends and<br/>Influence People',
-      rating: '★★★★★'
-    },
-    'stock-operator': {
-      cover: '/images/books/covers/reminisces-of-a-stock-operator.jpg',
-      title: 'Reminisces of a Stock Operator',
-      rating: '★★★★★'
-    },
-    'delivering-happiness': {
-      cover: '/images/books/covers/delivering-happiness.jpg',
-      title: 'Delivering Happiness',
-      rating: '★★★★☆'
-    },
-    'thank-you-economy': {
-      cover: '/images/books/covers/the-thank-you-economy.jpg',
-      title: 'The Thank You Economy',
-      rating: '★★★★☆'
-    },
-    'predictably-irrational': {
-      cover: '/images/books/covers/predictably-irrational.jpg',
-      title: 'Predictably Irrational: The <br/>Hidden Forces That Shape Our Decisions',
-      rating: '★★★★★'
-    },
-    'madness-of-crowds': {
-      cover: '/images/books/covers/madness-of-crowds.jpg',
-      title: 'Extraordinary Popular Delusions<br/>and the Madness of Crowds',
-      rating: '★★★☆☆'
-    }
-  };
+  (function() {
+    var books = {
+      'good-life': {
+        cover: '/images/books/covers/a-guide-to-the-good-life.jpg',
+        title: 'A Guide to the Good Life: The Ancient Art of Stoic Joy',
+        rating: '★★★★☆'
+      },
+      'fluent-forever': {
+        cover: '/images/books/covers/fluent-forever.jpg',
+        title: 'Fluent Forever',
+        rating: '★★★★☆'
+      },
+      'teorio-nakamura': {
+        cover: '/images/books/covers/la-teorio-nakamura.jpg',
+        title: 'La Teorio Nakamura',
+        rating: '★★☆☆☆'
+      },
+      'how-to-learn': {
+        cover: '/images/books/covers/how-to-learn-a-foreign-language.jpg',
+        title: 'How to Learn a Foreign Language',
+        rating: '★★★★☆'
+      },
+      'rakonto-ovoj': {
+        cover: '/images/books/covers/rakonto-de-ovoj.jpg',
+        title: 'Rakonto de Ovoj',
+        rating: '★★★☆☆'
+      },
+      'internet-money-1': {
+        cover: '/images/books/covers/the-internet-of-money-1.jpg',
+        title: 'The Internet of Money: Volume 1',
+        rating: '★★★★★'
+      },
+      'internet-money-2': {
+        cover: '/images/books/covers/the-internet-of-money-2.jpg',
+        title: 'The Internet of Money: Volume 2',
+        rating: '★★★★★'
+      },
+      'esperanto-learning-using': {
+        cover: '/images/books/covers/esperanto-learning-and-using.jpg',
+        title: 'Esperanto: Learning and Using the International Language',
+        rating: '★★★★★'
+      },
+      'being-colloquial': {
+        cover: '/images/books/covers/being-colloquial-in-esperanto.jpg',
+        title: 'Being Colloquial in Esperanto',
+        rating: '★★★★☆'
+      },
+      'five-elements': {
+        cover: '/images/books/covers/the-5-elements.jpg',
+        title: 'The 5 Elements of Effective Thinking',
+        rating: '★★★★☆'
+      },
+      'fluent-3-months': {
+        cover: '/images/books/covers/fluent-in-3-months.jpg',
+        title: 'Fluent in 3 Months',
+        rating: '★★★☆☆'
+      },
+      'art-fear': {
+        cover: '/images/books/covers/art-and-fear.jpg',
+        title: 'Art & Fear: Observations On the Perils (and Rewards) of Artmaking',
+        rating: '★★★★★'
+      },
+      'fail-at-everything': {
+        cover: '/images/books/covers/how-to-fail-at-almost-everything.jpg',
+        title: 'How to Fail at Almost Everything and Still Win Big',
+        rating: '★★★☆☆'
+      },
+      'hegarty-on-creativity': {
+        cover: '/images/books/covers/hegarty-on-creativity.jpg',
+        title: 'Hegarty on Creativity: There Are No Rules',
+        rating: '★★★★☆'
+      },
+      'do-the-work': {
+        cover: '/images/books/covers/do-the-work.jpg',
+        title: 'Do the Work',
+        rating: '★★★☆☆'
+      },
+      'steal-like-an-artist': {
+        cover: '/images/books/covers/steal-like-an-artist.jpg',
+        title: 'Steal Like An Artist ',
+        rating: '★★★☆☆'
+      },
+      'show-your-work': {
+        cover: '/images/books/covers/show-your-work.jpg',
+        title: 'Show Your Work!',
+        rating: '★★★☆☆'
+      },
+      'there-were-none': {
+        cover: '/images/books/covers/and-then-there-were-none.jpg',
+        title: 'And Then There Were None',
+        rating: '★☆☆☆☆'
+      },
+      'children-succeed': {
+        cover: '/images/books/covers/how-children-succeed.jpg',
+        title: 'How Children Succeed',
+        rating: '★★★★★'
+      },
+      'win-friends': {
+        cover: '/images/books/covers/how-to-win-friends.jpg',
+        title: 'How to Win Friends and Influence People',
+        rating: '★★★★★'
+      },
+      'stock-operator': {
+        cover: '/images/books/covers/reminisces-of-a-stock-operator.jpg',
+        title: 'Reminisces of a Stock Operator',
+        rating: '★★★★★'
+      },
+      'delivering-happiness': {
+        cover: '/images/books/covers/delivering-happiness.jpg',
+        title: 'Delivering Happiness',
+        rating: '★★★★☆'
+      },
+      'thank-you-economy': {
+        cover: '/images/books/covers/the-thank-you-economy.jpg',
+        title: 'The Thank You Economy',
+        rating: '★★★★☆'
+      },
+      'predictably-irrational': {
+        cover: '/images/books/covers/predictably-irrational.jpg',
+        title: 'Predictably Irrational: The Hidden Forces That Shape Our Decisions',
+        rating: '★★★★★'
+      },
+      'madness-of-crowds': {
+        cover: '/images/books/covers/madness-of-crowds.jpg',
+        title: 'Extraordinary Popular Delusions and the Madness of Crowds',
+        rating: '★★★☆☆'
+      }
+    };
 
-  var $books = document.getElementsByClassName("book");
+    var $books = document.getElementsByClassName("book");
 
-  var $selectedBook = document.getElementById('selected-book');
-  var $selectedCover = document.getElementById('selected-cover');
-  var $selectedTitle = document.getElementById('selected-title');
-  var $selectedRating = document.getElementById('selected-rating');
+    var $selectedBook = document.getElementById('selected-book');
+    var $selectedCover = document.getElementById('selected-cover');
+    var $selectedTitle = document.getElementById('selected-title');
+    var $selectedRating = document.getElementById('selected-rating');
 
-  var hideHandle;
+    var hideHandle;
 
-  var showSelectedBook = function(bookID) {
-    var book = books[bookID];
+    var showSelectedBook = function(bookID) {
+      var book = books[bookID];
 
-    if (book !== undefined) {
+      if (book !== undefined) {
+        clearTimeout(hideHandle);
+        $selectedBook.style.visibility = 'visible';
+        $selectedCover.setAttribute('src', book.cover);
+        $selectedTitle.innerHTML = book.title;
+        $selectedRating.innerText = book.rating;
+      }
+    };
+
+    var hideSelectedBook = function() {
       clearTimeout(hideHandle);
-      $selectedBook.style.visibility = 'visible';
-      $selectedCover.setAttribute('src', book.cover);
-      $selectedTitle.innerHTML = book.title;
-      $selectedRating.innerText = book.rating;
+
+      hideHandle = setTimeout(function() {
+        $selectedBook.style.visibility = 'hidden';
+      }, 250);
+    };
+
+    var touch = true;
+
+    if (!('ontouchstart' in document.documentElement)) {
+      document.documentElement.className += 'no-touch';
+      touch = false;
     }
-  };
 
-  var hideSelectedBook = function() {
-    clearTimeout(hideHandle);
+    for (i = 0; i < $books.length; i++) {
+      if (touch) {
+        continue;
+      }
 
-    hideHandle = setTimeout(function() {
-      $selectedBook.style.visibility = 'hidden';
-    }, 250);
-  };
+      $books[i].addEventListener('mouseover', function() {
+        showSelectedBook(this.getAttribute('href').substring(1));
+      });
 
-  for (i = 0; i < $books.length; i++) {
-    $books[i].addEventListener('mouseover', function() {
-      var bookID = this.getAttribute('href').substring(1)
-      showSelectedBook(bookID);
-    });
-
-    $books[i].addEventListener('mouseout', function() {
-      hideSelectedBook();
-    });
-  }
+      $books[i].addEventListener('mouseout', function() {
+        hideSelectedBook();
+      });
+    }
+  })();
 
 </script>

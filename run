@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-bundler exec jekyll serve --watch
+bundler exec jekyll serve --host 0.0.0.0 --watch

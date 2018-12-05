@@ -80,6 +80,10 @@ pre.highlight code,
   }
 }
 
+.no-touch .books .book:hover {
+  transform: scale(1.1);
+}
+
 .books {
   display: inline-block;
   border-bottom: solid 3px #806517;
@@ -99,10 +103,6 @@ pre.highlight code,
 
     &:last-child {
       margin-right: 0px;
-    }
-
-    &:hover {
-      transform: scale(1.1);
     }
 
     &.diamond-1 {
@@ -259,21 +259,21 @@ pre.highlight code,
 
 .selected-book {
   overflow: hidden;
-  display: block;
   visibility: hidden;
   margin-top: 15px;
 
   .cover {
-    width: 50px;
-    height: 90px;
     float: left;
-    overflow: hidden;
+    width: 25%;
+    max-width: 50px;
+    height: 90px;
   }
 
   .details {
-    margin-top: 5px;
-    margin-left: 10px;
     float: left;
+    width: 70%;
+    margin-top: 1px;
+    margin-left: 8px;
 
     .title {
       display: block;
