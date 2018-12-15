@@ -327,3 +327,173 @@ hr {
   font-weight: 500;
   font-size: 18px;
 }
+
+.dual-text {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 1.3em;
+  line-height: 1.8em;
+}
+
+.dual-text div {
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center left;
+  padding-left: 26px;
+}
+
+.dual-text .eo {
+  background-image: url('/images/esperanto/eo.png');
+}
+
+.dual-text .en {
+  background-image: url('/images/esperanto/en.png');
+}
+
+.conversation {
+  position: relative;
+  border: solid 1px #ddd;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.conversation .info {
+  background: #cff8cb;
+  color: #367431;
+  padding: 15px;
+  margin: 10px;
+  line-height: 22px;
+  border-radius: 10px;
+}
+
+.conversation .messages {
+  padding: 10px 0;
+}
+
+.conversation .messages .message {
+  position: relative;
+  margin: 10px 10px 20px 80px
+}
+
+.conversation .messages .message:last-child {
+  margin-bottom: 10px;
+}
+
+.conversation .messages .message img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: -70px;
+  bottom: 0;
+}
+
+.conversation .messages .message .lines {
+  display: inline-block;
+  padding: 5px 10px;
+  min-height: 50px;
+  background: #f6f6f6;
+  border-radius: 10px;
+}
+
+.conversation .messages .message .lines div {
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center left;
+  padding: 5px 10px 5px 26px;
+  line-height: 20px;
+}
+
+.conversation .messages .message .lines .eo {
+  background-image: url('/images/esperanto/eo.png');
+}
+
+.conversation .messages .message .lines .en {
+  background-image: url('/images/esperanto/en.png');
+}
+
+.conversation .input {
+  border-top: solid 1px #ddd;
+  padding: 5px;
+}
+
+.conversation .input .buttons .button {
+  background: #eee;
+  border: solid 2px #eee;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
+  user-select: none;
+}
+
+.conversation .input .buttons .button.selected {
+  opacity: 0.4;
+}
+
+.conversation .input .buttons .button.selected:hover {
+  opacity: 0.4;
+  background: #eee;
+  border: solid 2px #eee;
+  cursor: default;
+}
+
+.conversation .input .buttons .button:hover {
+  background: #ddd;
+  border: solid 2px #ccc;
+  cursor: pointer;
+}
+
+.conversation .input .mistake {
+  border: solid 2px #f7ada7;
+  padding: 10px;
+  margin: 5px 5px 15px 5px;
+  line-height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ce766d;
+  display: none;
+}
+
+.conversation .input .mistake b {
+  font-weight: 900;
+}
+
+.conversation .input .skip {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  user-select: none;
+}
+
+.conversation .input .complete {
+  font-weight: 900;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 0;
+  line-height: 24px;
+  display: none;
+}
+
+.conversation .clap {
+  padding: 50px;
+  font-size: 100px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.message-template {
+  display: none;
+}

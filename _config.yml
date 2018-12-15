@@ -2,6 +2,7 @@ title: Martin Rue
 description: 'Software developer. Language geek. <br>Manchester &amp; Berlin.'
 url: 'https://martinrue.com'
 baseurl: ''
+future: true
 
 author:
   name: 'Martin Rue'
