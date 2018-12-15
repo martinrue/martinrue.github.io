@@ -417,6 +417,11 @@ hr {
   padding: 5px;
 }
 
+.conversation .input .buttons {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .conversation .input .buttons .button {
   background: #eee;
   border: solid 2px #eee;
@@ -427,6 +432,7 @@ hr {
   min-width: 40px;
   text-align: center;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .conversation .input .buttons .button.selected {
@@ -466,6 +472,7 @@ hr {
   margin: 10px 0;
   text-align: center;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .conversation .input .complete {
