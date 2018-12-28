@@ -1,6 +1,6 @@
 ---
 title: "My Bookshelf"
-date: 2018-12-04
+date: 2018-12-28
 exclude: true
 ---
 
@@ -11,6 +11,7 @@ much each book impacted me personally.
 <div class="shelves-of-15">
   <div class="shelf">
     <div class="books">
+      <a href="#the-dip" class="book plain-3 the-dip" ></a>
       <a href="#good-life" class="book diamond-1 good-life"></a>
       <a href="#fluent-forever" class="book plain-1 fluent-forever"></a>
       <a href="#teorio-nakamura" class="book diamond-4 teorio-nakamura" ></a>
@@ -25,12 +26,12 @@ much each book impacted me personally.
       <a href="#art-fear" class="book plain-3 art-fear"></a>
       <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
       <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
-      <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
       <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
       <a href="#show-your-work" class="book plain-4 show-your-work"></a>
       <a href="#there-were-none" class="book diamond-2 there-were-none"></a>
@@ -48,23 +49,24 @@ much each book impacted me personally.
 <div class="shelves-of-10">
   <div class="shelf">
     <div class="books">
+      <a href="#the-dip" class="book plain-3 the-dip" ></a>
       <a href="#good-life" class="book diamond-1 good-life"></a>
       <a href="#fluent-forever" class="book plain-1 fluent-forever"></a>
       <a href="#teorio-nakamura" class="book diamond-4 teorio-nakamura" ></a>
       <a href="#how-to-learn" class="book diamond-3 how-to-learn"></a>
-      <a href="#rakonto-ovoj" class="book plain-2 rakonto-ovoj" ></a>
+      <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj" ></a>
       <a href="#internet-money-1" class="book diamond-2 internet-money-1"></a>
-      <a href="#internet-money-2" class="book plain-3 internet-money-2"></a>
+      <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
       <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
       <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
-      <a href="#five-elements" class="book plain-4 five-elements"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#five-elements" class="book plain-2 five-elements"></a>
       <a href="#fluent-3-months" class="book diamond-3 fluent-3-months"></a>
-      <a href="#art-fear" class="book plain-1 art-fear"></a>
+      <a href="#art-fear" class="book plain-3 art-fear"></a>
       <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
       <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
       <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
@@ -72,12 +74,12 @@ much each book impacted me personally.
       <a href="#show-your-work" class="book plain-4 show-your-work"></a>
       <a href="#there-were-none" class="book diamond-2 there-were-none"></a>
       <a href="#children-succeed" class="book plain-4 children-succeed"></a>
-      <a href="#win-friends" class="book plain-1 win-friends"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#win-friends" class="book plain-1 win-friends"></a>
       <a href="#stock-operator" class="book diamond-3 stock-operator"></a>
       <a href="#delivering-happiness" class="book plain-4 delivering-happiness"></a>
       <a href="#thank-you-economy" class="book diamond-1 thank-you-economy"></a>
@@ -102,6 +104,51 @@ much each book impacted me personally.
 
 <hr class="full" />
 
+<a name="the-dip">
+
+<img src="/images/books/covers/the-dip.jpg" class="full-cover first" />
+
+<a href="https://www.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666" target="_blank" class="title">
+  The Dip: A Little Book That Teaches You When to Quit (and When to Stick)
+</a>
+
+<div class="details">
+  <div>Impact: ★★★☆☆</div>
+  <div>ISBN: 1591841666</div>
+</div>
+
+---
+
+<div class="notes">
+  <p>Notes:</p>
+  <p>Quit more by quitting the right things. </p>
+  <p>If you’re in a cul-de-sac, quit immediately. Keeping on going won’t result in improvement.</p>
+  <p>The dip is a natural part of the process of becoming the best in the world. Winners find a way through the dip.</p>
+  <p>Many people quit in the dip when continuing is what they need to do instead.</p>
+  <p>Muscles don’t grow because we use them. They grow because those who know how to make them grow know that you must pay your dues, push through the dip, and arrive on the other side where those final seconds cause the damage you seek to cause growth. Most people quit in the dip.</p>
+  <p>Work toward being the best in the world. In today’s world the best is 10x the second best in terms of opportunity. If you don’t have the resources to be the best in the world at X, be the best in the world at a smaller version of X.</p>
+  <p>The big benefits accrue to those who don’t quit during the dip.</p>
+  <p>Quitting the things you don’t care about, the things you’re mediocre at, the cul-de-sacs, frees up your resources to tackle the dips for the things you do care about.</p>
+  <p>If you’re going to quit, quit before you start. Reject the system. Don’t play the game if you realise you can’t be the best in the world.</p>
+  <p>When faced with the dip, most people try to average their way to success, create mediocre work, which is precisely why so few people end up as the best in the world.</p>
+  <p>To be a superstar you can’t just survive the dip. You must use the dip to create something so extraordinary that people can’t help but talk about it, recommend it, and yes, choose it.</p>
+  <p>When you feel yourself realising that you’re being average, realise that you have two choices: quit, or be exceptional.</p>
+  <p>Isn’t your time too valuable to be squandered on average. Average feels safe but it’s not, it’s invisible. The choice to remain average is just another form of quitting.</p>
+  <p>While starting is thrilling, it’s not until you get through the dip that your efforts pay off.</p>
+  <p>If you’re not able to get through the dip, and get through it in an exceptional way, you must quit, now.</p>
+  <p>The opposite of quitting isn’t waiting around, no the opposite of quitting is rededication. The opposite of quitting is an invigorated new strategy, designed to break the problem apart.</p>
+  <p>Short term pain has more impact on most people than long term benefits do, which is it’s so important for you to amplify the long term benefits of not quitting.</p>
+  <p>No one quits the Boston marathon at mile 25.</p>
+  <p>Quit the tactics that aren’t working. Getting out of a cul-de-sac is not a moral failing, it’s just smart.</p>
+  <p>Failure happens when you give up. When there are no other options. When you quit so often that you’ve used up all your time and resources. Quitting smart is how you avoid failure.</p>
+  <p>Never quit something with long term potential just because you can’t deal with the stress of the moment.</p>
+  <p>Realising that quitting is worth your focus and consideration is the first step to becoming the best in the world.</p>
+  <p>If you enter a market too big or too loud for the kind of resources you have, your message is going to get lost.</p>
+  <p>If it’s not going to put a dent in the world, quit, right now. Quit and use that void to find the energy to assault the dip that matters.</p>
+</div>
+
+<a href="#" class="notes-more">More...</a>
+
 <a name="good-life">
 
 <img src="/images/books/covers/a-guide-to-the-good-life.jpg" class="full-cover" />
@@ -117,14 +164,12 @@ much each book impacted me personally.
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="fluent-forever">
 
@@ -141,13 +186,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="teorio-nakamura">
 
@@ -164,12 +208,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="how-to-learn">
 
@@ -186,12 +230,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="rakonto-ovoj">
 
@@ -208,12 +252,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="internet-money-1">
 
@@ -230,13 +274,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="internet-money-2">
 
@@ -253,13 +296,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="esperanto-learning-using">
 
@@ -276,13 +318,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="being-colloquial">
 
@@ -299,13 +340,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="five-elements">
 
@@ -322,13 +362,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="fluent-3-months">
 
@@ -345,13 +384,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="art-fear">
 
@@ -368,13 +406,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="fail-at-everything">
 
@@ -391,13 +428,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="hegarty-on-creativity">
 
@@ -414,13 +450,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="do-the-work">
 
@@ -437,13 +472,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="steal-like-an-artist">
 
@@ -460,13 +494,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="show-your-work">
 
@@ -483,13 +516,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="there-were-none">
 
@@ -506,13 +538,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="children-succeed">
 
@@ -529,13 +560,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="win-friends">
 
@@ -552,13 +582,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="stock-operator">
 
@@ -575,13 +604,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="delivering-happiness">
 
@@ -598,13 +626,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="thank-you-economy">
 
@@ -621,13 +648,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="predictably-irrational">
 
@@ -644,13 +670,12 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
-
-<br /> <br /> <br />
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <a name="madness-of-crowds">
 
@@ -667,15 +692,21 @@ _Notes coming soon._
 
 ---
 
-_Notes coming soon._
+<div class="notes">
+  <p>Notes:</p>
+  <p>Coming soon.</p>
+</div>
 
-
-
-
+<!-- <a href="#" class="notes-more">More...</a> -->
 
 <script type="text/javascript">
   (function() {
     var books = {
+      'the-dip': {
+        cover: '/images/books/covers/the-dip.jpg',
+        title: 'The Dip: A Little Book That Teaches You When to Quit (and When to Stick)',
+        rating: '★★★☆☆'
+      },
       'good-life': {
         cover: '/images/books/covers/a-guide-to-the-good-life.jpg',
         title: 'A Guide to the Good Life: The Ancient Art of Stoic Joy',
@@ -839,7 +870,7 @@ _Notes coming soon._
       touch = false;
     }
 
-    for (i = 0; i < $books.length; i++) {
+    for (var i = 0; i < $books.length; i++) {
       if (touch) {
         continue;
       }
@@ -851,6 +882,27 @@ _Notes coming soon._
       $books[i].addEventListener('mouseout', function() {
         hideSelectedBook();
       });
+    }
+
+    var $notes = document.getElementsByClassName('notes-more');
+
+    for (var i = 0; i < $notes.length; i++) {
+      (function($note) {
+        $notes[i].addEventListener('click', function(e) {
+          if ($note.parentNode) {
+            var $current = $note.parentNode.previousElementSibling;
+
+            if ($current) {
+              $note.remove();
+            }
+
+            $current.classList.add('expanded');
+          }
+
+          e.preventDefault();
+          return false;
+        });
+      })($notes[i]);
     }
   })();
 
