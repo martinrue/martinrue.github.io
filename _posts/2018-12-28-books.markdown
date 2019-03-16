@@ -11,12 +11,13 @@ much each book impacted me personally.
 <div class="shelves-of-15">
   <div class="shelf">
     <div class="books">
-      <a href="#the-dip" class="book plain-3 the-dip" ></a>
+      <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
+      <a href="#the-dip" class="book plain-3 the-dip"></a>
       <a href="#good-life" class="book diamond-1 good-life"></a>
       <a href="#fluent-forever" class="book plain-1 fluent-forever"></a>
-      <a href="#teorio-nakamura" class="book diamond-4 teorio-nakamura" ></a>
+      <a href="#teorio-nakamura" class="book diamond-4 teorio-nakamura"></a>
       <a href="#how-to-learn" class="book diamond-3 how-to-learn"></a>
-      <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj" ></a>
+      <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj"></a>
       <a href="#internet-money-1" class="book diamond-2 internet-money-1"></a>
       <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
       <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
@@ -49,6 +50,7 @@ much each book impacted me personally.
 <div class="shelves-of-10">
   <div class="shelf">
     <div class="books">
+      <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
       <a href="#the-dip" class="book plain-3 the-dip" ></a>
       <a href="#good-life" class="book diamond-1 good-life"></a>
       <a href="#fluent-forever" class="book plain-1 fluent-forever"></a>
@@ -104,9 +106,46 @@ much each book impacted me personally.
 
 <hr class="full" />
 
+<a name="steve-jobs">
+
+<img src="/images/books/covers/steve-jobs.jpg" class="full-cover first" />
+
+<a href="https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537" target="_blank" class="title">
+  Steve Jobs
+</a>
+
+<div class="details">
+  <div>Impact: ★★★★☆</div>
+  <div>ISBN: 1451648537</div>
+</div>
+
+---
+
+<div class="notes">
+  <p>Notes:</p>
+  <p>If you want to live your life in a creative way, as an artist, you have to not look back too much. You have to be willing to take whatever you’ve done and whoever you were and throw them away. The more the outside world tries to reinforce an image of you, the harder it is to continue to be an artist, which is why a lot of times, artists have to say, “Bye. I have to go. I’m going crazy and I’m getting out of here.” And they go and hibernate somewhere. Maybe later they re-emerge a little differently.</p>
+  <p>Simplicity is the ultimate sophistication.</p>
+  <p>The goal was never to beat the competition, or to make a lot of money. It was to do the greatest thing possible, or even a little greater.</p>
+  <p>It’s better to be a pirate than to join the navy.</p>
+  <p>Simplicity isn't just a visual style. It's not just minimalism or the absence of clutter. It involves digging through the depth of the complexity. To be truly simple, you have to go really deep.</p>
+  <p>Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</p>
+  <p>You should never start a company with the goal of getting rich. Your goal should be making something you believe in and making a company that will last.</p>
+  <p>As Dylan says, if you're not busy being born, you're busy dying.</p>
+  <p>Deciding what not to do is as important as deciding what to do. That's true for companies, and it's true for products.</p>
+  <p>I want it to be as beautiful as possible, even if it's inside the box. A great carpenter isn't going to use lousy wood for the back of a cabinet, even though nobody's going to see it.</p>
+  <p>He takes contrary positions to create more discussion, because it may lead to a better result. So if you don't feel comfortable disagreeing, then you'll never survive.</p>
+  <p>Even when he was barely conscious, his strong personality came through. At one point the pulmonologist tried to put a mask over his face when he was sedated. Jobs ripped it off and mumbled that he hated the design and refused to wear it. He ordered them to bring five different options and he would pick the one he liked.</p>
+  <p>The thing that struck me was his intensity. Whatever he was interested in he would generally carry to an irrational extreme.</p>
+  <p>In the annals of innovation, new ideas are only part of the equation. Execution is just as important.</p>
+  <p>Hertzfeld recalled that Gates just sat there coolly, looking at Steve in the eye, before hurling back, in his squeaky voice, what became a classic zinger. "Well, Steve, I think there's more than one way of looking at it, I think it's more like we both had this rich neighbor named Xerox and I broke into his house to steal the TV set and found out that you had already stolen it."</p>
+  <p>You have to deeply understand the essence of a product in order to be able to get rid of the parts that are not essential.</p>
+</div>
+
+<a href="#" class="notes-more">More...</a>
+
 <a name="the-dip">
 
-<img src="/images/books/covers/the-dip.jpg" class="full-cover first" />
+<img src="/images/books/covers/the-dip.jpg" class="full-cover" />
 
 <a href="https://www.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666" target="_blank" class="title">
   The Dip: A Little Book That Teaches You When to Quit (and When to Stick)
@@ -121,7 +160,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Quit more by quitting the right things. </p>
+  <p>Quit more by quitting the right things.</p>
   <p>If you’re in a cul-de-sac, quit immediately. Keeping on going won’t result in improvement.</p>
   <p>The dip is a natural part of the process of becoming the best in the world. Winners find a way through the dip.</p>
   <p>Many people quit in the dip when continuing is what they need to do instead.</p>
@@ -702,6 +741,11 @@ much each book impacted me personally.
 <script type="text/javascript">
   (function() {
     var books = {
+      'steve-jobs': {
+        cover: '/images/books/covers/steve-jobs.jpg',
+        title: 'Steve Jobs',
+        rating: '★★★★☆'
+      },
       'the-dip': {
         cover: '/images/books/covers/the-dip.jpg',
         title: 'The Dip: A Little Book That Teaches You When to Quit (and When to Stick)',
