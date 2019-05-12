@@ -1,0 +1,44 @@
+---
+title: "What I'm doing now"
+date: 2019-05-12
+exclude: true
+---
+
+This is a [now page](https://nownownow.com/about), inspired by the wonderful [Derek Sivers](https://sivers.org).
+
+---
+
+It's a sunny Sunday afternoon in Manchester and I'm at home working on [Yakk](https://yakkapp.com).
+
+### Projects
+
+My main focus now and for the foreseeable is [Yakk](https://yakkapp.com) – the language learning project I restarted a few months ago. After releasing an iOS version of Yakk a couple of years ago, the new incarnation is a complete re-think of the project. The project site has [more details](https://yakk.app/our-story) if you want to know more.
+
+It's early days – far too early to raise money. That leaves bootstrapping as the only viable means of building out the [MLP](https://tinytracker.co/blog/minimum-viable-product-vs-minimum-lovable-product).
+
+On that note, I've taken some part-time contract work with an awesome bunch of people at [Co-op](https://jobs.coop.co.uk/digital). It's refreshing to be working with a group of smart people again, which is something you lose and quickly miss as a solo-founder.
+
+### Health
+
+After almost 3 months of [IF](https://en.wikipedia.org/wiki/Intermittent_fasting), I'm now back to a 'normal' diet. I'm making a stricter effort to eat well, especially with regards to increasing protein intake to support a shift in training.
+
+After a few solid months of low rep/heavy set training to hold onto strength while fasting, I'm now moving back to a volume cycle. That means more calories (and protein) will be key to making use of sessions and recovering properly.
+
+### Reading
+
+With much less free time, and having made a good dent in my "to-read" list, I'm restricting my reading to Esperanto for the next few months. I'll be at [SES](https://martinrue.com/seek-out-new-experiences) again this year, and it's probably wise to keep improving my Esperanto level until then.
+
+I'm currently working my way through [Ĉiutaga Esperanto](https://www.amazon.com/Conversational-Esperanto-Lively-Dialogues-Everyday/dp/0902756273) and intend to read Claude Piron's [La Bona Lingvo](https://www.goodreads.com/book/show/6237785-la-bona-lingvo) next.
+
+### Language
+
+My only two language focuses currently are Esperanto and German. I've neglected German in favour of Esperanto so far this year, but I'm currently doing at least one German study session per week to maintain a small sense of progress.
+
+Meanwhile I'm really looking forward to heading back to Slovakia again to spend a week among 150-200 Esperantists at [SES](https://ses.ikso.net/2019/en/), speaking nothing but Esperanto.
+
+---
+
+#### Previous Entries
+
++ [04th Dec 2018](/now-dec-04)
++ [16th Feb 2018](/now-feb-16)

@@ -4,7 +4,7 @@ date: 2018-12-04
 exclude: true
 ---
 
-This is a [now page](https://nownownow.com/about), inspired by the wonderful [Derek Sivers](https://sivers.org).
+_Hey, this is an older now page. Head over to [/now](/now) to see what I'm currently doing._
 
 ---
 
