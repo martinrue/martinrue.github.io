@@ -11,6 +11,7 @@ much each book impacted me personally.
 <div class="shelves-of-15">
   <div class="shelf">
     <div class="books">
+      <a href="#entrepreneur-roller-coaster" class="book plain-3 roller-coaster"></a>
       <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
       <a href="#the-dip" class="book plain-3 the-dip"></a>
       <a href="#good-life" class="book diamond-1 good-life"></a>
@@ -26,12 +27,12 @@ much each book impacted me personally.
       <a href="#fluent-3-months" class="book diamond-3 fluent-3-months"></a>
       <a href="#art-fear" class="book plain-3 art-fear"></a>
       <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
-      <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
       <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
       <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
       <a href="#show-your-work" class="book plain-4 show-your-work"></a>
@@ -50,6 +51,7 @@ much each book impacted me personally.
 <div class="shelves-of-10">
   <div class="shelf">
     <div class="books">
+      <a href="#entrepreneur-roller-coaster" class="book plain-3 entrepreneur-roller-coaster"></a>
       <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
       <a href="#the-dip" class="book plain-3 the-dip" ></a>
       <a href="#good-life" class="book diamond-1 good-life"></a>
@@ -59,13 +61,13 @@ much each book impacted me personally.
       <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj" ></a>
       <a href="#internet-money-1" class="book diamond-2 internet-money-1"></a>
       <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
-      <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
-      <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
+      <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
       <a href="#five-elements" class="book plain-2 five-elements"></a>
       <a href="#fluent-3-months" class="book diamond-3 fluent-3-months"></a>
       <a href="#art-fear" class="book plain-3 art-fear"></a>
@@ -74,13 +76,13 @@ much each book impacted me personally.
       <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
       <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
       <a href="#show-your-work" class="book plain-4 show-your-work"></a>
-      <a href="#there-were-none" class="book diamond-2 there-were-none"></a>
-      <a href="#children-succeed" class="book plain-4 children-succeed"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#there-were-none" class="book diamond-2 there-were-none"></a>
+      <a href="#children-succeed" class="book plain-4 children-succeed"></a>
       <a href="#win-friends" class="book plain-1 win-friends"></a>
       <a href="#stock-operator" class="book diamond-3 stock-operator"></a>
       <a href="#delivering-happiness" class="book plain-4 delivering-happiness"></a>
@@ -105,6 +107,34 @@ much each book impacted me personally.
 </div>
 
 <hr class="full" />
+
+<a name="entrepreneur-roller-coaster">
+
+<img src="/images/books/covers/entrepreneur-roller-coaster.jpg" class="full-cover first" />
+
+<a href="https://www.amazon.com/Entrepreneur-Roller-Coaster-Time-JoinTheRide/dp/0990798623" target="_blank" class="title">
+  The Entrepreneur Roller Coaster
+</a>
+
+<div class="details">
+  <div>Impact: ★★★☆☆</div>
+  <div>ISBN: 1451648537</div>
+</div>
+
+---
+
+<div class="notes">
+  <p>Notes:</p>
+  <p>A good question to ask yourself before doing anything you think you fear is, “If I do this, am I going to die?” If the answer is no, then your fear is made up, grossly overdramatic, and it should have no power over you.</p>
+  <p>What makes work fun is doing meaningful work.</p>
+  <p>Pull, don’t push. Investigate, don’t present. Probe, don’t pitch. Ask, don’t assume. How? Talk less, listen more. Make fewer statements and ask more questions.</p>
+  <p>The key to success is massive failure. Your goal is to out-fail your competition.</p>
+  <p>Productivity isn’t magic. It’s discipline.</p>
+  <p>Look, if you’re going to get better, you have to push yourself. If you push yourself, you’re going to fall. If you’re not falling, you’re not pushing. Falling is part of getting better.</p>
+  <p>There’s only one certainty in business: You can’t succeed if you quit.</p>
+</div>
+
+<a href="#" class="notes-more">More...</a>
 
 <a name="steve-jobs">
 
@@ -741,6 +771,11 @@ much each book impacted me personally.
 <script type="text/javascript">
   (function() {
     var books = {
+      'entrepreneur-roller-coaster': {
+        cover: '/images/books/covers/entrepreneur-roller-coaster.jpg',
+        title: 'The Entrepreneur Roller Coaster',
+        rating: '★★★☆☆'
+      },
       'steve-jobs': {
         cover: '/images/books/covers/steve-jobs.jpg',
         title: 'Steve Jobs',
