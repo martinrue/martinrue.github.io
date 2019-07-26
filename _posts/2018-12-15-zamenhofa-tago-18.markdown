@@ -1,14 +1,14 @@
 ---
 title: "Feliĉan Zamenhofan Tagon"
 date: 2018-12-15
-excerpt: "Hey, it's Zamenhofa Tago, otherwise known as Esperanto Day. Read on to learn more about the international language and why it's so cool."
+excerpt: "Hey, it's Zamenhofa Tago, otherwise known as Esperanto Book Day. Read on to learn more about the international language and why it's so cool."
 ---
 
 <div style="text-align: center; padding: 10px 0 25px 0;">
   <img src="/images/esperanto/eo.png" style="width: 100px" />
 </div>
 
-Zamenhof Day (also known as Esperanto Day) is the birthday of the creator of the constructed language Esperanto, [Ludwik Łazarz Zamenhof](https://en.wikipedia.org/wiki/L._L._Zamenhof). It's widely celebrated as the Day of Esperanto by many Esperantists across the world.
+Zamenhof Day (also known as Esperanto Book Day) is the birthday of the creator of the constructed language Esperanto, [Ludwik Łazarz Zamenhof](https://en.wikipedia.org/wiki/L._L._Zamenhof). It's widely celebrated as the Day of Esperanto by many Esperantists across the world.
 
 I even have a t-shirt for the occasion, and you know I'm serious when I have a t-shirt.
 
@@ -32,17 +32,17 @@ Esperanto has some unique attributes which makes it a fun hobby to pursue, with 
 
 Here's why I'm a big fan:
 
-+ ⚡ It's easy. Esperanto is by far the simplest language to learn, requiring a fraction of the time it would take to learn a national language.
+- ⚡ It's easy. Esperanto is by far the simplest language to learn, requiring a fraction of the time it would take to learn a national language.
 
-+ 🧠 It's consistent. It has a regular grammar, with rules that are consistently followed. This is one of the reasons it's easier to learn. It's like a programming language for your mouth.
+- 🧠 It's consistent. It has a regular grammar, with rules that are consistently followed. This is one of the reasons it's easier to learn. It's like a programming language for your mouth.
 
-+ 🕺 There's a strong and very supportive community. Perhaps due to how few speakers there are (relatively speaking), Esperantists always have time for each other. This is a huge benefit for me, because it means I can be in almost any country in the world, and I'll be able to find an Esperanto speaker who'll be more than happy to grab a coffee and hang out.
+- 🕺 There's a strong and very supportive community. Perhaps due to how few speakers there are (relatively speaking), Esperantists always have time for each other. This is a huge benefit for me, because it means I can be in almost any country in the world, and I'll be able to find an Esperanto speaker who'll be more than happy to grab a coffee and hang out.
 
-+ 🌎 International friends. Through Esperanto, you can make new friends from all over the world. The first unexpected benefit of this for me was that it gave me a window to a much wider perspective on things, particularly world events. I can read news in Esperanto from different countries, and get a sense of what is happening / what people are thinking in the non-English parts of the big rock we live on.
+- 🌎 International friends. Through Esperanto, you can make new friends from all over the world. The first unexpected benefit of this for me was that it gave me a window to a much wider perspective on things, particularly world events. I can read news in Esperanto from different countries, and get a sense of what is happening / what people are thinking in the non-English parts of the big rock we live on.
 
-+ 🗣 It's a gateway language. While Esperanto probably isn't the best choice for a language that will open doors to higher paid jobs, it does train your brain in a regular and consistent way to learn a new language. It trains you to think about different aspects of language, including aspects of your native language that you don't start thinking about until you begin learning a second. Many people go from Esperanto to a third language and find the experience easier with their new language-learning-primed brains.
+- 🗣 It's a gateway language. While Esperanto probably isn't the best choice for a language that will open doors to higher paid jobs, it does train your brain in a regular and consistent way to learn a new language. It trains you to think about different aspects of language, including aspects of your native language that you don't start thinking about until you begin learning a second. Many people go from Esperanto to a third language and find the experience easier with their new language-learning-primed brains.
 
-+ 🛫 Travel. Lots of Esperantists will host other Esperantists in their home towns, for free, making traveling the world even more appealing (and possible). The [Pasporta Servo](https://en.wikipedia.org/wiki/Pasporta_Servo) has been going since 1966, allowing Esperantists to find hosts to stay with, or host traveling Esperantists themselves. In each different country, you'll be able to communicate via Esperanto, and have a completely different experience than the typical tourist trails.
+- 🛫 Travel. Lots of Esperantists will host other Esperantists in their home towns, for free, making traveling the world even more appealing (and possible). The [Pasporta Servo](https://en.wikipedia.org/wiki/Pasporta_Servo) has been going since 1966, allowing Esperantists to find hosts to stay with, or host traveling Esperantists themselves. In each different country, you'll be able to communicate via Esperanto, and have a completely different experience than the typical tourist trails.
 
 If all that sounds so sweet that you've already cancelled your weekend plans, perhaps your next question is "How do I learn it?"
 
@@ -150,15 +150,15 @@ Here's a cute little Esperanto bot conversation I created for you. You'll be the
   <div class="clap">👏</div>
 </div>
 
-So there you go. Now you know a little more about Esperanto, and why this particular day of the year is known as Esperanto Day.
+So there you go. Now you know a little more about Esperanto, and why this particular day of the year is known as Zamenhof Day.
 
 Imagine your interest was asked to describe itself in one word. If you think it might use the word 'piqued', read on for a few pointers to get started learning.
 
-+ Head over to [Duolingo](https://www.duolingo.com), where you'll find a very popular Esperanto course. It's free, and it's a fun introduction to the language. There are about 360,000 active learners currently, so it's a popular choice.
+- Head over to [Duolingo](https://www.duolingo.com), where you'll find a very popular Esperanto course. It's free, and it's a fun introduction to the language. There are about 360,000 active learners currently, so it's a popular choice.
 
-+ Check out [Lernu](https://lernu.net/en), one of the oldest Esperanto learning resources on the web. They have their own course in many different languages. They also have a super helpful section that details the various aspects of Esperanto's [grammar](https://lernu.net/en/gramatiko).
+- Check out [Lernu](https://lernu.net/en), one of the oldest Esperanto learning resources on the web. They have their own course in many different languages. They also have a super helpful section that details the various aspects of Esperanto's [grammar](https://lernu.net/en/gramatiko).
 
-+ If you're a Facebook user, join the [Duolingo Esperanto Learners](https://www.facebook.com/groups/duolingo.esperanto.learners) group. It's very well-run and frequented by many fluent Esperanto speakers, who help people around the clock with their Esperanto questions.
+- If you're a Facebook user, join the [Duolingo Esperanto Learners](https://www.facebook.com/groups/duolingo.esperanto.learners) group. It's very well-run and frequented by many fluent Esperanto speakers, who help people around the clock with their Esperanto questions.
 
 ---
 
@@ -168,7 +168,7 @@ If you do begin learning or playing with Esperanto, I wish you **bonŝancon** (g
 
 <div class="dual-text">
   <div class="eo">Feliĉegan Zamenhofan Tagon al ĉiuj Esperantistoj!</div>
-  <div class="en">A big happy Esperanto Day to all Esperanto speakers!</div>
+  <div class="en">A big happy Zamenhof Day to all Esperanto speakers!</div>
 </div>
 
 <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-3.3.1.min.js"></script>
