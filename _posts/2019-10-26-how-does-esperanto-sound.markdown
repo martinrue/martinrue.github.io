@@ -35,17 +35,11 @@ Fast forward a year or so and I finally decided to put this idea into a project 
 
 As a bonus, I also added the ability to reconfigure the rules used for transcribing the text. Hopefully this will encourage others to find new rules for those edge cases where the engine mispronunces a word or fragment.
 
-There are 3 parts to the system, all of which are open source (so feel free to do with them whatever you like):
+Curious how [Parol](https://parol.martinrue.com) sounds? Here's an example of it reading the opening section from the Esperanto page of the [Esperanto Wikipedia](https://eo.wikipedia.org):
 
-1. The Parol website [github.com/martinrue/parol-web](https://github.com/martinrue/parol-web)
-2. The speech API [github.com/martinrue/parol-api](https://github.com/martinrue/parol-api)
-3. The transcription library [github.com/martinrue/vocx](https://github.com/martinrue/vocx)
-
-And now we have yet another accent in Esperanto... a slightly robotic one, but thanks to the regular pronunciation of Esperanto, a perfectly understandable one.
-
-I hope Parol is helpful, and inspires new and interesting ideas.
-
-Here's an example from Parol. It's the opening paragraph from the Esperanto wikipedia, describing Esperanto itself:
+<div style="text-align: center; padding: 20px 0;">
+  <audio src="/images/esperanto/parol.mp3" controls></audio>
+</div>
 
 > Esperanto, origine la Lingvo Internacia, estas la plej disvastigita internacia planlingvo. En mil okcent okdek sep, Esperanton parolis nur manpleno da homoj; Esperanto havis unu el la plej malgrandaj lingvo-komunumoj de la mondo. Ĝi funkciis dekomence kiel lingvo de alternativa komunikado kaj de arta kreivo.
 >
@@ -55,6 +49,14 @@ Here's an example from Parol. It's the opening paragraph from the Esperanto wiki
 >
 > Li celis kaj sukcesis krei facile lerneblan neŭtralan lingvon, taŭgan por uzo en la internacia komunikado; la celo tamen ne estas anstataŭigi aliajn naciajn lingvojn.
 
-<div style="text-align: center;">
-  <audio src="/images/esperanto/parol.mp3" controls></audio>
-</div>
+There are 3 parts to the system, all of which are open source (so feel free to do with them whatever you like):
+
+1. The Parol website [github.com/martinrue/parol-web](https://github.com/martinrue/parol-web)
+2. The speech API [github.com/martinrue/parol-api](https://github.com/martinrue/parol-api)
+3. The transcription library [github.com/martinrue/vocx](https://github.com/martinrue/vocx)
+
+And now we have yet another accent in Esperanto... a slightly robotic one, but thanks to the regular pronunciation of Esperanto, a perfectly understandable one.
+
+So, a surprisingly useful hack, even if I do say so myself.
+
+I hope Parol is helpful, and inspires new and interesting ideas.
