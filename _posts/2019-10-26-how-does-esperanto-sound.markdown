@@ -44,3 +44,17 @@ There are 3 parts to the system, all of which are open source (so feel free to d
 And now we have yet another accent in Esperanto... a slightly robotic one, but thanks to the regular pronunciation of Esperanto, a perfectly understandable one.
 
 I hope Parol is helpful, and inspires new and interesting ideas.
+
+Here's an example from Parol. It's the opening paragraph from the Esperanto wikipedia, describing Esperanto itself:
+
+> Esperanto, origine la Lingvo Internacia, estas la plej disvastigita internacia planlingvo. En mil okcent okdek sep, Esperanton parolis nur manpleno da homoj; Esperanto havis unu el la plej malgrandaj lingvo-komunumoj de la mondo. Ĝi funkciis dekomence kiel lingvo de alternativa komunikado kaj de arta kreivo.
+>
+> La nomo de la lingvo venas de la kaŝnomo "Doktoro Esperanto", sub kiu la juda kuracisto Ludoviko Zamenhofo en la jaro mil okcent okdek sep publikigis la bazon de la lingvo.
+>
+> La unua versio, la rusa, ricevis la cenzuran permeson disvastiĝi en la dudek sepa de julio; ĉi tiun daton oni konsideras la naskiĝtago de Esperanto.
+>
+> Li celis kaj sukcesis krei facile lerneblan neŭtralan lingvon, taŭgan por uzo en la internacia komunikado; la celo tamen ne estas anstataŭigi aliajn naciajn lingvojn.
+
+<div style="text-align: center;">
+  <audio src="/images/esperanto/parol.mp3" controls></audio>
+</div>
