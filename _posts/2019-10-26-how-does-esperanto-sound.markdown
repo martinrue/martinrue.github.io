@@ -1,5 +1,5 @@
 ---
-title: "How does Esperanto sound?"
+title: "How Does Esperanto Sound?"
 date: 2019-10-26
 ---
 
@@ -19,7 +19,7 @@ Much like the grammar of the language, the phonetics of Esperanto were designed 
 
 While working on a language learning project, [Yakk](https://yakk.app), I started to wonder if Esperanto speech could be automatically generated, since it has such consistent sounds.
 
-Initially I looked at various Text-to-Speech (TTS) engines, hoping to find that someone had trained an Esperanto voice. Unfortunately these things are usually driven by the economics of selling them, and since Esperanto (relatively speaking) is a tiny market compard to other languages, it wasn't a total shock that I didn't find anything.
+Initially I looked at various Text-to-Speech (TTS) engines, hoping to find that someone had trained an Esperanto voice. Unfortunately these things are usually driven by the economics of selling them, and since Esperanto (relatively speaking) is a tiny market compared to other languages, it wasn't a total shock that I didn't find anything.
 
 I still needed audio for the courses in [Yakk](https://yakk.app), and ideally a method for creating audio that didn't involve having two humans on call for every new change or addition.
 
