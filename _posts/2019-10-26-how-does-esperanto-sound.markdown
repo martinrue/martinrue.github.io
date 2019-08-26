@@ -11,7 +11,9 @@ However, Esperanto has very consistent phonemes, and so despite sometimes hearin
 
 During an [Esperanto summer school](https://ses.ikso.net/2019/en) I attended this year, my friend performed an amusing demonstration of the various accents you sometimes hear from Esperanto speakers. While his performance was super accurate and very funny, it's interesting to note that everyone (people from 22 different countries) sat and understood it perfectly well.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hWPQc_UKyPU?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-bottom: 15px;"></iframe>
+<div style="height: 0px; padding-top: 25px; padding-bottom: 56.2%; position: relative; overflow: hidden; margin-bottom: 15px;">
+<iframe src="https://www.youtube.com/embed/hWPQc_UKyPU?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe>
+</div>
 
 Much like the grammar of the language, the phonetics of Esperanto were designed to be simple, consistent and easy to learn.
 
