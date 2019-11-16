@@ -151,9 +151,14 @@ pre.highlight code,
       background-image: url('/images/books/stems/plain-4.svg');
     }
 
+    &.secrets-natural-success {
+      background-color: rgba(105, 46, 23, 0.7);
+    }
+
     &.roller-coaster {
       background-color: rgba(220, 1, 18, 0.7);
     }
+
     &.steve-jobs {
       background-color: rgba(255,255,255,0.7);
     }

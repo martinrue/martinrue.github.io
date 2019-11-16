@@ -11,6 +11,7 @@ much each book impacted me personally.
 <div class="shelves-of-15">
   <div class="shelf">
     <div class="books">
+      <a href="#secrets-natural-success" class="book diamond-2 secrets-natural-success"></a>
       <a href="#entrepreneur-roller-coaster" class="book plain-3 roller-coaster"></a>
       <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
       <a href="#the-dip" class="book plain-3 the-dip"></a>
@@ -25,13 +26,13 @@ much each book impacted me personally.
       <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
       <a href="#five-elements" class="book plain-2 five-elements"></a>
       <a href="#fluent-3-months" class="book diamond-3 fluent-3-months"></a>
-      <a href="#art-fear" class="book plain-3 art-fear"></a>
-      <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#art-fear" class="book plain-3 art-fear"></a>
+      <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
       <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
       <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
       <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
@@ -51,7 +52,8 @@ much each book impacted me personally.
 <div class="shelves-of-10">
   <div class="shelf">
     <div class="books">
-      <a href="#entrepreneur-roller-coaster" class="book plain-3 entrepreneur-roller-coaster"></a>
+      <a href="#secrets-natural-success" class="book diamond-2 secrets-natural-success"></a>
+      <a href="#entrepreneur-roller-coaster" class="book plain-3 roller-coaster"></a>
       <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
       <a href="#the-dip" class="book plain-3 the-dip" ></a>
       <a href="#good-life" class="book diamond-1 good-life"></a>
@@ -60,12 +62,12 @@ much each book impacted me personally.
       <a href="#how-to-learn" class="book diamond-3 how-to-learn"></a>
       <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj" ></a>
       <a href="#internet-money-1" class="book diamond-2 internet-money-1"></a>
-      <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
       <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
       <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
       <a href="#five-elements" class="book plain-2 five-elements"></a>
@@ -75,12 +77,12 @@ much each book impacted me personally.
       <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
       <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
       <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
-      <a href="#show-your-work" class="book plain-4 show-your-work"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#show-your-work" class="book plain-4 show-your-work"></a>
       <a href="#there-were-none" class="book diamond-2 there-were-none"></a>
       <a href="#children-succeed" class="book plain-4 children-succeed"></a>
       <a href="#win-friends" class="book plain-1 win-friends"></a>
@@ -108,9 +110,54 @@ much each book impacted me personally.
 
 <hr class="full" />
 
+<a name="secrets-natural-success">
+
+<img src="/images/books/covers/secrets-of-natural-success.jpg" class="full-cover first" />
+
+<a href="https://www.amazon.com/WILLIAM-WHITECLOUDS-SECRETS-NATURAL-SUCCESS/dp/0987634313" target="_blank" class="title">
+  Secrets of Natural Success
+</a>
+
+<div class="details">
+  <div>Impact: ★★★★☆</div>
+  <div>ISBN: 0987634313</div>
+</div>
+
+---
+
+<div class="notes">
+  <p>Notes:</p>
+  <p>Let go of what you think you know, and let go of needing to know or be right. Be in the mystery. Be in awe.</p>
+  <p>As they say in the East, “To know and not do is to still not know.”</p>
+  <p>There is something about talking that activates the imagination. Edgar Cayce, the famous medical intuitive and arguably the most renowned psychic in history, claimed that our voice is the highest vibration in the human consciousness. As you talk and start to feel the flow of wisdom come on, you’ll understand why he said that.</p>
+  <p>In our society we are poisoned against the most beautiful part of ourselves, the diamond of our beings. We see our imaginations as an unreliable vestige of our primordial selves that should have dropped off with our monkey tails.</p>
+  <p>“People are saying I’m an overnight success, but I was working my butt off for ten years before I made it.”</p>
+  <p>It is a profound achievement to recognize a possibility in life or within yourself and take ownership of that possibility, to the point that you see it through regardless of any inner or outer resistance that you may encounter.</p>
+  <p>One way we can learn about ourselves is through the act of creating.</p>
+  <p>What you resist will always persist as aggressively as you resist it. No matter how much you defy your beliefs, if they are driving what you want to create, your subconscious has to assume they have the power in your consciousness.</p>
+  <p>But aside from the self-awareness you gain from your creative process, it is also helpful to have a more generalized overview of your own personality and the foibles your personality type is prone to.</p>
+  <p>While we might all appear to be very diverse individuals, when we boil our personalities down, it is amazing how neatly they fit into one or another of a handful of distinct types. When you begin to understand human nature, you realize that, although there are billions of us on planet earth, our personalities are formed from a very limited set of psychological molds.</p>
+  <p>The best way of getting in touch with your creative emotions is by building and holding a vision of your true end results.</p>
+  <p>The predictable strategies you develop to compensate for your particular sense of incompleteness—the way in which you pay attention, the perceptions that arise from that focus, and the behavior you use to deal with your reality—restrict you to a narrow set of traits you share with everyone else holding the same beliefs as you. A broad overview of personality types can help you identify your own low-level creative characteristics—again, those characteristics that dominate and define your personality when you are coming from the perception of your incompleteness—which in turn can help you disassociate from the dysfunctional matrix you inhabit psychologically.</p>
+  <p>Here’s a tip to you writers out there: if you’re experiencing writer’s block, you’re just separate from the emotion of your offering.</p>
+  <p>Oscar Wilde once said that all art is useless. What he presumably meant is that art is created purely for its own sake, not because it will lead to something else.</p>
+  <p>Preparing to live never leads to living—only more preparation.</p>
+  <p>The only way that you can ever live the life you love and achieve the conditions that satisfy your viability is to start by living the life you love.</p>
+  <p>A true vision is free of your compensating logic and uninfluenced by what you logically assume to be possible or not. And whether you appreciate it at first or not, because it is formulated by your genius, a true vision can be relied upon to be both possible and a reflection of what you truly care about.</p>
+  <p>That’s because the biggest determinant of what creates your reality is the message your subconscious gets about where the power is in your consciousness, and making choices is the process by which you formally assign the power.</p
+  <p>Having a positive outlook in life is definitely a desirable attitude, but that outlook becomes self-defeating, and even destructive, when it is divorced from reality.</p>
+  <p>Whenever I give talks on the themes of either natural success or super conscious writing, I always invite members of the audience to raise their hands if they hate conflict and tension, and if they’re interested in learning how to rid themselves of these negative states. A unanimous and enthusiastic show of hands follows. And that’s when I tell my audience that, creatively speaking, they are screwed. Their eager smiles are replaced replaced by perplexed frowns. The fact of the matter is that everything in the universe is created according to the principle of tension seeking resolution.</p>
+  <p>When you seek to eliminate inner tension, you are also unwittingly neutralizing the very energy that can compel the end results you seek to create. What you have to appreciate is that tension doesn’t only seek resolution; it always finds a resolution, no matter what.</p>
+  <p>The empowered creator is so because they don’t see current reality as a negative condition that precludes anything from turning out the way they would love it to be.</p>
+  <p>The real game-changer, though, is the realization that emotional tension can actually be transformed into creative tension. Whenever you make a choice by establishing the vision, acknowledging current reality, and assigning the power by choosing the vision over your circumstances, you are instituting creative tension.</p>
+  <p>Your ego is always stronger than your self conscious will. Let me explain. The ego is your vehicle of orientation and, as such, when you make a choice to go for something, your ego wants to figure out how to get there. The problem is that the ego doesn’t look at the factors objectively relevant to the situation or the functional steps required. Instead, it refers to your unconscious belief system, determines what it believes is incomplete incomplete about you, and then proposes resolving your sense of incompleteness as the first order of business. Your ego communicates its sense of incompleteness to you through emotional discomfort such as shame, guilt, anger, fear, inadequacy, confusion, doubt, boredom, emptiness, and so on. Resolving that emotional tension becomes the name of the game. Now, suddenly, you have emotional tension competing with creative tension. Trying to force your way through emotional tension is futile. Believe me, the ego is not interested in you getting what you love. Its sole concern is survival, which it assumes depends on you fixing yourself and remedying your inadequacies. So, when you stay focused on your end result in spite of any inner conflict, your ego just ramps up the emotional tension to the level required for you to pay exclusive attention to its priorities. Now you experience your emotional tension as stress, and stress will kill your focus on the end result, and thereby your creative tension, every time. Unless you’re initiated in the dynamics of creating, the only way to mitigate the ego’s response to creative tension—stress—is to cut down on or give up on your vision, or to abandon seeing your current reality, or both. This will inevitably happen. Emotional tension, elevated to the level of stress, will grind down creative tension every time.</p>
+</div>
+
+<a href="#" class="notes-more">More...</a>
+
 <a name="entrepreneur-roller-coaster">
 
-<img src="/images/books/covers/entrepreneur-roller-coaster.jpg" class="full-cover first" />
+<img src="/images/books/covers/entrepreneur-roller-coaster.jpg" class="full-cover" />
 
 <a href="https://www.amazon.com/Entrepreneur-Roller-Coaster-Time-JoinTheRide/dp/0990798623" target="_blank" class="title">
   The Entrepreneur Roller Coaster
@@ -138,7 +185,7 @@ much each book impacted me personally.
 
 <a name="steve-jobs">
 
-<img src="/images/books/covers/steve-jobs.jpg" class="full-cover first" />
+<img src="/images/books/covers/steve-jobs.jpg" class="full-cover" />
 
 <a href="https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537" target="_blank" class="title">
   Steve Jobs
@@ -235,7 +282,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -257,7 +304,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -279,7 +326,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -301,7 +348,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -323,7 +370,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -345,7 +392,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -367,7 +414,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -389,7 +436,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -411,7 +458,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -433,7 +480,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -455,7 +502,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -477,7 +524,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -499,7 +546,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -521,7 +568,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -543,7 +590,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -565,7 +612,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -587,7 +634,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -609,7 +656,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -631,7 +678,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -653,7 +700,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -675,7 +722,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -697,7 +744,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -719,7 +766,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -741,7 +788,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -763,7 +810,7 @@ much each book impacted me personally.
 
 <div class="notes">
   <p>Notes:</p>
-  <p>Coming soon.</p>
+  <p>Nothing yet.</p>
 </div>
 
 <!-- <a href="#" class="notes-more">More...</a> -->
@@ -771,6 +818,11 @@ much each book impacted me personally.
 <script type="text/javascript">
   (function() {
     var books = {
+      'secrets-natural-success': {
+        cover: '/images/books/covers/secrets-of-natural-success.jpg',
+        title: 'Secrets of Natural Success',
+        rating: '★★★★☆'
+      },
       'entrepreneur-roller-coaster': {
         cover: '/images/books/covers/entrepreneur-roller-coaster.jpg',
         title: 'The Entrepreneur Roller Coaster',
