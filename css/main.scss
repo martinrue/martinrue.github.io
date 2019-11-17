@@ -378,6 +378,13 @@ hr {
   padding-left: 26px;
 }
 
+.dual-text.top div {
+  margin-bottom: 10px;
+  background-position: top 6px left;
+  font-style: italic;
+  color: #777;
+}
+
 .dual-text .eo {
   background-image: url('/images/esperanto/eo.png');
 }
