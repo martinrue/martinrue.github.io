@@ -11,6 +11,7 @@ much each book impacted me personally.
 <div class="shelves-of-15">
   <div class="shelf">
     <div class="books">
+      <a href="#art-language-invention" class="book diamond-2 art-language-invention"></a>
       <a href="#secrets-natural-success" class="book diamond-2 secrets-natural-success"></a>
       <a href="#entrepreneur-roller-coaster" class="book plain-3 roller-coaster"></a>
       <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
@@ -25,12 +26,12 @@ much each book impacted me personally.
       <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
       <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
       <a href="#five-elements" class="book plain-2 five-elements"></a>
-      <a href="#fluent-3-months" class="book diamond-3 fluent-3-months"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#fluent-3-months" class="book diamond-3 fluent-3-months"></a>
       <a href="#art-fear" class="book plain-3 art-fear"></a>
       <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
       <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
@@ -52,6 +53,7 @@ much each book impacted me personally.
 <div class="shelves-of-10">
   <div class="shelf">
     <div class="books">
+      <a href="#art-language-invention" class="book diamond-2 art-language-invention"></a>
       <a href="#secrets-natural-success" class="book diamond-2 secrets-natural-success"></a>
       <a href="#entrepreneur-roller-coaster" class="book plain-3 roller-coaster"></a>
       <a href="#steve-jobs" class="book diamond-2 steve-jobs"></a>
@@ -61,12 +63,12 @@ much each book impacted me personally.
       <a href="#teorio-nakamura" class="book diamond-4 teorio-nakamura" ></a>
       <a href="#how-to-learn" class="book diamond-3 how-to-learn"></a>
       <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj" ></a>
-      <a href="#internet-money-1" class="book diamond-2 internet-money-1"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#internet-money-1" class="book diamond-2 internet-money-1"></a>
       <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
       <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
       <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
@@ -76,12 +78,12 @@ much each book impacted me personally.
       <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
       <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
       <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
-      <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
       <a href="#show-your-work" class="book plain-4 show-your-work"></a>
       <a href="#there-were-none" class="book diamond-2 there-were-none"></a>
       <a href="#children-succeed" class="book plain-4 children-succeed"></a>
@@ -110,9 +112,34 @@ much each book impacted me personally.
 
 <hr class="full" />
 
+<a name="art-language-invention">
+
+<img src="/images/books/covers/art-language-invention.jpg" class="full-cover first" />
+
+<a href="https://www.amazon.com/Art-Language-Invention-Horse-Lords-World-Building/dp/0143126466" target="_blank" class="title">
+  Art of Language Invention, The
+</a>
+
+<div class="details">
+  <div>Impact: ★★★☆☆</div>
+  <div>ISBN: 0143126466</div>
+</div>
+
+---
+
+<div class="notes">
+  <p>Notes:</p>
+  <p>Do not call a conlang a fake language. Those who do only make themselves look foolish.</p>
+  <p>Those who are able to do other accents well or who can make themselves sound like a native when speaking another language are incredible at imitating other vowel sounds.</p>
+  <p>IPA is used to transcribe the sound of a word, regardless of its spelling. This is important to keep in mind when examining English, whose orthography was devised by a team of misanthropic, megalomaniacal cryptographers who distrusted and despised one another, and so sought to hide the meanings they were tasked with encoding by employing crude, arcane spellings that no one can explain.</p>
+  <p>There were regular stress rules for English at one point, but with the way the language has evolved, it just threw up its hands and said “whatever.”</p>
+</div>
+
+<a href="#" class="notes-more">More...</a>
+
 <a name="secrets-natural-success">
 
-<img src="/images/books/covers/secrets-of-natural-success.jpg" class="full-cover first" />
+<img src="/images/books/covers/secrets-of-natural-success.jpg" class="full-cover" />
 
 <a href="https://www.amazon.com/WILLIAM-WHITECLOUDS-SECRETS-NATURAL-SUCCESS/dp/0987634313" target="_blank" class="title">
   Secrets of Natural Success
@@ -818,6 +845,11 @@ much each book impacted me personally.
 <script type="text/javascript">
   (function() {
     var books = {
+      'art-language-invention': {
+        cover: '/images/books/covers/art-language-invention.jpg',
+        title: 'Art of Language Invention, The',
+        rating: '★★★☆☆'
+      },
       'secrets-natural-success': {
         cover: '/images/books/covers/secrets-of-natural-success.jpg',
         title: 'Secrets of Natural Success',
