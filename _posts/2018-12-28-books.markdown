@@ -11,6 +11,7 @@ much each book impacted me personally.
 <div class="shelves-of-15">
   <div class="shelf">
     <div class="books">
+      <a href="#turning-pro" class="book plain-3 turning-pro"></a>
       <a href="#art-language-invention" class="book diamond-2 art-language-invention"></a>
       <a href="#secrets-natural-success" class="book diamond-2 secrets-natural-success"></a>
       <a href="#entrepreneur-roller-coaster" class="book plain-3 roller-coaster"></a>
@@ -25,12 +26,12 @@ much each book impacted me personally.
       <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
       <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
       <a href="#being-colloquial" class="book diamond-2 being-colloquial"></a>
-      <a href="#five-elements" class="book plain-2 five-elements"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#five-elements" class="book plain-2 five-elements"></a>
       <a href="#fluent-3-months" class="book diamond-3 fluent-3-months"></a>
       <a href="#art-fear" class="book plain-3 art-fear"></a>
       <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
@@ -45,6 +46,11 @@ much each book impacted me personally.
       <a href="#delivering-happiness" class="book plain-4 delivering-happiness"></a>
       <a href="#thank-you-economy" class="book diamond-1 thank-you-economy"></a>
       <a href="#predictably-irrational" class="book diamond-2 predictably-irrational"></a>
+    </div>
+  </div>
+
+  <div class="shelf">
+    <div class="books">
       <a href="#madness-of-crowds" class="book plain-2 madness-of-crowds"></a>
     </div>
   </div>
@@ -53,6 +59,7 @@ much each book impacted me personally.
 <div class="shelves-of-10">
   <div class="shelf">
     <div class="books">
+      <a href="#turning-pro" class="book plain-3 turning-pro"></a>
       <a href="#art-language-invention" class="book diamond-2 art-language-invention"></a>
       <a href="#secrets-natural-success" class="book diamond-2 secrets-natural-success"></a>
       <a href="#entrepreneur-roller-coaster" class="book plain-3 roller-coaster"></a>
@@ -62,12 +69,12 @@ much each book impacted me personally.
       <a href="#fluent-forever" class="book plain-1 fluent-forever"></a>
       <a href="#teorio-nakamura" class="book diamond-4 teorio-nakamura" ></a>
       <a href="#how-to-learn" class="book diamond-3 how-to-learn"></a>
-      <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj" ></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#rakonto-ovoj" class="book plain-3 rakonto-ovoj" ></a>
       <a href="#internet-money-1" class="book diamond-2 internet-money-1"></a>
       <a href="#internet-money-2" class="book plain-2 internet-money-2"></a>
       <a href="#esperanto-learning-using" class="book plain-4 esperanto-learning-using"></a>
@@ -77,12 +84,12 @@ much each book impacted me personally.
       <a href="#art-fear" class="book plain-3 art-fear"></a>
       <a href="#fail-at-everything" class="book plain-2 fail-at-everything"></a>
       <a href="#hegarty-on-creativity" class="book plain-4 hegarty-on-creativity"></a>
-      <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
     </div>
   </div>
 
   <div class="shelf">
     <div class="books">
+      <a href="#do-the-work" class="book diamond-4 do-the-work"></a>
       <a href="#steal-like-an-artist" class="book diamond-1 steal-like-an-artist"></a>
       <a href="#show-your-work" class="book plain-4 show-your-work"></a>
       <a href="#there-were-none" class="book diamond-2 there-were-none"></a>
@@ -92,6 +99,11 @@ much each book impacted me personally.
       <a href="#delivering-happiness" class="book plain-4 delivering-happiness"></a>
       <a href="#thank-you-economy" class="book diamond-1 thank-you-economy"></a>
       <a href="#predictably-irrational" class="book diamond-2 predictably-irrational"></a>
+    </div>
+  </div>
+
+  <div class="shelf">
+    <div class="books">
       <a href="#madness-of-crowds" class="book plain-2 madness-of-crowds"></a>
     </div>
   </div>
@@ -112,9 +124,48 @@ much each book impacted me personally.
 
 <hr class="full" />
 
+<a name="turning-pro">
+
+<img src="/images/books/covers/turning-pro.jpg" class="full-cover first" />
+
+<a href="https://www.amazon.com/Turning-Pro-Inner-Power-Create/dp/1936891034" target="_blank" class="title">
+  Turning Pro: Tap Your Inner Power and Create Your Life's Work
+</a>
+
+<div class="details">
+  <div>Impact: ★★★☆☆</div>
+  <div>ISBN: 0143126466</div>
+</div>
+
+---
+
+<div class="notes">
+  <p>Notes:</p>
+  <p>The amateur is an egotist. He takes the material of his personal pain and uses it to draw attention to himself. He creates a "life," a "character," a "personality."</p>
+  <p>Resistance hates two qualities above all others: concentration and depth. Why? Because when we work with focus and we work deep, we succeed.</p>
+  <p>The amateur competes with others and believes that he cannot rise unless a competitor falls.</p>
+  <p>The amateur allows his worth and identity to be defined by others.</p>
+  <p>Paradoxically, the amateur's self-inflation prevents him from acting. He takes himself and the consequences of his actions so seriously that he paralyzes himself.</p>
+  <p>The amateur is a narcissist. He views the world hierarchically. He continuously rates himself in relation to others, becoming self-inflated if his fortunes rise, and desperately anxious if his star should fall.</p>
+  <p>We enact the addiction instead of embracing the calling. Why? Because to follow a calling requires work. It's hard. It hurts. It demands entering the pain-zone of effort, risk, and exposure. So we take the amateur route instead. Instead of composing our symphony, we create a "shadow symphony," of which we ourselves are the orchestra, the conductor, the composer, and the audience. Our life becomes a shadow drama, a shadow start-up company, a shadow philanthropic venture.</p>
+  <p>That gang or posse that we imagine is sustaining us by the bonds we share is in fact a conglomeration of individuals who are just as fucked up as we are and just as terrified. Each individual is so caught up in his own bullshit that he doesn't have two seconds to worry about yours or mine, or to reject or diminish us because of it. When we truly understand that the tribe doesn't give a damn, we're free. There is no tribe, and there never was. Our lives are entirely up to us.</p>
+  <p>The payoff of living in the past or the future is you never have to do your work in the present.</p>
+  <p>I applaud your story of how you hit bottom, because at the bottom there's no one there but yourself.</p>
+  <p>Turning pro is an act of self-abnegation. Not Self with a capital-S, but little-s self. Ego. Distraction. Displacement. Addiction.</p>
+  <p>In the end, it didn't matter. That year made me a pro. It gave me, for the first time in my life, an uninterrupted stretch of month after month that was mine alone, that nobody knew about but me, when I was truly productive, truly facing my demons, and truly working my shit. That year has stuck with me.</p>
+  <p>What happens when we turn pro is, we finally listen to that still, small voice inside our heads. At last we find the courage to identify the secret dream or love or bliss that we have known all along was our passion, our calling, our destiny.</p>
+  <p>In the post-epiphanal moment, we have two things going for us that we didn't have ninety seconds earlier: we have reality and we have humility. These are powerful allies.</p>
+  <p>The professional does not wait for inspiration; he acts in anticipation of it.</p>
+  <p>Maybe nobody else liked the stuff I was doing, but I did. I was learning. I was getting better. The work became, in its own demented way, a practice. It sustained me, and it sustains me still.</p>
+  <p>We may bring intention and intensity to our practice (in fact we must), but not ego. Dedication, even ferocity, yes. But never arrogance.</p>
+  <p>Athletes play hurt. Warriors fight scared.</p>
+</div>
+
+<a href="#" class="notes-more">More...</a>
+
 <a name="art-language-invention">
 
-<img src="/images/books/covers/art-language-invention.jpg" class="full-cover first" />
+<img src="/images/books/covers/art-language-invention.jpg" class="full-cover" />
 
 <a href="https://www.amazon.com/Art-Language-Invention-Horse-Lords-World-Building/dp/0143126466" target="_blank" class="title">
   Art of Language Invention, The
@@ -845,6 +896,11 @@ much each book impacted me personally.
 <script type="text/javascript">
   (function() {
     var books = {
+      'turning-pro': {
+        cover: '/images/books/covers/turning-pro.jpg',
+        title: 'Turning Pro: Tap Your Inner Power and Create Your Life\'s Work',
+        rating: '★★★☆☆'
+      },
       'art-language-invention': {
         cover: '/images/books/covers/art-language-invention.jpg',
         title: 'Art of Language Invention, The',
