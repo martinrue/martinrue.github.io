@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Martin Rue – Books</title>
+    <meta name="description" content="My digital bookshelf – all the books I've read">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preload" href="/assets/fonts/montserrat-light.otf" as="font" crossorigin>
+    <link rel="preload" href="/assets/fonts/montserrat-regular.otf" as="font" crossorigin>
+    <link rel="preload" href="/assets/fonts/montserrat-medium.otf" as="font" crossorigin>
+    <link rel="preload" href="/assets/fonts/montserrat-semibold.otf" as="font" crossorigin>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+
+    <meta property="og:url" content="https://martinrue.com">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Martin Rue: Books">
+    <meta property="og:description" content="My digital bookshelf – all the books I've read">
+    <meta property="og:image" content="https://martinrue.com/assets/images/favicon/martin.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@martinrue">
+    <meta name="twitter:creator" content="@martinrue">
+</head>
+
+<body>
+    <script src="/assets/js/lib.js"></script>
+    <script src="/assets/js/dark-mode.js"></script>
+    <script src="/assets/js/book-tags.js"></script>
+
+    <div class="container">
+        <header>
+            <section class="bio">
+                <a href="/">
+                    <h1>Martin Rue</h1>
+                </a>
+
+                <h2>Making things. Writing code. Languages.</h2>
+            </section>
+
+            <section class="links">
+                <a href="https://twitter.com/martinrue" aria-label="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                        </path>
+                    </svg>
+                </a>
+
+                <a href="https://instagram.com/martinrue" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+
+                <a href="https://github.com/martinrue" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+
+                <a href="mailto:hello@martinrue.com" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+
+                <a href="#" class="dark-mode" aria-label="Dark mode">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </a>
+            </section>
+        </header>
+
+        <nav>
+            <a href="/articles">Articles</a>
+            <a href="/projects">Projects</a>
+            <a href="/books">Books</a>
+            <a href="/now">Now</a>
+        </nav>
+
+        <article>
+            <h3>Digital Bookshelf</h3>
+
+            <div class="tags">
+                <a href="#" data-tag="all" class="active">All</a>
+                <a href="#" data-tag="art">Art</a>
+                <a href="#" data-tag="language">Language</a>
+                <a href="#" data-tag="creativity">Creativity</a>
+                <a href="#" data-tag="philosophy">Philosophy</a>
+                <a href="#" data-tag="psychology">Psychology</a>
+                <a href="#" data-tag="business">Business</a>
+                <a href="#" data-tag="finance">Finance</a>
+                <a href="#" data-tag="tech">Tech</a>
+                <a href="#" data-tag="fiction">Fiction</a>
+            </div>
+
+            <div class="books">
+                <a href="https://www.amazon.com/Anything-You-Want-Derek-Sivers/dp/0241209048" data-tags="creativity business tech">
+                    <img src="/assets/images/books/anything-you-want.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Sum-Forty-Afterlives-David-Eagleman/dp/0307389936" data-tags="philosophy">
+                    <img src="/assets/images/books/sum-40-tales.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Teach-Yourself-Hebrew-Ethelyn-Simon/dp/0939144115" data-tags="language">
+                    <img src="/assets/images/books/read-hebrew.jpg">
+                </a>
+
+                <a href="http://i-espero.info/files/elibroj/eo%20-%20saint-exupery,%20antoine%20de%20-%20la%20eta%20princo.pdf" data-tags="language fiction">
+                    <img src="/assets/images/books/la-eta-princo.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Icarus-Deception-How-High-Will/dp/0670922927" data-tags="creativity business tech">
+                    <img src="/assets/images/books/icarus-deception.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Turning-Pro-Inner-Power-Create/dp/1936891034" data-tags="creativity business">
+                    <img src="/assets/images/books/turning-pro.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Art-Language-Invention-Horse-Lords-World-Building/dp/0143126466" data-tags="language">
+                    <img src="/assets/images/books/art-language-invention.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/WILLIAM-WHITECLOUDS-SECRETS-NATURAL-SUCCESS/dp/0987634313" data-tags="psychology philosophy">
+                    <img src="/assets/images/books/secrets-of-natural-success.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Entrepreneur-Roller-Coaster-Time-JoinTheRide/dp/0990798623" data-tags="business tech">
+                    <img src="/assets/images/books/entrepreneur-roller-coaster.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537" data-tags="business tech">
+                    <img src="/assets/images/books/steve-jobs.jpg">
+                </a>
+
+                <a href="http://i-espero.info/files/elibroj/eo%20-%20christie,%20agatha%20-%20murdo%20en%20la%20orienta%20ekspreso.pdf" data-tags="language fiction">
+                    <img src="/assets/images/books/orienta-ekspreso.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666" data-tags="creativity business">
+                    <img src="/assets/images/books/the-dip.jpg">
+                </a>
+
+                <a href="http://claudepiron.free.fr/livres/bonalingvo.htm" data-tags="language">
+                    <img src="/assets/images/books/la-bona-lingvo.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Guide-Good-Life-Ancient-Stoic/dp/0195374614" data-tags="philosophy">
+                    <img src="/assets/images/books/a-guide-to-the-good-life.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Fluent-Forever-Learn-Language-Forget/dp/0385348118" data-tags="language">
+                    <img src="/assets/images/books/fluent-forever.jpg">
+                </a>
+
+                <a href="https://legacy.esperanto.org.uk/eab/bookcat.htm" data-tags="language fiction">
+                    <img src="/assets/images/books/la-teorio-nakamura.jpg">
+                </a>
+
+                <a href="https://pages.ucsd.edu/~dkjordan/eo/colloq/colloq.html" data-tags="language">
+                    <img src="/assets/images/books/being-colloquial-in-esperanto.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Learn-Foreign-Language-Pimsleur-Ph-D/dp/1442369027" data-tags="language">
+                    <img src="/assets/images/books/how-to-learn-a-foreign-language.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388" data-tags="tech">
+                    <img src="/assets/images/books/mastering-bitcoin.jpg">
+                </a>
+
+                <a href="https://www.jei.or.jp/libro/ovoj.htm" data-tags="language fiction">
+                    <img src="/assets/images/books/rakonto-de-ovoj.jpg">
+                </a>
+
+                <a href="http://esperantofre.com/gerdakd/gerda.pdf" data-tags="language fiction">
+                    <img src="/assets/images/books/gerda-malaperis.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/194791006X" data-tags="tech finance">
+                    <img src="/assets/images/books/the-internet-of-money-2.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454" data-tags="tech finance">
+                    <img src="/assets/images/books/the-internet-of-money-1.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Total-Recall-Arnold-Schwarzenegger-ebook/dp/B007IL5DXS" data-tags="business">
+                    <img src="/assets/images/books/total-recall.jpg">
+                </a>
+
+                <a href="https://www.amazon.co.uk/dp/0902756273" data-tags="language">
+                    <img src="/assets/images/books/conversational-esperanto.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Esperanto-Learning-Using-International-Language/dp/154300654X" data-tags="language">
+                    <img src="/assets/images/books/esperanto-learning-and-using.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/5-Elements-Effective-Thinking/dp/0691156662" data-tags="creativity">
+                    <img src="/assets/images/books/the-5-elements.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Fluent-3-Months-Benny-Lewis/dp/0007543921" data-tags="language">
+                    <img src="/assets/images/books/fluent-in-3-months.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Art-Fear-Observations-Rewards-Artmaking/dp/0961454733" data-tags="art creativity">
+                    <img src="/assets/images/books/art-and-fear.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/German-Conversation-Demystified-Ed-Swick-ebook/dp/B00SJOCD6S" data-tags="language">
+                    <img src="/assets/images/books/german-demystified.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Hegarty-Creativity-There-Are-Rules/dp/050051724X" data-tags="creativity">
+                    <img src="/assets/images/books/hegarty-on-creativity.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Do-Work-Overcome-Resistance-Your/dp/1936891379" data-tags="creativity business">
+                    <img src="/assets/images/books/do-the-work.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Steal-Like-Artist-Things-Creative/dp/0761169253" data-tags="creativity art">
+                    <img src="/assets/images/books/steal-like-an-artist.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X" data-tags="creativity art">
+                    <img src="/assets/images/books/show-your-work.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Then-There-Were-None-Favourite/dp/0008123209" data-tags="fiction">
+                    <img src="/assets/images/books/and-then-there-were-none.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/How-Fail-Almost-Everything-Still/dp/1591847745" data-tags="business tech">
+                    <img src="/assets/images/books/how-to-fail-at-almost-everything.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/How-Win-Friends-Influence-People/dp/0091906814" data-tags="psychology">
+                    <img src="/assets/images/books/how-to-win-friends.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Trend-Following-Updated-Millions-Markets/dp/013702018X" data-tags="finance">
+                    <img src="/assets/images/books/trend-following.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Angels-Demons-Novel-Robert-Langdon/dp/074349346X" data-tags="fiction">
+                    <img src="/assets/images/books/angels-demons.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/How-Children-Succeed-Curiosity-Character/dp/1847947115" data-tags="psychology">
+                    <img src="/assets/images/books/how-children-succeed.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Forex-Patterns-Probabilities-Strategies-Range-Bound/dp/0470097299" data-tags="finance">
+                    <img src="/assets/images/books/forex-patterns.png">
+                </a>
+
+                <a href="https://www.amazon.com/Reminiscences-Stock-Operator-Edwin-Lefevre/dp/1946963062" data-tags="finance">
+                    <img src="/assets/images/books/reminisces-of-a-stock-operator.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Smart-Gets-Things-Done-Technical/dp/1590598385" data-tags="business tech">
+                    <img src="/assets/images/books/gets-things-done.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose/dp/145550890X" data-tags="business psychology">
+                    <img src="/assets/images/books/delivering-happiness.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Thank-You-Economy-Gary-Vaynerchuk/dp/0061914185" data-tags="business psychology">
+                    <img src="/assets/images/books/the-thank-you-economy.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Predictably-Irrational-Hidden-Forces-Decisions/dp/0007256531" data-tags="psychology">
+                    <img src="/assets/images/books/predictably-irrational.jpg">
+                </a>
+
+                <a href="https://www.amazon.com/Extraordinary-Popular-Delusions-Madness-Crowds/dp/149036188X" data-tags="psychology">
+                    <img src="/assets/images/books/madness-of-crowds.jpg">
+                </a>
+            </div>
+        </article>
+    </div>
+</body>
+
+</html>
