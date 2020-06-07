@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Martin Rue</title>
+    <description>Making things. Writing code. Languages.</description>
+    <link>https://martinrue.com</link>
+    <atom:link href="https://martinrue.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Now</title>
+      <description>What I'm doing now</description>
+      <author>Martin Rue</author>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/now/</link>
+      <guid isPermaLink="false">05062020</guid>
+    </item>
+
+    <item>
+      <title>Coding Stories: Me vs. The VNC Guy</title>
+      <description>I’ve told a few different coding stories over the years on this blog. I enjoy reminiscing about the silly things I used to do. So, in that vein, here’s one I haven’t told yet.</description>
+      <author>Martin Rue</author>
+      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/coding-stories-me-vs-vnc/</link>
+      <guid isPermaLink="true">https://martinrue.com/coding-stories-me-vs-vnc/</guid>
+    </item>
+
+    <item>
+      <title>The Equality of Esperanto</title>
+      <description>A few days ago I was hanging out in a coffee shop with my Russian friend. We meet every week to chat over coffee.</description>
+      <author>Martin Rue</author>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/the-equality-of-esperanto/</link>
+      <guid isPermaLink="true">https://martinrue.com/the-equality-of-esperanto/</guid>
+    </item>
+
+    <item>
+      <title>How Does Esperanto Sound?</title>
+      <description>When people hear Esperanto for the first time, they sometimes think they’re hearing Italian, or maybe Spanish. A good amount of vocabulary in Esperanto is taken from romance roots, so this isn’t totally surprising.</description>
+      <author>Martin Rue</author>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/how-does-esperanto-sound/</link>
+      <guid isPermaLink="true">https://martinrue.com/how-does-esperanto-sound/</guid>
+    </item>
+
+    <item>
+      <title>Feliĉan Zamenhofan Tagon</title>
+      <description>Hey, it's Zamenhofa Tago, otherwise known as Esperanto Book Day. Read on to learn more about the international language and why it's so cool.</description>
+      <author>Martin Rue</author>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/zamenhofa-tago-18/</link>
+      <guid isPermaLink="true">https://martinrue.com/zamenhofa-tago-18/</guid>
+    </item>
+
+    <item>
+      <title>Seek Out New Experiences</title>
+      <description>We ofen hear the advice “get out of your comfort zone”, and in my experience it’s good advice to avoid becoming stationary in whatever it is you’re trying to get better at.</description>
+      <author>Martin Rue</author>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/seek-out-new-experiences/</link>
+      <guid isPermaLink="true">https://martinrue.com/seek-out-new-experiences/</guid>
+    </item>
+
+    <item>
+      <title>Thoughts on Crypto Currency Mania</title>
+      <description>It’s the end of 2017 and right now there’s a huge amount of interest in buying [insert any crypto currency coin here]. Everyone wants to buy everything, and as a result we’re very much in a bull market at the moment.</description>
+      <author>Martin Rue</author>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/thoughts-on-crypto-currency-mania/</link>
+      <guid isPermaLink="true">https://martinrue.com/thoughts-on-crypto-currency-mania/</guid>
+    </item>
+
+    <item>
+      <title>The Gym</title>
+      <description>Anyone who knows me will know that the gym is a fairly big part of my life. While my goal certainly isn’t to become the next Eddie Hall or Phil Heath, during the last 3 years the gym has been a valuable source of discipline and improvement for me.</description>
+      <author>Martin Rue</author>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/the-gym/</link>
+      <guid isPermaLink="true">https://martinrue.com/the-gym/</guid>
+    </item>
+
+    <item>
+      <title>You're Not Ready</title>
+      <description>I heard something a few days ago. You know, the kind of thing where you stop and think for a while, and then the significance starts to become really clear to you.</description>
+      <author>Martin Rue</author>
+      <pubDate>Mon, 29 Feb 2016 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/you-are-not-ready/</link>
+      <guid isPermaLink="true">https://martinrue.com/you-are-not-ready/</guid>
+    </item>
+
+    <item>
+      <title>Give Yourself More Playtime</title>
+      <description>I remember my first computer fondly. As a kid I was more than addicted to the Commodore 64 – perfectly happy to sit and endure at least 5 minutes of the most colourful, potentially epileptic attack you can imagine, simply to have a few games of Boulder Dash.</description>
+      <author>Martin Rue</author>
+      <pubDate>Tue, 16 Jun 2015 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/give-yourself-more-playtime/</link>
+      <guid isPermaLink="true">https://martinrue.com/give-yourself-more-playtime/</guid>
+    </item>
+
+    <item>
+      <title>Why Read?</title>
+      <description>It seems like a stupid question – obviously, we read in order to process written material until we understand it.</description>
+      <author>Martin Rue</author>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/why-read/</link>
+      <guid isPermaLink="true">https://martinrue.com/why-read/</guid>
+    </item>
+
+    <item>
+      <title>Be With Your Thoughts More Often</title>
+      <description>Whilst walking to work this morning, I noticed myself doing something that I wouldn’t normally give a second thought to. I took out my phone and checked Twitter.</description>
+      <author>Martin Rue</author>
+      <pubDate>Wed, 19 Mar 2014 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/be-with-your-thoughts-more-often/</link>
+      <guid isPermaLink="true">https://martinrue.com/be-with-your-thoughts-more-often/</guid>
+    </item>
+
+    <item>
+      <title>Understand How It Works</title>
+      <description>One of the best pieces of advice I ever got was from my grandfather. He didn’t visit very often and so conversation often felt a bit like an ice breaker.</description>
+      <author>Martin Rue</author>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/understand-how-it-works/</link>
+      <guid isPermaLink="true">https://martinrue.com/understand-how-it-works/</guid>
+    </item>
+
+    <item>
+      <title>Growth Is Not The Goal</title>
+      <description>In the startup world we hear a lot about growth. Startup accelerators focus on being the facilitators of quick growth and the term is thrown around like it’s universally a good thing.</description>
+      <author>Martin Rue</author>
+      <pubDate>Sat, 6 Apr 2013 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/growth-is-not-the-goal/</link>
+      <guid isPermaLink="true">https://martinrue.com/growth-is-not-the-goal/</guid>
+    </item>
+
+    <item>
+      <title>To Be Productive, Be Prepared</title>
+      <description>Motivation by itself gives us the willingness to do something, but nothing more. Once we make a start, the game changes and it becomes about knowing how to make progress.</description>
+      <author>Martin Rue</author>
+      <pubDate>Fri, 4 Jan 2013 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/to-be-productive-be-prepared/</link>
+      <guid isPermaLink="true">https://martinrue.com/to-be-productive-be-prepared/</guid>
+    </item>
+
+    <item>
+      <title>Stay Young Enough To Try Anything</title>
+      <description>I am not young enough to know everything. This is one of my favourite quotes.</description>
+      <author>Martin Rue</author>
+      <pubDate>Thu, 15 Nov 2012 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/stay-young-enough-to-try-anything/</link>
+      <guid isPermaLink="true">https://martinrue.com/stay-young-enough-to-try-anything/</guid>
+    </item>
+
+    <item>
+      <title>What Is 'The Zone', Anyway?</title>
+      <description>Recently I’ve been thinking more and more about the zone. I’ve been trying to work out what it actually is. Most often it’s described as being in a super productive state for short periods of time, where the best code you’ve ever written just flows from your fingertips.</description>
+      <author>Martin Rue</author>
+      <pubDate>Thu, 21 Jun 2012  00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/what-is-the-zone-anyway/</link>
+      <guid isPermaLink="true">https://martinrue.com/what-is-the-zone-anyway/</guid>
+    </item>
+
+    <item>
+      <title>Talk About Your Stuff</title>
+      <description>Growing up I was a pretty shy kid. I didn’t talk to many people and I loved hacking away at things almost in secret. I would get pretty nervous if anyone asked me what I was doing.</description>
+      <author>Martin Rue</author>
+      <pubDate>Wed, 1 Feb 2012 00:00:00 +0000</pubDate>
+      <link>https://martinrue.com/talk-about-your-stuff/</link>
+      <guid isPermaLink="true">https://martinrue.com/talk-about-your-stuff/</guid>
+    </item>
+
+    <item>
+      <title>Agile – 'A' For Adjective</title>
+      <description>Are you doing happy? No, seriously, are you doing happy? OK, what about this, are you doing flexible? You probably think I’m talking nonsense, and that’s because I am – I’m using adjectives as nouns.</description>
+      <author>Martin Rue</author>
+      <pubDate>Mon, 3 Oct 2011 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/agile-a-for-adjective/</link>
+      <guid isPermaLink="true">https://martinrue.com/agile-a-for-adjective/</guid>
+    </item>
+
+    <item>
+      <title>ZZüy – A Lesson In Perseverance</title>
+      <description>I remember when I was first introduced to programming by way of watching my older step brother type the then–very–confusing words gosub and rem onto a bright blue screen. It was exciting. I had no idea what this cryptic language did but I was definitely hooked.</description>
+      <author>Martin Rue</author>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/zzuy-a-lesson-in-perseverance/</link>
+      <guid isPermaLink="true">https://martinrue.com/zzuy-a-lesson-in-perseverance/</guid>
+    </item>
+
+    <item>
+      <title>Do</title>
+      <description>Sometimes we must read, talk and observe others in order to do better ourselves, but we must also do.</description>
+      <author>Martin Rue</author>
+      <pubDate>Wed, 31 Aug 2011 00:00:00 +0100</pubDate>
+      <link>https://martinrue.com/do/</link>
+      <guid isPermaLink="true">https://martinrue.com/do/</guid>
+    </item>
+  </channel>
+</rss>
