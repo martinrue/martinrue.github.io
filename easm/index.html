@@ -1,0 +1,202 @@
+<html>
+
+<head>
+	<title>Windows API in easm</title>
+</head>
+
+<body>
+
+	<pre>
+<b>subsystem</b> <font color="#408080">gui</font>
+
+<b>section imports</b>
+
+	<font color="#008000">// Declare import functions from kernel32.dll</font>
+	<b>from</b> kernel32.dll <b>import</b> GetModuleHandleA
+	<b>from</b> kernel32.dll <b>import</b> GetCommandLineA
+	<b>from</b> kernel32.dll <b>import</b> ExitProcess
+	
+	<font color="#008000">// Declare import functions from user32.dll</font>
+	<b>from</b> user32.dll <b>import</b> LoadIconA
+	<b>from</b> user32.dll <b>import</b> LoadCursorA
+	<b>from</b> user32.dll <b>import</b> RegisterClassExA
+	<b>from</b> user32.dll <b>import</b> CreateWindowExA
+	<b>from</b> user32.dll <b>import</b> ShowWindow
+	<b>from</b> user32.dll <b>import</b> UpdateWindow
+	<b>from</b> user32.dll <b>import</b> GetMessageA
+	<b>from</b> user32.dll <b>import</b> TranslateMessage
+	<b>from</b> user32.dll <b>import</b> DispatchMessageA
+	<b>from</b> user32.dll <b>import</b> PostQuitMessage
+	<b>from</b> user32.dll <b>import</b> DefWindowProcA
+	<b>from</b> user32.dll <b>import</b> MessageBoxA
+	
+<b>section constants</b>
+
+	<font color="#008000">// Mixed Win32 constant declarations</font>
+	<b>const</b> WS_OVERLAPPEDWINDOW = 00cf0000h
+	<b>const</b> IDI_APPLICATION = 32512d
+	<b>const</b> SIZEOF_WNDCLASSEX = 48d
+	<b>const</b> SW_SHOWDEFAULT = 10d
+	<b>const</b> SW_SHOWNORMAL = 01d
+	<b>const</b> WINDOW_STYLE = 03d
+	<b>const</b> COLOR_WINDOW = 06d
+	<b>const</b> IDC_ARROW = 32512d
+	
+	<font color="#008000">// Standard Win32 message constants</font>
+	<b>const</b> WM_LBUTTONDOWN = 201h
+	<b>const</b> WM_DESTROY = 02h
+
+	<font color="#008000">// Data type constant declarations</font>
+	<b>const</b> NULL   = 00h
+	<b>const</b> DWORD  = 4
+	<b>const</b> HWND   = 4
+	<b>const</b> WPARAM = 4
+	<b>const</b> LPARAM = 4
+	
+<b>section data</b>
+
+	<font color="#008000">// Global variables used for main application</font>
+	<font color="#0000FF">dword</font> hInstance
+	<font color="#0000FF">dword</font> pszCommandLine
+	<font color="#0000FF">dword</font> hwnd
+	
+	<font color="#008000">// The WNDCLASSEX structure</font>
+	<font color="#0000FF">dword</font> WNDCLASSEX.cbSize
+	<font color="#0000FF">dword</font> WNDCLASSEX.style
+	<font color="#0000FF">dword</font> WNDCLASSEX.lpfnWndProc
+	<font color="#0000FF">dword</font> WNDCLASSEX.cbClsExtra
+	<font color="#0000FF">dword</font> WNDCLASSEX.cbWndExtra
+	<font color="#0000FF">dword</font> WNDCLASSEX.hInstance
+	<font color="#0000FF">dword</font> WNDCLASSEX.hIcon
+	<font color="#0000FF">dword</font> WNDCLASSEX.hCursor
+	<font color="#0000FF">dword</font> WNDCLASSEX.hbrBackground
+	<font color="#0000FF">dword</font> WNDCLASSEX.lpszMenuName
+	<font color="#0000FF">dword</font> WNDCLASSEX.lpszClassName
+	<font color="#0000FF">dword</font> WNDCLASSEX.hIconSm
+	
+	<font color="#008000">// The MSG structure</font>
+	<font color="#0000FF">dword</font> MSG.hwnd
+	<font color="#0000FF">dword</font> MSG.message
+	<font color="#0000FF">dword</font> MSG.wParam
+	<font color="#0000FF">dword</font> MSG.lParam
+	<font color="#0000FF">dword</font> MSG.time
+	<font color="#0000FF">dword</font> MSG.POINT.x
+	<font color="#0000FF">dword</font> MSG.POINT.y
+	
+	<font color="#008000">// Common application strings</font>
+	<font color="#0000FF">string</font> szClassName = <font color="#BB0000">"easmClass"</font>
+	<font color="#0000FF">string</font> szCaption = <font color="#BB0000">"easm Rocks"</font>
+	<font color="#0000FF">string</font> szClicked = <font color="#BB0000">"Received click message."</font>
+
+<b>section functions</b>
+	
+	<font color="#008000">// Declare the standard form Window Procedure which handles messages received by WinMain</font>
+	<b>function</b> <font color="#0000FF">dword</font> WinProc (hwndHandle:HWND, uMsg:DWORD, wParam:WPARAM, lParam:LPARAM)
+	
+			<font color="#008000">// Check if the message is the destroy message</font>
+			<b>compare</b> uMsg <b>with</b> WM_DESTROY
+			<b>if</b> (==) <b>jump</b> case1
+				
+			<font color="#008000">// Check if the message is the mouse click message</font>
+			<b>compare</b> uMsg <b>with</b> WM_LBUTTONDOWN
+			<b>if</b> (==) <b>jump</b> case2
+				
+			<font color="#008000">// If no match was found, pass the message on</font>
+			<b>jump</b> fwd
+				
+			<font color="#008000">// Handle the WM_DESTROY message</font>
+		case1:	<b>call</b> PostQuitMessage (NULL)
+			<b>return</b> 00h
+
+			<font color="#008000">// Handle the WM_LBUTTONDOWN message</font>
+		case2:	<b>call</b> MessageBoxA (NULL, &szClicked, &szCaption, NULL)
+			<b>return</b> 00h
+				
+			<font color="#008000">// We're not handling the message, so pass it on</font>
+		fwd:	<b>set</b> <font color="#0000FF">eax</font> = hwndHandle
+			<b>set</b> <font color="#0000FF">ebx</font> = uMsg
+			<b>set</b> <font color="#0000FF">ecx</font> = wParam
+			<b>set</b> <font color="#0000FF">edx</font> = lParam
+			<b>call</b> DefWindowProcA (<font color="#0000FF">eax</font>, <font color="#0000FF">ebx</font>, <font color="#0000FF">ecx</font>, <font color="#0000FF">edx</font>)
+			<b>return</b> <font color="#0000FF">eax</font>
+	
+	<b>end</b>
+
+	<font color="#008000">// Declare the Win32 entry point and initialisation function: WinMain</font>
+	<b>function</b> <font color="#0000FF">dword</font> WinMain (hInst:DWORD, hPrevInst:DWORD, CmdLine:DWORD, CmdShow:DWORD)
+	
+		<font color="#008000">// Initialise the WNDCLASSEX data structure with appropriate values</font>
+		<b>set</b> WNDCLASSEX.cbSize = SIZEOF_WNDCLASSEX
+		<b>set</b> WNDCLASSEX.style = WINDOW_STYLE
+		<b>set</b> WNDCLASSEX.lpfnWndProc = &WinProc
+		<b>set</b> WNDCLASSEX.cbClsExtra = NULL
+		<b>set</b> WNDCLASSEX.cbWndExtra = NULL
+		
+		<b>push</b> <font color="#408080">variable</font> hInstance
+		<b>pop</b>  <font color="#408080">variable</font> WNDCLASSEX.hInstance
+		
+		<b>call</b> LoadIconA (NULL, IDI_APPLICATION)
+		<b>set</b> WNDCLASSEX.hIcon = <font color="#0000FF">eax</font>
+		<b>set</b> WNDCLASSEX.hIconSm = <font color="#0000FF">eax</font>
+		
+		<b>call</b> LoadCursorA (NULL, IDC_ARROW)
+		<b>set</b> WNDCLASSEX.hCursor = <font color="#0000FF">eax</font>
+		
+		<b>set</b> WNDCLASSEX.hbrBackground = COLOR_WINDOW
+		<b>set</b> WNDCLASSEX.lpszMenuName = NULL
+		<b>set</b> WNDCLASSEX.lpszClassName = &szClassName
+		
+		<font color="#008000">// Attempt to register the window class</font>
+		<b>call</b> RegisterClassExA (&WNDCLASSEX.cbSize)
+		
+		<font color="#008000">// Create the main application window</font>
+		<b>set</b> <font color="#0000FF">eax</font> = hInst
+		<b>call</b> CreateWindowExA (NULL, &szClassName, &szCaption, WS_OVERLAPPEDWINDOW, NULL, NULL, 800d, 600d, NULL, NULL, <font color="#0000FF">eax</font>, NULL)
+		<b>set</b> hwnd = <font color="#0000FF">eax</font>
+
+		<font color="#008000">// Show and update the window</font>
+		<b>call</b> ShowWindow (hwnd, SW_SHOWNORMAL)
+		<b>call</b> UpdateWindow (hwnd)
+		
+				<font color="#008000">// Begin message delivery to appropriate window procedure(s)</font>
+		MessagePump:	<b>call</b> GetMessageA (&MSG.hwnd, NULL, NULL, NULL)
+		
+				<font color="#008000">// If we received WM_QUIT, break from loop</font>
+				<b>compare</b> <font color="#0000FF">eax</font> <b>with</b> 00h
+				<b>if</b> (==) <b>jump</b> LoopBreak
+		
+				<font color="#008000">// Translate the message and dispatch it to WinProc</font>
+				<b>call</b> TranslateMessage (&MSG.hwnd)
+				<b>call</b> DispatchMessageA (&MSG.hwnd)
+		
+				<font color="#008000">// Iterate again for the next message</font>
+				<b>jump</b> MessagePump
+		
+				<font color="#008000">// Loop is terminating, setup appropriate return value</font>
+		LoopBreak:	<b>return</b> MSG.wParam
+	
+	<b>end</b>
+	
+<b>section code</b>
+
+	<font color="#008000">// Acquire the handle to the executing process and store it</font>
+	<b>call</b> GetModuleHandleA (NULL)
+	<b>set</b>  hInstance = <font color="#0000FF">eax</font>
+	
+	<font color="#008000">// Acquire any command line arguments passed to the process</font>
+	<b>call</b> GetCommandLineA ()
+	<b>set</b>  pszCommandLine = <font color="#0000FF">eax</font>
+	
+	<font color="#008000">// Invoke the Win32 entry point</font>
+	<b>call</b> WinMain (hInstance, NULL, pszCommandLine, SW_SHOWDEFAULT)
+	
+	<font color="#008000">// Terminate the current process once we return</font>
+	<b>call</b> ExitProcess (NULL)
+	
+	
+
+</pre>
+
+</body>
+
+</html>
