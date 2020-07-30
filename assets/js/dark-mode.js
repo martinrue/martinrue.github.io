@@ -1,6 +1,18 @@
 const darkmode = (() => {
   const getMode = () => {
-    return localStorage.getItem("darkmode") || "off";
+    const mode = localStorage.getItem("darkmode");
+
+    if (mode) {
+      return mode;
+    }
+
+    const darkQuery = "(prefers-color-scheme: dark)";
+
+    if (window.matchMedia && window.matchMedia(darkQuery).matches) {
+      return "on";
+    }
+
+    return "off";
   };
 
   const setClass = () => {
