@@ -3,9 +3,10 @@ const hello = (() => {
     const $english = lib.$(".typewriter .english");
     const $hebrew = lib.$(".typewriter .hebrew");
     const $german = lib.$(".typewriter .german");
+    const $spanish = lib.$(".typewriter .spanish");
     const $esperanto = lib.$(".typewriter .esperanto");
 
-    const all = [$english, $hebrew, $german, $esperanto];
+    const all = [$english, $hebrew, $german, $spanish, $esperanto];
     let current = 0;
 
     const hideAll = () => {

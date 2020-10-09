@@ -224,6 +224,10 @@ article {
   animation: typing 0.5s steps(5, end), blink-caret-light 0.7s step-end infinite;
 }
 
+.typewriter .greetings h3.spanish {
+  animation: typing 0.5s steps(4, end), blink-caret-light 0.7s step-end infinite;
+}
+
 .typewriter .greetings h3.english {
   animation: typing 0.5s steps(5, end), blink-caret-light 0.7s step-end infinite;
 }
