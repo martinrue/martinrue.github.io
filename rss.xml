@@ -17,6 +17,15 @@
     </item>
 
     <item>
+      <title>My Engineering Axioms</title>
+      <description>A few months back I gave a talk in which I shared a list of my personal engineering axioms – things that, over the years, I've come to think of as generally true and useful to have in mind when writing code, building things, and working with others.</description>
+      <author>Martin Rue</author>
+      <pubDate>Mon, 21 Dec 2020 12:00:00 +0000</pubDate>
+      <link>https://martinrue.com/my-engineering-axioms/</link>
+      <guid isPermaLink="true">https://martinrue.com/my-engineering-axioms/</guid>
+    </item>
+
+    <item>
       <title>Head Up, Head Down</title>
       <description>There are few things more enjoyable to me than the mental solitude that hand-delivers interesting shower thoughts, or that let’s me sit in a bustling coffee shop contemplating life.</description>
       <author>Martin Rue</author>
