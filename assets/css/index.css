@@ -202,9 +202,8 @@ article {
 }
 
 .typewriter .greetings h3 {
-  display: none;
   font-size: 2.3rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: none;
   overflow: hidden;
   border-right: 0.25rem solid #444;
@@ -218,12 +217,11 @@ article {
   border-right: 0;
   border-left: 0.25rem solid #444;
   padding-left: 5px;
-  animation: typing 0.55s steps(4, end),
-    blink-caret-light 0.7s step-end infinite;
+  animation: typing 0.5s steps(4, end), blink-caret-light 0.7s step-end infinite;
 }
 
 .typewriter .greetings h3.esperanto {
-  animation: typing 0.8s steps(7, end), blink-caret-light 0.7s step-end infinite;
+  animation: typing 0.5s steps(7, end), blink-caret-light 0.7s step-end infinite;
 }
 
 .typewriter .greetings h3.german {
@@ -674,15 +672,19 @@ p.esperanto-text.closer {
 }
 
 .dark .typewriter .greetings h3.hebrew {
-  animation: typing 0.55s steps(4, end), blink-caret-dark 0.7s step-end infinite;
+  animation: typing 0.5s steps(4, end), blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .typewriter .greetings h3.esperanto {
-  animation: typing 0.8s steps(7, end), blink-caret-dark 0.7s step-end infinite;
+  animation: typing 0.5s steps(7, end), blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .typewriter .greetings h3.german {
   animation: typing 0.5s steps(5, end), blink-caret-dark 0.7s step-end infinite;
+}
+
+.dark .typewriter .greetings h3.spanish {
+  animation: typing 0.5s steps(4, end), blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .typewriter .greetings h3.english {
