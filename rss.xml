@@ -17,6 +17,15 @@
     </item>
 
     <item>
+      <title>Silence</title>
+      <description>Let's be honest, silence is not usually considered an exciting subject. Despite Depeche Mode's ironic effort to convince us, the idea that we should enjoy silence seems like a stretch. So why am I writing about it?</description>
+      <author>Martin Rue</author>
+      <pubDate>Fri, 19 Feb 2021 12:00:00 +0000</pubDate>
+      <link>https://martinrue.com/silence/</link>
+      <guid isPermaLink="true">https://martinrue.com/silence/</guid>
+    </item>
+
+    <item>
       <title>My Engineering Axioms</title>
       <description>A few months back I gave a talk in which I shared a list of my personal engineering axioms – things that, over the years, I've come to think of as generally true and useful to have in mind when writing code, building things, and working with others.</description>
       <author>Martin Rue</author>
