@@ -329,6 +329,20 @@ p.esperanto-text.closer {
   margin-top: 0;
 }
 
+.green-left-border {
+  border-left: solid 3px #4bd44bac;
+  padding-left: 15px;
+  padding: 3px 0 0 15px;
+}
+
+.green-left-border p {
+  margin-top: 1.4em;
+}
+
+.green-left-border p:first-child {
+  margin-top: 0;
+}
+
 .article-link {
   display: flex;
   color: #333;
