@@ -1,28 +1,35 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/montserrat-light.otf") format("opentype");
+  font-family: "Quicksand";
+  src: url("/assets/fonts/quicksand-light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/montserrat-regular.otf") format("opentype");
+  font-family: "Quicksand";
+  src: url("/assets/fonts/quicksand-regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/montserrat-medium.otf") format("opentype");
+  font-family: "Quicksand";
+  src: url("/assets/fonts/quicksand-medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/montserrat-semibold.otf") format("opentype");
+  font-family: "Quicksand";
+  src: url("/assets/fonts/quicksand-semibold.ttf") format("truetype");
   font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/assets/fonts/quicksand-bold.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -99,10 +106,10 @@ select {
 }
 
 body {
-  color: #333;
   padding: 30px 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 2rem;
+  color: #222;
 }
 
 a {
@@ -117,7 +124,7 @@ a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.1rem;
   font-weight: 600;
 }
 
@@ -125,7 +132,7 @@ h2 {
   margin-top: 3px;
   font-size: 1.8rem;
   line-height: 2.6rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h3 {
@@ -157,7 +164,7 @@ header {
 }
 
 header .bio a {
-  color: #333;
+  color: #222;
 }
 
 header .links {
@@ -179,14 +186,14 @@ nav {
 
 nav a {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   font-weight: 600;
   margin-left: 15px;
 }
 
 article {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 500;
   line-height: 2.9rem;
   color: #444;
@@ -345,7 +352,7 @@ p.esperanto-text.closer {
 
 .article-link {
   display: flex;
-  color: #333;
+  color: #222;
   margin-top: 3rem;
 }
 
@@ -358,6 +365,8 @@ p.esperanto-text.closer {
   background: #f8f8f8;
   border: solid 1px #f0f0f0;
   color: #777;
+  min-width: 65px;
+  text-align: center;
 }
 
 .article-link .time .month {
@@ -377,13 +386,13 @@ p.esperanto-text.closer {
 .article-link .details .title {
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 
 .article-link .details .summary {
   margin-top: 5px;
-  font-size: 1.6rem;
-  line-height: 2.2rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
 }
 
 .video-container {
@@ -594,7 +603,7 @@ p.esperanto-text.closer {
 }
 
 .code-block {
-  background: #333;
+  background: #222;
   color: #fff;
   font-family: monospace;
   padding: 10px;
@@ -626,13 +635,13 @@ p.esperanto-text.closer {
   padding: 2px 5px;
   margin: 0 8px 8px 0;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 2rem;
 }
 
 .dark .tags a {
-  border-color: #666;
-  background: #444;
+  border-color: #555;
+  background: #333;
   color: #eee;
 }
 
@@ -665,7 +674,7 @@ p.esperanto-text.closer {
 /* --- dark mode --- */
 
 .dark {
-  background: #333;
+  background: #222;
   color: #fff;
 }
 
@@ -710,8 +719,8 @@ p.esperanto-text.closer {
 }
 
 .dark .article-link .time {
-  background: #3b3b3b;
-  border-color: #505050;
+  background: #2b2b2b;
+  border-color: #404040;
   color: #ccc;
 }
 
@@ -754,12 +763,12 @@ p.esperanto-text.closer {
   min-width: 280px;
   width: 48%;
   padding-bottom: 15px;
-  color: #333;
+  color: #222;
 }
 
 .dark .projects .project {
-  background: #3b3b3b;
-  border-color: #505050;
+  background: #2b2b2b;
+  border-color: #404040;
   color: #fff;
 }
 
