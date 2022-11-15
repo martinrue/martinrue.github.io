@@ -726,6 +726,15 @@ p.esperanto-text.closer {
 
 .dark svg {
   stroke: #fff;
+  fill: none;
+}
+
+svg .masto {
+  fill: #333;
+}
+
+.dark svg .masto {
+  fill: #fff;
 }
 
 .dark p {
