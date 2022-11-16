@@ -179,6 +179,10 @@ header .links a svg:hover {
   stroke: #33cc66;
 }
 
+header .links a svg:hover .masto {
+  fill: #33cc66;
+}
+
 nav {
   text-align: right;
   margin-bottom: 50px;
