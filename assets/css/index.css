@@ -62,7 +62,7 @@ dd {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 65%;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -71,6 +71,7 @@ body {
   scroll-behavior: smooth;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
+  background: #fdfdfd;
 }
 
 ul[class],
@@ -98,23 +99,26 @@ select {
 }
 
 ::selection {
-  background: #33ff6644;
+  background: #33ff66aa;
+  color: #222;
 }
 
 ::-moz-selection {
-  background: #33ff6644;
+  background: #33ff66aa;
+  color: #222;
 }
 
 body {
   padding: 30px 50px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Quicksand", Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
   font-size: 2rem;
   color: #222;
 }
 
 a {
   text-decoration: none;
-  color: #33cc66;
+  color: #30a0ff;
 }
 
 .container {
@@ -130,15 +134,15 @@ h1 {
 
 h2 {
   margin-top: 3px;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 2.6rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 h3 {
   text-transform: uppercase;
-  font-size: 2.3rem;
-  font-weight: 600;
+  font-size: 2.4rem;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
@@ -160,7 +164,7 @@ header {
   flex-wrap: wrap;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: solid 1px #f0f0f0;
+  border-bottom: solid 1px #e0e0e0;
 }
 
 header .bio a {
@@ -176,11 +180,12 @@ header .links a {
 }
 
 header .links a svg:hover {
-  stroke: #33cc66;
+  stroke: #30a0ff;
 }
 
-header .links a svg:hover .masto, header .links a svg:hover .yt {
-  fill: #33cc66;
+header .links a svg:hover .masto,
+header .links a svg:hover .yt {
+  fill: #30a0ff;
 }
 
 nav {
@@ -192,13 +197,13 @@ nav a {
   display: inline-block;
   font-size: 1.7rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: 15px;
 }
 
 article {
-  font-size: 1.9rem;
-  font-weight: 500;
+  font-size: 1.95rem;
+  font-weight: 400;
   line-height: 2.9rem;
   color: #444;
 }
@@ -356,7 +361,7 @@ p.esperanto-text.closer {
 
 .article-link {
   display: flex;
-  color: #222;
+  color: #444;
   margin-top: 3rem;
 }
 
@@ -636,7 +641,7 @@ p.esperanto-text.closer {
   background: #f8f8f8;
   border: solid 1px #ddd;
   border-radius: 5px;
-  padding: 2px 5px;
+  padding: 3px 7px;
   margin: 0 8px 8px 0;
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -645,20 +650,20 @@ p.esperanto-text.closer {
 
 .dark .tags a {
   border-color: #555;
-  background: #333;
+  background: rgb(36, 41, 46);
   color: #eee;
 }
 
 .tags a:hover,
 .tags a.active {
-  border: solid 1px #33cc66;
-  color: #00aa33;
+  border: solid 1px #30a0ff;
+  color: #30a0ff;
 }
 
 .dark .tags a:hover,
 .dark .tags a.active {
-  border: solid 1px #33cc66;
-  color: #eee;
+  border: solid 1px #30a0ff;
+  color: #30a0ff;
 }
 
 .books {
@@ -679,18 +684,19 @@ p.esperanto-text.closer {
 
 .dark {
   background: #222;
+  background: rgb(15, 20, 25);
   color: #fff;
 }
 
 .dark header {
-  border-color: #505050;
+  border-color: #303030;
 }
 
 .dark h1,
 .dark h2,
 .dark h3,
 .dark h4 {
-  color: #fff;
+  color: #f9f9f9;
 }
 
 .dark .typewriter .greetings h3 {
@@ -723,8 +729,8 @@ p.esperanto-text.closer {
 }
 
 .dark .article-link .time {
-  background: #2b2b2b;
-  border-color: #404040;
+  background: rgb(23, 28, 33);
+  border-color: #333;
   color: #ccc;
 }
 
@@ -733,20 +739,22 @@ p.esperanto-text.closer {
   fill: none;
 }
 
-svg .masto, svg .yt {
+svg .masto,
+svg .yt {
   fill: #333;
 }
 
-.dark svg .masto, .dark svg .yt {
+.dark svg .masto,
+.dark svg .yt {
   fill: #fff;
 }
 
 .dark p {
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .dark li {
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .dark code {
@@ -780,7 +788,7 @@ svg .masto, svg .yt {
 }
 
 .dark .projects .project {
-  background: #2b2b2b;
+  background: rgb(23, 28, 33);
   border-color: #404040;
   color: #fff;
 }
@@ -840,7 +848,7 @@ svg .masto, svg .yt {
 
 .dark .projects .project .tags span {
   border-color: #666;
-  background: #444;
+  background: rgb(36, 41, 46);
   color: #fff;
 }
 
