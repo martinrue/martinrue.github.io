@@ -99,12 +99,12 @@ select {
 }
 
 ::selection {
-  background: #33ff66aa;
+  background: #57aeff99;
   color: #222;
 }
 
 ::-moz-selection {
-  background: #33ff66aa;
+  background: #57aeff99;
   color: #222;
 }
 
@@ -118,7 +118,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #30a0ff;
+  color: #579eff;
 }
 
 .container {
@@ -418,6 +418,20 @@ p.esperanto-text.closer {
   border: solid 1px #ddd;
   margin-bottom: 20px;
   border-radius: 10px;
+}
+
+.dark ::selection {
+  background: #57aeff;
+  color: #222;
+}
+
+.dark ::-moz-selection {
+  background: #57aeff;
+  color: #222;
+}
+
+.dark a {
+  color: #57aeff;
 }
 
 .dark .conversation {
