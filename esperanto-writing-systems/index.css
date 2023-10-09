@@ -1,0 +1,132 @@
+.ews .example {
+  overflow-x: scroll;
+  margin: 0 auto;
+  margin-top: 1.4em;
+}
+
+.ews .example.left-border {
+  border-left: solid 2px #ddd;
+  padding-left: 15px;
+}
+
+.dark .ews .example.left-border {
+  border-left: solid 2px rgb(35, 40, 45);
+}
+
+.ews table {
+  color: #222;
+  text-align: center;
+}
+
+.dark .ews table {
+  color: #fff;
+}
+
+.ews table td {
+  padding: 5px;
+}
+
+.ews table tr.second-row td {
+  padding-top: 30px;
+}
+
+.ews table td.missing {
+  color: #bbb;
+}
+
+.dark .ews table td.missing {
+  color: #444;
+}
+
+.ews table td.new {
+  color: #579eff;
+}
+
+.ews table.left td {
+  text-align: left;
+}
+
+.ews .dia {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ews .morse {
+  font-size: 12px;
+}
+
+.ews .vert-space {
+  padding-bottom: 10px;
+}
+
+.ews .image {
+  display: inline-flex;
+}
+
+.ews .image img {
+  width: 250px;
+}
+
+.ews .image.w-80 img {
+  width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .ews .image.w-80 img {
+    width: 100%;
+  }
+}
+
+.ews .input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ews .input .icon {
+  padding-bottom: 10px;
+  font-size: 50px;
+  color: #999;
+}
+
+.dark .ews .input .icon {
+  padding-bottom: 10px;
+  font-size: 50px;
+  color: #555;
+}
+
+.ews .input textarea {
+  padding: 15px;
+  border: solid 1px #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-weight: 500;
+  resize: none;
+}
+
+.dark .ews .input textarea {
+  background: rgb(15, 20, 25);
+  border: solid 1px rgb(40, 45, 50);
+  color: #fff;
+}
+
+.ews .input textarea:focus {
+  outline: none;
+}
+
+.ews .input .output {
+  padding: 15px;
+  margin-top: 15px;
+  background: #f6f6f6;
+  border: solid 1px #ddd;
+  color: #000;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.dark .ews .input .output {
+  background: rgb(40, 45, 50);
+  border: solid 1px rgb(60, 65, 70);
+  color: #fff;
+}
