@@ -210,7 +210,7 @@ nav a {
 .profile img {
   width: 90px;
   border: solid 2px #eee;
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: 0px 0px 10px #f0f0f0;
   transform: rotate(0deg);
   animation: imperfect-is-beautiful 500ms ease-out 1s forwards;
