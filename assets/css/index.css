@@ -621,9 +621,44 @@ p.esperanto-text.closer {
   background-image: url("/assets/images/general/time.svg");
   background-repeat: no-repeat;
   background-size: 18px;
-  background-position: left 5px;
+  background-position: left center;
   padding-left: 23px;
   color: #999;
+  font-size: 17px;
+}
+
+.past-now-entries {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: solid 1px #ddd;
+}
+
+.dark .past-now-entries {
+  border-top: solid 1px #444;
+}
+
+.past-now-entries .label {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 15px;
+}
+
+.past-now-entries .entries {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.past-now-entries .entries a {
+  border: solid 1px #ddd;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 4px 7px;
+}
+
+.dark .past-now-entries .entries a {
+  border: solid 1px #444;
 }
 
 .tags {
@@ -760,7 +795,7 @@ svg .yt {
 .dark blockquote {
   background: transparent;
   border-color: #4c4c4c;
-  color: #777;
+  color: #999;
   font-style: italic;
 }
 

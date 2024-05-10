@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 for file in `find . -name "*.html" -type f`; do
-    if grep -q "START:LINKS" "$file"; then
+    if grep -q "START:PAST-NOW-LINKS" "$file"; then
         awk '
             BEGIN           {p=1}
-            /START:LINKS/   {print;system("cat partials/links.html; echo");p=0}
+            /START:PAST-NOW-LINKS/   {print;system("cat partials/past-now-links.html; echo");p=0}
             /END:LINKS/     {p=1}
             p' "$file" > tmp
             mv -f tmp "$file"

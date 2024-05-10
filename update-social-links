@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+for file in `find . -name "*.html" -type f`; do
+    if grep -q "START:LINKS" "$file"; then
+        awk '
+            BEGIN           {p=1}
+            /START:LINKS/   {print;system("cat partials/social-links.html; echo");p=0}
+            /END:LINKS/     {p=1}
+            p' "$file" > tmp
+            mv -f tmp "$file"
+
+        echo "updated: $file"
+    fi
+done
