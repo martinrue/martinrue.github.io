@@ -1,1298 +1,1421 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Creative Writing Systems for Esperanto</title>
-    <meta name="description" content="The problem with an obsessive compulsion to be clean is that the shower is a dangerous source of ideas, and I can't in good faith claim that all of them are sensible.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="The problem with an obsessive compulsion to be clean is that the shower is a dangerous source of ideas, and I can't in good faith claim that all of them are sensible."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="shortcut icon" href="/assets/images/favicon/favicon-32x32.png" />
-    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS Feed">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS Feed" />
 
-    <link rel="preload" href="/assets/fonts/quicksand-light.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-regular.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-medium.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-semibold.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-bold.ttf" as="font" crossorigin>
+    <link rel="preload" href="/assets/fonts/quicksand-light.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-regular.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-medium.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-semibold.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-bold.ttf" as="font" crossorigin />
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="/esperanto-writing-systems/index.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="/esperanto-writing-systems/index.css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
 
-    <meta property="og:url" content="https://martinrue.com/esperanto-writing-systems/">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Creative Writing Systems for Esperanto">
-    <meta property="og:description" content="The problem with an obsessive compulsion to be clean is that the shower is a dangerous source of ideas, and I can't in good faith claim that all of them are sensible.">
-    <meta property="og:image" content="https://martinrue.com/assets/images/favicon/martin.png">
+    <meta property="og:url" content="https://martinrue.com/esperanto-writing-systems/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Creative Writing Systems for Esperanto" />
+    <meta
+      property="og:description"
+      content="The problem with an obsessive compulsion to be clean is that the shower is a dangerous source of ideas, and I can't in good faith claim that all of them are sensible."
+    />
+    <meta property="og:image" content="https://martinrue.com/assets/images/og.jpg" />
 
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@martinrue">
-    <meta name="twitter:creator" content="@martinrue">
-</head>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@martinrue" />
+    <meta name="twitter:creator" content="@martinrue" />
+  </head>
 
-<body>
+  <body>
     <script src="/assets/js/lib.js"></script>
     <script src="/assets/js/dark-mode.js"></script>
-    
+
     <script src="/esperanto-writing-systems/js/phoenician.js"></script>
     <script src="/esperanto-writing-systems/js/carian.js"></script>
     <script src="/esperanto-writing-systems/js/custom.js"></script>
     <script src="/esperanto-writing-systems/js/swap.js"></script>
     <script src="/esperanto-writing-systems/js/dia-g.js"></script>
     <script src="/esperanto-writing-systems/js/dia-v.js"></script>
-    <script src="/esperanto-writing-systems/js/init.js"></script>    
+    <script src="/esperanto-writing-systems/js/init.js"></script>
 
     <div class="container">
-        <header>
-            <section class="bio">
-                <a href="/">
-                    <h1>Martin Rue</h1>
-                </a>
+      <header>
+        <section class="bio">
+          <a href="/">
+            <h1>Martin Rue</h1>
+          </a>
 
-                <h2>Making things. Writing code. Languages.</h2>
-            </section>
+          <h2>I build things on the internet.</h2>
+        </section>
 
-            <!-- START:LINKS -->
+        <!-- START:LINKS -->
 
-            <section class="links">
-                <a href="https://youtube.com/@martinrue" aria-label="YouTube">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 23 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
-                        <path class="yt" d="M7.84499 4.77535C10.4365 4.40822 13.5635 4.40822 16.155 4.77535C18.5096 5.10891 20.3341 6.76142 20.6831 8.54141C21.1056 10.6962 21.1056 13.3038 20.6831 15.4586C20.3341 17.2386 18.5096 18.8911 16.1551 19.2247C13.5635 19.5918 10.4365 19.5918 7.84499 19.2247C5.49049 18.8911 3.666 17.2386 3.31691 15.4586C2.89434 13.3038 2.89438 10.6962 3.31692 8.54142C3.66596 6.76141 5.49048 5.10891 7.84499 4.77535ZM16.4356 2.79512C13.658 2.40163 10.3421 2.40163 7.56446 2.79512C4.54986 3.22219 1.90016 5.37282 1.35429 8.15657C0.881927 10.5655 0.881875 13.4345 1.3543 15.8434C1.90021 18.6272 4.54984 20.7778 7.56446 21.2049C10.3421 21.5984 13.658 21.5984 16.4356 21.2049C19.4502 20.7778 22.0999 18.6272 22.6458 15.8434C23.1181 13.4345 23.1181 10.5655 22.6458 8.15658C22.0999 5.37281 19.4502 3.22219 16.4356 2.79512ZM10.5547 7.16795C10.2478 6.96338 9.8533 6.94431 9.52814 7.11833C9.20299 7.29234 9 7.6312 9 8V16C9 16.3688 9.20299 16.7077 9.52814 16.8817C9.8533 17.0557 10.2478 17.0366 10.5547 16.8321L16.5547 12.8321C16.8329 12.6466 17 12.3344 17 12C17 11.6656 16.8329 11.3534 16.5547 11.1679L10.5547 7.16795ZM14.1972 12L11 14.1315V9.86852L14.1972 12Z"></path>
-                    </svg>
-                </a>
+        <section class="links">
+          <a href="https://youtube.com/@martinrue" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 23 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                class="yt"
+                d="M7.84499 4.77535C10.4365 4.40822 13.5635 4.40822 16.155 4.77535C18.5096 5.10891 20.3341 6.76142 20.6831 8.54141C21.1056 10.6962 21.1056 13.3038 20.6831 15.4586C20.3341 17.2386 18.5096 18.8911 16.1551 19.2247C13.5635 19.5918 10.4365 19.5918 7.84499 19.2247C5.49049 18.8911 3.666 17.2386 3.31691 15.4586C2.89434 13.3038 2.89438 10.6962 3.31692 8.54142C3.66596 6.76141 5.49048 5.10891 7.84499 4.77535ZM16.4356 2.79512C13.658 2.40163 10.3421 2.40163 7.56446 2.79512C4.54986 3.22219 1.90016 5.37282 1.35429 8.15657C0.881927 10.5655 0.881875 13.4345 1.3543 15.8434C1.90021 18.6272 4.54984 20.7778 7.56446 21.2049C10.3421 21.5984 13.658 21.5984 16.4356 21.2049C19.4502 20.7778 22.0999 18.6272 22.6458 15.8434C23.1181 13.4345 23.1181 10.5655 22.6458 8.15658C22.0999 5.37281 19.4502 3.22219 16.4356 2.79512ZM10.5547 7.16795C10.2478 6.96338 9.8533 6.94431 9.52814 7.11833C9.20299 7.29234 9 7.6312 9 8V16C9 16.3688 9.20299 16.7077 9.52814 16.8817C9.8533 17.0557 10.2478 17.0366 10.5547 16.8321L16.5547 12.8321C16.8329 12.6466 17 12.3344 17 12C17 11.6656 16.8329 11.3534 16.5547 11.1679L10.5547 7.16795ZM14.1972 12L11 14.1315V9.86852L14.1972 12Z"
+              ></path>
+            </svg>
+          </a>
 
-                <a href="https://instagram.com/martinrue" aria-label="Instagram">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>
-                </a>
+          <a href="https://instagram.com/martinrue" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
 
-                <a href="https://twitter.com/martinrue" aria-label="Twitter">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                        </path>
-                    </svg>
-                </a>
+          <a href="https://twitter.com/martinrue" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+              ></path>
+            </svg>
+          </a>
 
-                <a href="https://mstdn.social/@martinrue" rel="me" aria-label="Mastodon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
-                        <path class="masto" d="M3.018,12.008 C2.986,10.748 3.006,9.56 3.006,8.566 C3.006,4.228 5.849,2.956 5.849,2.956 C7.282,2.298 9.741,2.021 12.299,2 L12.361,2 C14.918,2.02 17.379,2.298 18.812,2.956 C18.812,2.956 21.655,4.228 21.655,8.566 C21.655,8.566 21.691,11.767 21.259,13.99 C20.984,15.4 18.802,16.945 16.296,17.244 C14.99,17.4 13.703,17.544 12.331,17.48 C10.088,17.377 8.317,16.945 8.317,16.945 C8.317,17.163 8.331,17.371 8.357,17.565 C8.441,18.198 8.656,18.66 8.962,19 C9.728,19.85 11.068,19.93 12.357,19.974 C14.177,20.037 15.797,19.525 15.797,19.525 L15.873,21.171 C15.873,21.171 14.599,21.855 12.331,21.981 C11.081,22.049 9.528,21.949 7.719,21.471 C6.187,21.065 5.151,20.181 4.449,19 C3.356,17.157 3.081,14.594 3.018,12.008 Z M6.318,16.945 L6.318,14.397 L8.792,15.002 C9.22358374,15.0976669 9.6581434,15.1793761 10.095,15.247 C10.848,15.363 11.633,15.447 12.423,15.482 C13.442,15.529 14.324,15.465 16.059,15.258 C17.722,15.059 19.207,14.062 19.295,13.608 C19.377,13.186 19.446,12.686 19.501,12.126 C19.5717075,11.3794052 19.6173998,10.6306525 19.638,9.881 C19.653,9.371 19.658,8.936 19.655,8.625 L19.655,8.566 C19.655,7.136 19.286,6.128 18.692,5.408 C18.5226287,5.20011999 18.3262218,5.01582031 18.108,4.86 C18.018,4.796 17.973,4.771 17.978,4.773 C16.965,4.308 14.885,4.021 12.361,4 L12.315,4 C9.775,4.02 7.695,4.308 6.665,4.782 C6.688,4.772 6.644,4.796 6.553,4.86 C6.33477821,5.01582031 6.13837125,5.20011999 5.969,5.408 C5.375,6.128 5.006,7.137 5.006,8.566 C5.006,8.798 5.006,8.963 5.003,9.441 C4.99402715,10.2803538 4.99869443,11.1197979 5.017,11.959 C5.071,14.156 5.281,15.794 5.717,17 C5.929,17.587 6.189,18.07 6.497,18.45 C6.37026932,17.9585833 6.30973424,17.4524428 6.317,16.945 L6.318,16.945 Z M8.084,6.37 C8.71553761,6.37 9.2275,6.88196239 9.2275,7.5135 C9.2275,8.14503761 8.71553761,8.657 8.084,8.657 C7.45246239,8.657 6.9405,8.14503761 6.9405,7.5135 C6.9405,6.88196239 7.45246239,6.37 8.084,6.37 Z"></path>
-                    </svg>
-                </a>
+          <a href="https://mstdn.social/@martinrue" rel="me" aria-label="Mastodon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                class="masto"
+                d="M3.018,12.008 C2.986,10.748 3.006,9.56 3.006,8.566 C3.006,4.228 5.849,2.956 5.849,2.956 C7.282,2.298 9.741,2.021 12.299,2 L12.361,2 C14.918,2.02 17.379,2.298 18.812,2.956 C18.812,2.956 21.655,4.228 21.655,8.566 C21.655,8.566 21.691,11.767 21.259,13.99 C20.984,15.4 18.802,16.945 16.296,17.244 C14.99,17.4 13.703,17.544 12.331,17.48 C10.088,17.377 8.317,16.945 8.317,16.945 C8.317,17.163 8.331,17.371 8.357,17.565 C8.441,18.198 8.656,18.66 8.962,19 C9.728,19.85 11.068,19.93 12.357,19.974 C14.177,20.037 15.797,19.525 15.797,19.525 L15.873,21.171 C15.873,21.171 14.599,21.855 12.331,21.981 C11.081,22.049 9.528,21.949 7.719,21.471 C6.187,21.065 5.151,20.181 4.449,19 C3.356,17.157 3.081,14.594 3.018,12.008 Z M6.318,16.945 L6.318,14.397 L8.792,15.002 C9.22358374,15.0976669 9.6581434,15.1793761 10.095,15.247 C10.848,15.363 11.633,15.447 12.423,15.482 C13.442,15.529 14.324,15.465 16.059,15.258 C17.722,15.059 19.207,14.062 19.295,13.608 C19.377,13.186 19.446,12.686 19.501,12.126 C19.5717075,11.3794052 19.6173998,10.6306525 19.638,9.881 C19.653,9.371 19.658,8.936 19.655,8.625 L19.655,8.566 C19.655,7.136 19.286,6.128 18.692,5.408 C18.5226287,5.20011999 18.3262218,5.01582031 18.108,4.86 C18.018,4.796 17.973,4.771 17.978,4.773 C16.965,4.308 14.885,4.021 12.361,4 L12.315,4 C9.775,4.02 7.695,4.308 6.665,4.782 C6.688,4.772 6.644,4.796 6.553,4.86 C6.33477821,5.01582031 6.13837125,5.20011999 5.969,5.408 C5.375,6.128 5.006,7.137 5.006,8.566 C5.006,8.798 5.006,8.963 5.003,9.441 C4.99402715,10.2803538 4.99869443,11.1197979 5.017,11.959 C5.071,14.156 5.281,15.794 5.717,17 C5.929,17.587 6.189,18.07 6.497,18.45 C6.37026932,17.9585833 6.30973424,17.4524428 6.317,16.945 L6.318,16.945 Z M8.084,6.37 C8.71553761,6.37 9.2275,6.88196239 9.2275,7.5135 C9.2275,8.14503761 8.71553761,8.657 8.084,8.657 C7.45246239,8.657 6.9405,8.14503761 6.9405,7.5135 C6.9405,6.88196239 7.45246239,6.37 8.084,6.37 Z"
+              ></path>
+            </svg>
+          </a>
 
-                <a href="https://github.com/martinrue" aria-label="GitHub">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                        </path>
-                    </svg>
-                </a>
+          <a href="https://github.com/martinrue" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+          </a>
 
-                <a href="mailto:hello@martinrue.com" aria-label="Email">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                </a>
+          <a href="mailto:hello@martinrue.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
 
-                <a href="#" class="dark-mode" aria-label="Dark mode">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                </a>
-            </section>
+          <a href="#" class="dark-mode" aria-label="Dark mode">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#333"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-moon"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </a>
+        </section>
 
-            <!-- END:LINKS -->
-        </header>
+        <!-- END:LINKS -->
+      </header>
 
-        <nav>
-            <a href="/articles/">Articles</a>
-            <a href="/projects/">Projects</a>
-            <a href="/books/">Books</a>
-            <a href="/now/">Now</a>
-        </nav>
+      <nav>
+        <a href="/articles/">Articles</a>
+        <a href="/projects/">Projects</a>
+        <a href="/books/">Books</a>
+        <a href="/now/">Now</a>
+      </nav>
 
-        <article class="ews">
-            <h3>Creative Writing Systems for Esperanto</h3>
+      <article class="ews">
+        <h3>Creative Writing Systems for Esperanto</h3>
 
-            <p>The problem with an obsessive compulsion to be clean is that the shower is a dangerous source of ideas, and I can't in good faith claim that all of them are sensible.</p>
+        <p>The problem with an obsessive compulsion to be clean is that the shower is a dangerous source of ideas, and I can't in good faith claim that all of them are sensible.</p>
 
-            <p>This may be one of the silly ones, but it struck at the perfect moment. I had just decided to take a little social media hiatus. The combination was unbeatable. An impressive collab between shower and brain. I stood no chance.</p>
-            
-            <p>So welcome inside my brain. Enjoy the ride while I recount the series of rabbit holes a small wet room subjected me to.</p>
-            
-            <p>Now if you've read this blog before you'll be aware, perhaps painfully so, that I'm of the opinion that Zamenhof had a keen eye for language (he was an ophthalmologist – stay with me) and produced a masterpiece in Esperanto. </p>
-            
-            <p>Esperanto is written using the latin script, but on the occasion in question, the shower gave me cause to question whether it should be.</p>
-            
-            <p>This little adventure was by no means intended to produce a viable proposal for a new Esperanto writing system. Instead I intended only to indulge myself and demonstrate in the clearest manner possible that I do in fact have too much free time.</p>
-            
-            <p>As I flipped around the “closed” sign on the inside of the door of my brain to this wacky idea, entered first Phoenician, boasting proudly of its ancient and beautiful letters.</p>
-            
-            <p>Phoenician is the ancestor of the Greek alphabet and, hence, of all Western alphabets. In fact an abjad (vowels aren't written and must be inferred by the reader) rather than an alphabet, Phoenician was written from the 11th century BC and from right-to-left.</p>
-            
-            <p>I like the way the Phoenician letters look, so I wanted to experiment with something resembling the Phoenician script.</p>
-            
-            <p>The first step in my adventure was to map the Phoenician letters (consonants) to their closest Esperanto equivalents:</p>
+        <p>
+          This may be one of the silly ones, but it struck at the perfect moment. I had just decided to take a little social media hiatus. The combination was unbeatable. An impressive collab between
+          shower and brain. I stood no chance.
+        </p>
+
+        <p>So welcome inside my brain. Enjoy the ride while I recount the series of rabbit holes a small wet room subjected me to.</p>
+
+        <p>
+          Now if you've read this blog before you'll be aware, perhaps painfully so, that I'm of the opinion that Zamenhof had a keen eye for language (he was an ophthalmologist – stay with me) and
+          produced a masterpiece in Esperanto.
+        </p>
+
+        <p>Esperanto is written using the latin script, but on the occasion in question, the shower gave me cause to question whether it should be.</p>
+
+        <p>
+          This little adventure was by no means intended to produce a viable proposal for a new Esperanto writing system. Instead I intended only to indulge myself and demonstrate in the clearest
+          manner possible that I do in fact have too much free time.
+        </p>
+
+        <p>As I flipped around the “closed” sign on the inside of the door of my brain to this wacky idea, entered first Phoenician, boasting proudly of its ancient and beautiful letters.</p>
+
+        <p>
+          Phoenician is the ancestor of the Greek alphabet and, hence, of all Western alphabets. In fact an abjad (vowels aren't written and must be inferred by the reader) rather than an alphabet,
+          Phoenician was written from the 11th century BC and from right-to-left.
+        </p>
+
+        <p>I like the way the Phoenician letters look, so I wanted to experiment with something resembling the Phoenician script.</p>
+
+        <p>The first step in my adventure was to map the Phoenician letters (consonants) to their closest Esperanto equivalents:</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>ĉ</td>
+              <td>d</td>
+              <td>e</td>
+              <td>f</td>
+              <td>g</td>
+              <td>ĝ</td>
+              <td>h</td>
+              <td>ĥ</td>
+              <td>i</td>
+              <td>j</td>
+              <td>ĵ</td>
+            </tr>
+
+            <tr>
+              <td class="missing">-</td>
+              <td>𐤁</td>
+              <td>𐤑</td>
+              <td class="missing">-</td>
+              <td>𐤃</td>
+              <td class="missing">-</td>
+              <td class="missing">-</td>
+              <td>𐤂</td>
+              <td class="missing">-</td>
+              <td>𐤄</td>
+              <td>𐤇</td>
+              <td class="missing">-</td>
+              <td>𐤉</td>
+              <td class="missing">-</td>
+            </tr>
+
+            <tr class="second-row">
+              <td>k</td>
+              <td>l</td>
+              <td>m</td>
+              <td>n</td>
+              <td>o</td>
+              <td>p</td>
+              <td>r</td>
+              <td>s</td>
+              <td>ŝ</td>
+              <td>t</td>
+              <td>u</td>
+              <td>ŭ</td>
+              <td>v</td>
+              <td>z</td>
+            </tr>
+
+            <tr>
+              <td>𐤊</td>
+              <td>𐤋</td>
+              <td>𐤌</td>
+              <td>𐤍</td>
+              <td class="missing">-</td>
+              <td>𐤐</td>
+              <td>𐤓</td>
+              <td>𐤎</td>
+              <td>𐤔</td>
+              <td>𐤕</td>
+              <td class="missing">-</td>
+              <td class="missing">-</td>
+              <td class="missing">-</td>
+              <td>𐤆</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>Of course I still owe you an A, E, I, O and a U, plus a few extra Esperanto characters.</p>
+
+        <p>Luckily, Phoenician and its close friend Aramaic still had a few extra letters to donate to the cause.</p>
+
+        <p>Here's the result:</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>ĉ</td>
+              <td>d</td>
+              <td>e</td>
+              <td>f</td>
+              <td>g</td>
+              <td>ĝ</td>
+              <td>h</td>
+              <td>ĥ</td>
+              <td>i</td>
+              <td>j</td>
+              <td>ĵ</td>
+            </tr>
+
+            <tr>
+              <td class="new">𐤀</td>
+              <td>𐤁</td>
+              <td>𐤑</td>
+              <td class="new">𐡂</td>
+              <td>𐤃</td>
+              <td class="new">𐤈</td>
+              <td class="new">ࠅ</td>
+              <td>𐤂</td>
+              <td class="new">𐡍</td>
+              <td>𐤄</td>
+              <td>𐤇</td>
+              <td class="new">𐡆</td>
+              <td>𐤉</td>
+              <td class="new">𐤙</td>
+            </tr>
+
+            <tr class="second-row">
+              <td>k</td>
+              <td>l</td>
+              <td>m</td>
+              <td>n</td>
+              <td>o</td>
+              <td>p</td>
+              <td>r</td>
+              <td>s</td>
+              <td>ŝ</td>
+              <td>t</td>
+              <td>u</td>
+              <td>ŭ</td>
+              <td>v</td>
+              <td>z</td>
+            </tr>
+
+            <tr>
+              <td>𐤊</td>
+              <td>𐤋</td>
+              <td>𐤌</td>
+              <td>𐤍</td>
+              <td class="new">𐤏</td>
+              <td>𐤐</td>
+              <td>𐤓</td>
+              <td>𐤎</td>
+              <td>𐤔</td>
+              <td>𐤕</td>
+              <td class="new">𐤒</td>
+              <td class="new">ࠒ</td>
+              <td class="new">𐡉</td>
+              <td>𐤆</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>And here's what it looks like:</p>
+
+        <div class="example left-border">
+          <p>Hello, I'm called Martin</p>
+          <p>Saluton, mi nomiĝas Martin</p>
+          <p dir="ltr">‎𐤍𐤏𐤕𐤒𐤋𐤀𐤎,&nbsp;&nbsp;‎𐡆𐤌&nbsp;&nbsp;‎𐤎𐤀𐡍𐡆𐤌𐤏𐤍&nbsp;&nbsp;‎𐤍𐡆𐤕𐤓𐤀𐤌</p>
+        </div>
+
+        <div class="example left-border">
+          <p>Echo change every Thursday</p>
+          <p>Eĥoŝanĝo ĉiuĵaŭde</p>
+          <p dir="ltr">‎𐤏𐡍𐤍𐤀𐤔𐤏𐤇𐤈&nbsp;&nbsp;‎𐤈𐤃ࠒ𐤀𐤙𐤒𐡆𐡂</p>
+        </div>
+
+        <p>PS: if you're wondering why anybody who could reasonably claim sanity needs to say "echo change every Thursday", don't worry, that's a totally reasonable doubt to have.</p>
+
+        <p>
+          In Esperanto culture, we like to make sure that the way words echo changes roughly once per week, and historically we all get together on Thursdays to figure out which echo we'd like to have
+          for the coming week.
+        </p>
+
+        <p>Rather helpfully, it's also a good example of a phrase that uses all the the Esperanto accented letters at the same time. That's just a totally random coincidence, of course.</p>
+
+        <p>Anyway, it'd be cool if we could play with some custom sentences and magically see what they look like in this new Phoenician-inpired alphabet.</p>
+
+        <p>
+          Old-school witchcraft used big old cauldrons with handfuls of newt eyes and the toes of frogs, but it's mostly done with JavaScript these days. And so with absolutely no impact on the
+          jumping distance of nearby frogs, or the sight of newts, you can now play around with this new alphabet:
+        </p>
+
+        <div class="input phoenician">
+          <div class="icon">⌨</div>
+          <textarea rows="2">Tiuj ĉi krakenoj soifigas min!</textarea>
+          <div class="output" dir="ltr"></div>
+        </div>
+
+        <p>A little after the early Greek alphabet emerged from Phoenician, other regional scripts emerged from that.</p>
+
+        <p>In what today is Bodrum, Turkey, the Carians (11th – 6th century BC) spoke their native Carian and wrote in a cool-looking script.</p>
+
+        <p>Using the Carian script (the Kaunos variant) as inspiration for round two, here's an approximation of Carian's letters mapped to Esperanto's sounds.</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>ĉ</td>
+              <td>d</td>
+              <td>e</td>
+              <td>f</td>
+              <td>g</td>
+              <td>ĝ</td>
+              <td>h</td>
+              <td>ĥ</td>
+              <td>i</td>
+              <td>j</td>
+              <td>ĵ</td>
+            </tr>
+
+            <tr>
+              <td>𐋎</td>
+              <td>Γ</td>
+              <td class="new">𐊡</td>
+              <td class="new">𐊭</td>
+              <td>𐊢</td>
+              <td>𐊺</td>
+              <td class="new">𐋄</td>
+              <td class="new">Λ</td>
+              <td class="new">𐊬</td>
+              <td class="new">𐋏</td>
+              <td class="new">Θ</td>
+              <td>𐊹</td>
+              <td>𐊑</td>
+              <td class="new">𐊨</td>
+            </tr>
+
+            <tr class="second-row">
+              <td>k</td>
+              <td>l</td>
+              <td>m</td>
+              <td>n</td>
+              <td>o</td>
+              <td>p</td>
+              <td>r</td>
+              <td>s</td>
+              <td>ŝ</td>
+              <td>t</td>
+              <td>u</td>
+              <td>ŭ</td>
+              <td>v</td>
+              <td>z</td>
+            </tr>
+
+            <tr>
+              <td>𐊼</td>
+              <td>𐊣</td>
+              <td>𐊪</td>
+              <td>𐊵</td>
+              <td>𐊫</td>
+              <td>𐊷</td>
+              <td>𐊥</td>
+              <td>𐊰</td>
+              <td>𐊯</td>
+              <td>𐌓</td>
+              <td class="new">𐊲</td>
+              <td class="new">𐊾</td>
+              <td class="new">𐊴</td>
+              <td class="new">𐊳</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>As with the Phoenician approach, I had to add custom characters to fill some gaps where there was no close mapping between the Carian and Esperanto sound.</p>
+
+        <p>Let's see what this looks like:</p>
+
+        <div class="example left-border">
+          <p>Hello, I'm called Martin</p>
+          <p>Saluton, mi nomiĝas Martin</p>
+          <p dir="ltr">‎𐊰𐋎𐊣𐊲𐌓𐊫𐊵,&nbsp;&nbsp;‎𐊪𐊹&nbsp;&nbsp;‎𐊵𐊫𐊪𐊹𐊬𐋎𐊰&nbsp;&nbsp;‎𐊪𐋎𐊥𐌓𐊹𐊵</p>
+        </div>
+
+        <div class="example left-border">
+          <p>Echo change every Thursday</p>
+          <p>Eĥoŝanĝo ĉiuĵaŭde</p>
+          <p dir="ltr">‎𐊺Θ𐊫𐊯𐋎𐊵𐊬𐊫&nbsp;&nbsp;‎𐊭𐊹𐊲𐊨𐋎𐊾𐊢𐊺</p>
+        </div>
+
+        <p>
+          In some way this definitely feels more Greek-inspired, but I was curious whether it would look better if the letters occupied different spots so they more closely mapped to the forms of the
+          Esperanto letters. For instance, the Carian letter "𐊰" creates the sound /s/ and "𐌓" /t/.
+        </p>
+
+        <p>After the great rearrangement, I ended up with this variant:</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>ĉ</td>
+              <td>d</td>
+              <td>e</td>
+              <td>f</td>
+              <td>g</td>
+              <td>ĝ</td>
+              <td>h</td>
+              <td>ĥ</td>
+              <td>i</td>
+              <td>j</td>
+              <td>ĵ</td>
+            </tr>
+
+            <tr>
+              <td>𐋎</td>
+              <td class="new">𐊡</td>
+              <td>𐊢</td>
+              <td class="new">𐊾</td>
+              <td>𐊹</td>
+              <td>𐊺</td>
+              <td>𐊥</td>
+              <td class="new">𐊬</td>
+              <td class="new">Λ</td>
+              <td class="new">𐋏</td>
+              <td class="new">Θ</td>
+              <td>𐊑</td>
+              <td>𐊵</td>
+              <td class="new">𐊨</td>
+            </tr>
+
+            <tr class="second-row">
+              <td>k</td>
+              <td>l</td>
+              <td>m</td>
+              <td>n</td>
+              <td>o</td>
+              <td>p</td>
+              <td>r</td>
+              <td>s</td>
+              <td>ŝ</td>
+              <td>t</td>
+              <td>u</td>
+              <td>ŭ</td>
+              <td>v</td>
+              <td>z</td>
+            </tr>
+
+            <tr>
+              <td>𐊣</td>
+              <td>𐊼</td>
+              <td>𐊰</td>
+              <td>𐊪</td>
+              <td>𐊫</td>
+              <td>𐌓</td>
+              <td>Γ</td>
+              <td class="new">𐊴</td>
+              <td class="new">𐋄</td>
+              <td>𐊷</td>
+              <td class="new">𐊲</td>
+              <td>𐊯</td>
+              <td class="new">𐊭</td>
+              <td class="new">𐊳</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>And instead we have:</p>
+
+        <div class="example left-border">
+          <p>Hello, I'm called Martin</p>
+          <p>Saluton, mi nomiĝas Martin</p>
+          <p dir="ltr">‎𐊴𐋎𐊼𐊲𐊷𐊫𐊪,&nbsp;&nbsp;‎𐊰𐊑&nbsp;&nbsp;‎𐊪𐊫𐊰𐊑Λ𐋎𐊴&nbsp;&nbsp;‎𐊰𐋎Γ𐊷𐊑𐊪</p>
+        </div>
+
+        <div class="example left-border">
+          <p>Echo change every Thursday</p>
+          <p>Eĥoŝanĝo ĉiuĵaŭde</p>
+          <p dir="ltr">‎𐊺Θ𐊫𐋄𐋎𐊪Λ𐊫&nbsp;&nbsp;‎𐊾𐊑𐊲𐊨𐋎𐊯𐊹𐊺</p>
+        </div>
+
+        <p>Now that some of the letters have similar forms to their Esperanto counterparts, some of this script has become more recognisable. For example, "𐊰𐊑" and "𐊪𐊫𐊰-".</p>
+
+        <p>Damn. Now I'm hungry.</p>
+
+        <p>Here's a Carian-inspired input for you to play with yourself:</p>
+
+        <div class="input carian">
+          <div class="icon">⌨</div>
+          <textarea rows="2">Tiuj ĉi krakenoj soifigas min!</textarea>
+          <div class="output" dir="ltr"></div>
+        </div>
+
+        <p>Now yes, Phoenician and Carian are cool parents. They give me what I need, they don't bug me much, but what if I just left home and went my own way?</p>
+
+        <p>Take 3.</p>
+
+        <p>This time I wanted to cherry-pick the letters myself based entirely on their forms, aiming to build up a complete set that look good together. Like a 28 member boyband.</p>
+
+        <p>Taking inspiration from basically everything (thanks, Unicode), the third incarnation of what started as an innocent attempt to clean myself has now become the following:</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>ĉ</td>
+              <td>d</td>
+              <td>e</td>
+              <td>f</td>
+              <td>g</td>
+              <td>ĝ</td>
+              <td>h</td>
+              <td>ĥ</td>
+              <td>i</td>
+              <td>j</td>
+              <td>ĵ</td>
+            </tr>
+
+            <tr>
+              <td>ა</td>
+              <td>ᯖ</td>
+              <td>c</td>
+              <td>ċ</td>
+              <td>မ</td>
+              <td>ᨧ</td>
+              <td>σ</td>
+              <td>г</td>
+              <td>ґ</td>
+              <td>h</td>
+              <td>ħ</td>
+              <td>ⲓ</td>
+              <td>𑀯</td>
+              <td>𑀙</td>
+            </tr>
+
+            <tr class="second-row">
+              <td>k</td>
+              <td>l</td>
+              <td>m</td>
+              <td>n</td>
+              <td>o</td>
+              <td>p</td>
+              <td>r</td>
+              <td>s</td>
+              <td>ŝ</td>
+              <td>t</td>
+              <td>u</td>
+              <td>ŭ</td>
+              <td>v</td>
+              <td>z</td>
+            </tr>
+
+            <tr>
+              <td>ꮵ</td>
+              <td>𑣜</td>
+              <td>𐳆</td>
+              <td>𐳝</td>
+              <td>ɵ</td>
+              <td>𐐸</td>
+              <td>ɾ</td>
+              <td>ᨣ</td>
+              <td>ᩆ</td>
+              <td>𐳇</td>
+              <td>ᦢ</td>
+              <td>ᨾ</td>
+              <td>ꮑ</td>
+              <td>ᰣ</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>
+          While I wanted the letters to have unique forms so that the overall alphabet felt unique, I also made sure related letters such as "c" + "ĉ", "g" + "ĝ", "j" + "ĵ", "s" + "ŝ" and "u" and "ŭ"
+          felt like peas in a pod.
+        </p>
+
+        <p>Let's see how this one looks:</p>
+
+        <div class="example left-border">
+          <p>Hello, I'm called Martin</p>
+          <p>Saluton, mi nomiĝas Martin</p>
+          <p dir="ltr">ᨣა𑣜ᦢ𐳇ɵ𐳝,‎&nbsp;&nbsp;𐳆ⲓ&nbsp;&nbsp;𐳝ɵ𐳆ⲓґაᨣ&nbsp;&nbsp;𐳆აɾ𐳇ⲓ𐳝</p>
+        </div>
+
+        <div class="example left-border">
+          <p>Echo change every Thursday</p>
+          <p>Eĥoŝanĝo ĉiuĵaŭde</p>
+          <p dir="ltr">ᨧħɵᩆა𐳝ґɵ&nbsp;&nbsp;ċⲓᦢ𑀙აᨾမэᨧ</p>
+        </div>
+
+        <p>And it'd be unfair of me not to throw in a few extra frog's toes. So please, go wild:</p>
+
+        <div class="input custom">
+          <div class="icon">⌨</div>
+          <textarea rows="2">Tiuj ĉi krakenoj soifigas min!</textarea>
+          <div class="output" dir="ltr"></div>
+        </div>
+
+        <p>You'd think this would be enough.</p>
+
+        <p>
+          You'd think I would've had something more important to do, a friend to meet, just anything that might've led to the conclusion that this is enough. "You've explored your intellectual
+          curiosity Martin! You've honoured the sanctity of the shower thought! Go to bed. Sleep. Sleep is good."
+        </p>
+
+        <p>As you can discern either from my tone of voice or the size of the scroll bar, this in fact did not happen.</p>
+
+        <p>The great thing about silly ideas is that they breed. So, full steam ahead.</p>
+
+        <p>Next up: adjabs.</p>
+
+        <p>An adjab, or "consonantary" if you wish to sound posh my good fellow, is an early writing system used by people so lazy that they didn't even bother to include the vowels.</p>
+
+        <p>
+          Several are still used today, such as Arabic and Hebrew. While reading these languages, or any adjab, your mouth fulfils its oratorial destiny only by way of your brain filling in the blank
+          vowels for you as you read.
+        </p>
+
+        <p>
+          The nice property of an adjab is that, without vowels, the written language feels shorter and more compact. Well, it literally is shorter, and I mean literally in the literal sense of the
+          word.
+        </p>
+
+        <p>Esperanto as an adjab is just Esperanto with no vowels:</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td class="missing">-</td>
+              <td>b</td>
+              <td>c</td>
+              <td>ĉ</td>
+              <td>d</td>
+              <td class="missing">-</td>
+              <td>f</td>
+              <td>g</td>
+              <td>ĝ</td>
+              <td>h</td>
+              <td>ĥ</td>
+              <td class="missing">-</td>
+              <td>j</td>
+              <td>ĵ</td>
+            </tr>
+
+            <tr>
+              <td>k</td>
+              <td>l</td>
+              <td>m</td>
+              <td>n</td>
+              <td class="missing">-</td>
+              <td>p</td>
+              <td>r</td>
+              <td>s</td>
+              <td>ŝ</td>
+              <td>t</td>
+              <td class="missing">-</td>
+              <td>ŭ</td>
+              <td>v</td>
+              <td>z</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>That table was completely unnecessary. On the other hand, if you were avoiding asking what vowels were, well now you know for sure.</p>
+
+        <p>We then end up with something like:</p>
+
+        <div class="example left-border">
+          <p>Hello, I'm called Martin</p>
+          <p>Saluton, mi nomiĝas Martin</p>
+          <p>Sltn, m nmĝs Mrtn</p>
+        </div>
+
+        <div class="example left-border">
+          <p>Echo change every Thursday</p>
+          <p>Eĥoŝanĝo ĉiuĵaŭde</p>
+          <p>ĥŝnĝ ĉĵŭd</p>
+        </div>
+
+        <div class="example left-border">
+          <p>I already ate so I am neither eating nor will eat</p>
+          <p>Mi jam manĝis do mi nek manĝas nek manĝos</p>
+          <p>M jm mnĝs d m nk mnĝs nk mnĝs</p>
+        </div>
+
+        <p>
+          Clearly this is a non-starter. If we lose the vowel we have no idea whether verbs ending –s are referring to past (–is), present (–as), future (–os) or conditional (–us). It'd be too much
+          work for the reader to figure this out while reading.
+        </p>
+
+        <p>
+          On the other hand, we do read using patterns. If you take out several letters of a long sentence in most languages, people can usually still read the sentence perfectly well. Humans are
+          really good at error correction. Well, other people's errors – I don't make errors personally.
+        </p>
+
+        <p>Shifting gears, what if we dropped the middle of words, but only when it didn't leave some difficult ambiguity to resolve.</p>
+
+        <p>What would that probable atrocity look like?</p>
+
+        <div class="example left-border">
+          <p>Hello, I'm called Martin</p>
+          <p>Saluton, mi nomiĝas Martin</p>
+          <p>Saon, mi noas Martin</p>
+        </div>
+
+        <div class="example left-border">
+          <p>Echo change every Thursday</p>
+          <p>Eĥoŝanĝo ĉiuĵaŭde</p>
+          <p>Eĥĝo ĉide</p>
+        </div>
+
+        <div class="example left-border">
+          <p>I already ate so I am neither eating nor will eat</p>
+          <p>Mi jam manĝis do mi nek manĝas nek manĝos</p>
+          <p>Mi jm mais do mi nk maas nk maos</p>
+        </div>
+
+        <p>
+          The echo change ritual has been completely destroyed, but it kind of works with the other examples. However, there's stil a huge burden on the reader to figure out what's missing while
+          they're reading.
+        </p>
+
+        <p>I like it about as much as I like pineapple on pizza.</p>
+
+        <p>Enter diacritics.</p>
+
+        <p>Diacritics are the little lines, dots and squiggles written above or below letters. They're designed to compliment a letter and give us more information about it.</p>
+
+        <p>
+          Esperanto indicates the grammatical function of many kinds of words in the way the word ends. In theory these could be replaced with some kind of accent to compress the written language and
+          produce a new script at the same time.
+        </p>
+
+        <p>After a few rounds of trying I came up with the following:</p>
+
+        <p>For verbs:</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td></td>
+              <td>Example</td>
+              <td>Unicode</td>
+              <td>Position</td>
+            </tr>
+            <tr>
+              <td>–i</td>
+              <td class="dia">X̩</td>
+              <td>0329</td>
+              <td>S1</td>
+            </tr>
+            <tr>
+              <td>–is</td>
+              <td class="dia">X̖</td>
+              <td>0316</td>
+              <td>S1</td>
+            </tr>
+            <tr>
+              <td>–as</td>
+              <td class="dia">X̱</td>
+              <td>0331</td>
+              <td>S1</td>
+            </tr>
+            <tr>
+              <td>–os</td>
+              <td class="dia">X̗</td>
+              <td>0317</td>
+              <td>S1</td>
+            </tr>
+            <tr>
+              <td>–u</td>
+              <td class="dia">X̣</td>
+              <td>0323</td>
+              <td>S1</td>
+            </tr>
+            <tr>
+              <td>–us</td>
+              <td class="dia">X̰</td>
+              <td>0330</td>
+              <td>S1</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>And for everything else:</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td></td>
+              <td>Diacritic</td>
+              <td>Unicode</td>
+              <td>Position</td>
+            </tr>
+            <tr>
+              <td>Adverbs</td>
+              <td class="dia">X̱</td>
+              <td>0331</td>
+              <td>E1</td>
+            </tr>
+            <tr>
+              <td>Nouns</td>
+              <td class="dia">X̥</td>
+              <td>0325</td>
+              <td>S1</td>
+            </tr>
+            <tr>
+              <td>Adjectives</td>
+              <td class="dia">X͚</td>
+              <td>035A</td>
+              <td>S1</td>
+            </tr>
+            <tr>
+              <td>Singular</td>
+              <td class="dia">X̩</td>
+              <td>0329</td>
+              <td>S2</td>
+            </tr>
+            <tr>
+              <td>Plural</td>
+              <td class="dia">X͈</td>
+              <td>0348</td>
+              <td>S2</td>
+            </tr>
+            <tr>
+              <td>Object</td>
+              <td class="dia">X̣</td>
+              <td>0348</td>
+              <td>S3 or E3</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>Now I know this looks complicated. I was just spiralling at this point. Cut me some slack.</p>
+
+        <p>
+          I selected 6 diacritics for the 6 different verb endings. I tried to choose marks that had some sort of logic. Present tense is a single horizontal line to indicate moving forward in time,
+          whereas future tense is a mark that moves up and to the right.
+        </p>
+
+        <p>
+          My use of "S" and "E" (in the position column) indicates whether the diacritic should be placed at the start or end of the word. The numbers indicate how the diacritic should be stacked when
+          several diacritics are used together. It's possible to have a plural, accusative adjective, y'know?
+        </p>
+
+        <p>Focusing on verbs first, let's take a look at some examples of this system:</p>
+
+        <div class="example left-border dia">
+          <p>I would like to have</p>
+          <p>Mi ŝatus havi</p>
+          <p>Mi ŝ̰at h̩av</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>I will arrive early</p>
+          <p>Mi alvenos frue</p>
+          <p>Mi a̗lven frue</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>I want you to stay</p>
+          <p>Mi volas ke vi restu</p>
+          <p>Mi v̱ol ke vi ṛest</p>
+        </div>
+
+        <p>Listen, I don't hate it.</p>
+
+        <p>What about adverbs?</p>
+
+        <div class="example left-border dia">
+          <p>Beautifully</p>
+          <p>Bele</p>
+          <p>Beḻ</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>Wondefully</p>
+          <p>Mirinde</p>
+          <p>Mirinḏ</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>To the north</p>
+          <p>Norden</p>
+          <p>Norḏ̣</p>
+        </div>
+
+        <p>Notice how for "norden" (to the north), I've stacked the adverb ending with the object ending. How about when we stack more diacritics?</p>
+
+        <div class="example left-border dia">
+          <p>Box</p>
+          <p>Skatolo</p>
+          <p>S̥̩katol</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>Big boxes</p>
+          <p>Grandaj skatoloj</p>
+          <p>G͚͈rand s̥͈katol</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>Big boxes (object)</p>
+          <p>Grandajn skatolojn</p>
+          <p class="vert-space">G͚͈̣rand s̥͈̣katol</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>I would really like to have beautiful sweet cookies to eat</p>
+          <p>Mi tre ŝatus havi belajn dolĉajn kuketojn por manĝi</p>
+          <p class="vert-space">Mi tṟ ŝ̰at h̩av b͚͈̣el d͚͈̣olĉ k̥͈̣uket por m̩anĝ</p>
+        </div>
+
+        <p>
+          There's a reduction in the horizontal length of sentences, but at the cost of some vertical space. The primary issue I have with this system is the fact I'm seeing ice-cream cones everywhere
+          and it's making me hungry again.
+        </p>
+
+        <p>It looks cool though, and it's nice that no information is lost in this encoding.</p>
+
+        <div class="input dia-g">
+          <div class="icon">⌨</div>
+          <textarea rows="2">Tiuj ĉi tre grandaj salitaj krakenoj soifigas min!</textarea>
+          <div class="output" dir="ltr"></div>
+        </div>
+
+        <p>
+          It's almost deceptive the fact that Esperanto encodes so much grammatical information in the way words start and end. However, it's also true that most of those encodings are made up of
+          vowels. Adjectives end with "e", verbs with "i", "o", "a" etc., nouns with "o".
+        </p>
+
+        <p>
+          Maybe there's some more life in the old adjab + diacritics path, but simply using the diacritics to mark the missing vowels. Then we'd have something similarly compressed horizontally, but
+          much easier to use.
+        </p>
+
+        <p>What if we used the missing vowels themselves as superscript diacritics?</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td>Vowel</td>
+              <td>a</td>
+              <td>e</td>
+              <td>i</td>
+              <td>o</td>
+              <td>u</td>
+            </tr>
+            <tr>
+              <td>Diacritic</td>
+              <td class="dia">Xͣ</td>
+              <td class="dia">Xͤ</td>
+              <td class="dia">Xͥ</td>
+              <td class="dia">Xͦ</td>
+              <td class="dia">Xͧ</td>
+            </tr>
+            <tr>
+              <td>Unicode</td>
+              <td>0363</td>
+              <td>0364</td>
+              <td>0365</td>
+              <td>0366</td>
+              <td>0367</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>Let's see how this looks:</p>
+
+        <div class="example left-border dia">
+          <p>I would really like to have beautiful sweet cookies to eat</p>
+          <p>Mi tre ŝatus havi belajn dolĉajn kuketojn por manĝi</p>
+          <p>mͥ trͤ ŝͣtͧs hͣvͥ bͤlͣjn dͦlĉͣjn kͧkͤtͦjn pͦr mͣnĝͥ</p>
+        </div>
+
+        <p>Give me a second... I'm just looking through my thesaurus for a stronger version of "outrageous".</p>
+
+        <p>If there was ever a way to imagine what a sentence would look like drunk out its skull, I think this might be it. I think we can agree that nobody wants to read Esperanto like this.</p>
+
+        <p>But what if we used subscript diacritics instead, and ideally more subtle ones. Something reminiscent of Hebrew's "niqqud" system.</p>
+
+        <div class="example">
+          <table>
+            <tr>
+              <td>Vowel</td>
+              <td>a</td>
+              <td>e</td>
+              <td>i</td>
+              <td>o</td>
+              <td>u</td>
+            </tr>
+            <tr>
+              <td>Diacritic</td>
+              <td class="dia">X̠</td>
+              <td class="dia">X̤</td>
+              <td class="dia">X̣</td>
+              <td class="dia">X̥</td>
+              <td class="dia">X͈</td>
+            </tr>
+            <tr>
+              <td>Unicode</td>
+              <td>0320</td>
+              <td>0324</td>
+              <td>0323</td>
+              <td>0325</td>
+              <td>0348</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>Let's see how this looks with a sentence that carries nothing but truth for me right now.</p>
+
+        <div class="example left-border dia">
+          <p>I would really like to have beautiful sweet cookies to eat</p>
+          <p>Mi tre ŝatus havi belajn dolĉajn kuketojn por manĝi</p>
+          <p>ṃ tr̤ ŝ̠t͈s h̠ṿ b̤l̠jn d̥lĉ̠jn k͈k̤t̥jn p̥r m̠nĝ̣</p>
+        </div>
+
+        <p>This looks more elegant with the vowel markings under the letters, and especially due to using non-letter diacritics.</p>
+
+        <p>I quite like this system. In fact, in the course of this shower-thought-turned-art-project I have almost come to be able to read it naturally.</p>
+
+        <p>Try it out with some of your own examples:</p>
+
+        <div class="input dia-v">
+          <div class="icon">⌨</div>
+          <textarea rows="2">Tiuj ĉi tre grandaj salitaj krakenoj soifigas min!</textarea>
+          <div class="output" dir="ltr"></div>
+        </div>
+
+        <p>Shifting gears, I wanted to refocus on how a new writing system could simply be conventions around what not to write, rather than adding new letters or diacritics.</p>
+
+        <p>
+          Initially I considered that Esperanto has six diphthongs: <b>aj</b>, <b>aŭ</b>, <b>ej</b>, <b>eŭ</b>, <b>oj</b>, <b>uj</b>. If they could be substituted for single-letter alternatives,
+          perhaps that creates a nicely reduced written language.
+        </p>
+
+        <p>But how often do they actually occur in modern Esperanto? Or an even better question: which are the most commonly occurring letter patterns?</p>
+
+        <p>As with any good question, the only way to answer it is with even more questions. The first of which was "where do I find lots of well-written Esperanto?"</p>
+
+        <p>
+          I'm a big fan of the magazine Kontakto, which is published 6 times per year. It's a great example of how you can learn so many interesting things about the world via the Esperanto language.
+          It almost always contains high-quality articles and discussions.
+        </p>
+
+        <p>So, "Kontakto" was the answer, and "How?" the consequent question.</p>
+
+        <p>Conveniently, the UEA's website contains a free archive of every Kontakto edition for every year prior to the current one.</p>
+
+        <div class="image">
+          <img src="/esperanto-writing-systems/img/uea-pdf.png" />
+        </div>
+
+        <p>Inconveniently, when you request the link, you're greeted with an anti-bot challenge:</p>
+
+        <div class="image">
+          <img src="/esperanto-writing-systems/img/uea-code.png" />
+        </div>
+
+        <p>This asks: "Please type in the number nine as a digit." A random digit is chosen each time, naturally.</p>
+
+        <p>Everything would be great if the request to UEA's server didn't include both the answer and the question. Small pro-tip for ya, UEA: don't do that.</p>
+
+        <p>Why? Well because I can just supply my own question and answer each time and very easily bypass your anti-bot protection. And that's exactly what I did, naturally.</p>
+
+        <div class="image w-80">
+          <img src="/esperanto-writing-systems/img/curl.png" />
+        </div>
+
+        <p>A quick curl command later and I had 5 years of Kontakto from 2022 to 2018.</p>
+
+        <p>Next I wrote code to parse those documents, combine all the text and analyse how the language is used.</p>
+
+        <div class="image w-80">
+          <img src="/esperanto-writing-systems/img/code.png" />
+        </div>
+
+        <p>The dataset contained <b>320,714</b> words, which after processing constituted <b>35,743</b> unique Esperanto words.</p>
+
+        <p>"Rabbit hole" doesn't even cover it at this point.</p>
+
+        <p>Let's see what the most common words were in my data:</p>
+
+        <div class="image w-80">
+          <img src="/esperanto-writing-systems/img/top-20.png" />
+        </div>
+
+        <p>The combination of la, de, kaj, en, mi, por, ne, al make up around 20% of the total words.</p>
+
+        <p>Of course these are full words and diphthongs occur within words. Next I analysed the most common two letter combinations within the data:</p>
+
+        <div class="image w-80">
+          <img src="/esperanto-writing-systems/img/2-letter.png" />
+        </div>
+
+        <p>About as unsurprisingly as a the fact you no longer fit into your old jeans, the diphthongs <b>oj</b> and <b>aj</b> make an appearance, as well as <b>on</b>, <b>an</b>.</p>
+
+        <p>
+          For the non-Esperanto speakers, that by some impressive combination of willpower and stubbornness made it this far, <b>oj</b>, <b>aj</b>, <b>an</b>, <b>on</b> are very common in Esperanto
+          because it's how all adjectives and nouns end.
+        </p>
+
+        <p>So what about three letter combinations?</p>
+
+        <div class="image w-80">
+          <img src="/esperanto-writing-systems/img/3-letter.png" />
+        </div>
+
+        <p>
+          We're down at 0.5% frequency for the most common 3-letter combination. The combinations <b>ant</b>, <b>ojn</b>, <b>toj</b>, <b>ita</b>, <b>ist</b> aren't too surprising as they occur in many
+          Esperanto words.
+        </p>
+
+        <p>
+          The <b>kon</b> may be a result of context: certain words are used more often in a magazine, such as <b>kontrol-</b> (check), <b>enkonduk-</b> (introduce), <b>rakont-</b> (tell),
+          <b>kongres-</b> (congress), etc. The word "Kontako" itself was excluded from the data.
+        </p>
+
+        <p>The most common full words occur more often than the most common two-letter or three-letter intra-word combinations.</p>
+
+        <p>
+          The next idea was to replace the most common full words with their single-letter equivalents. So <b>l</b>, <b>d</b>, <b>k</b>, <b>e</b>, <b>m</b>, <b>p</b>, <b>n</b>, <b>a</b> standing in
+          for <b>la</b>, <b>de</b>, k<b>aj</b>, <b>en</b>, <b>mi</b>, p<b>or</b>, <b>ne</b>, <b>al</b>.
+        </p>
+
+        <p>Some Esperantists already do this by using <b>k</b> for <b>kaj</b> for example.</p>
+
+        <p>Let's see how that looks:</p>
+
+        <div class="example left-border dia">
+          <p>My friend goes to school in the morning to learn and I can't go with her</p>
+          <p>Amikino de mi iras al la lernejo en la mateno por lerni kaj mi ne povas iri kun ŝi</p>
+          <p>(82 characters)</p>
+        </div>
+
+        <div class="example left-border dia">
+          <p>My friend goes to school in the morning to learn and I can't go with her</p>
+          <p>Amikino d m iras a l lernejo e l mateno p lerni k m n povas iri kun ŝi</p>
+          <p>(70 characters)</p>
+        </div>
+
+        <p>
+          Another route might be to find a convention around vowel usage that allows a vowel to be omitted. A naïve approach could be to assume a missing vowel is always an "i", but which is actually
+          the most commonly occurring vowel?
+        </p>
+
+        <div class="image w-80">
+          <img src="/esperanto-writing-systems/img/vowels.png" />
+        </div>
+
+        <p>OK, so let's go with "a":</p>
+
+        <div class="example left-border dia">
+          <p>mikino de mi irs l l lernejo en la mteno por lerni kj mi ne povs iri kun ŝi</p>
+          <p>(75 characters)</p>
+        </div>
+
+        <p>But now we're back to not knowing which conjugation was intended by "irs" and "povs".</p>
+
+        <p>
+          The most common vowel in my data set isn't necessarily helpful in another context. Perhaps we could choose which vowel to drop based on the context, but only that vowel can then be dropped
+          from other words.
+        </p>
+
+        <p>Combined with the single-letter replacements for the top 8 words we end up with:</p>
+
+        <div class="example left-border dia">
+          <p>Amkno d m ras a l lernejo e l mateno p lern k m n povas r kun ŝ</p>
+          <p>(63 characters)</p>
+        </div>
+
+        <p>This system sort of works.</p>
+
+        <p>
+          Once I see "ras" I can deduce that the vowel dropped must be an "i". I then mentally add that back in as I read the rest of the sentence. I know the "l" is "la" not "li" (he) because "l" is
+          one of the top 8 words now being treated as a single letter replacement. Similarly "n" must be "ne" as apposed to "ni" (we).
+        </p>
+
+        <p>
+          However, there's a lot of cognitive overhead for a 25% character reduction, especially for the reader, who now has to work out which vowel was killed in the dining room with the candlestick.
+        </p>
+
+        <p>
+          Of the ideas I've explored here, I quite like the subscript diacritical adjab, and not only due to its catchy name. It has the nice properties of being shorter and looking more unique
+          without overdoing it.
+        </p>
+
+        <div class="example left-border dia">
+          <p>Esperanto is a cool language and you should learn it</p>
+          <p>Esperanto estas mojosa lingvo kaj vi devus lerni ĝin</p>
+          <p class="vert-space">Esp̤r̠nt̥ est̠s m̥j̥s̠ ḷngv̥ k̠j ṿ d̤v͈s l̤rṇ ĝ̣n</p>
+        </div>
+
+        <p>The downside would be writing it without a tool like the ones I've created in this article.</p>
+
+        <p>In the interest of this article not accidentally becoming a PhD, my <strike>little</strike> journey into creative alternative ways to write Esperanto ends here.</p>
+
+        <p>But before I leave you, I'm pleased to report that I'm not alone in my public demonstrations that I have far too much free time.</p>
+
+        <ul>
+          <li>Ernest L. Jackson has <a href="https://greggshorthand.github.io/espgrg01.html">adapted</a> the Gregg shorthand system for writing Esperanto.</li>
+          <li>
+            Esperanto already has a braille alphabet.
 
             <div class="example">
-                <table>
-                    <tr>
-                        <td>a</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>ĉ</td>
-                        <td>d</td>
-                        <td>e</td>
-                        <td>f</td>
-                        <td>g</td>
-                        <td>ĝ</td>
-                        <td>h</td>
-                        <td>ĥ</td>
-                        <td>i</td>
-                        <td>j</td>
-                        <td>ĵ</td>
-                    </tr>
+              <table>
+                <tr>
+                  <td>a</td>
+                  <td>b</td>
+                  <td>c</td>
+                  <td>ĉ</td>
+                  <td>d</td>
+                  <td>e</td>
+                  <td>f</td>
+                  <td>g</td>
+                  <td>ĝ</td>
+                  <td>h</td>
+                  <td>ĥ</td>
+                  <td>i</td>
+                  <td>j</td>
+                  <td>ĵ</td>
+                </tr>
 
-                    <tr>
-                        <td class="missing">-</td>
-                        <td>𐤁</td>
-                        <td>𐤑</td>
-                        <td class="missing">-</td>
-                        <td>𐤃</td>
-                        <td class="missing">-</td>
-                        <td class="missing">-</td>
-                        <td>𐤂</td>
-                        <td class="missing">-</td>
-                        <td>𐤄</td>
-                        <td>𐤇</td>
-                        <td class="missing">-</td>
-                        <td>𐤉</td>
-                        <td class="missing">-</td>
-                    </tr>
-                    
-                    <tr class="second-row">
-                        <td>k</td>
-                        <td>l</td>
-                        <td>m</td>
-                        <td>n</td>
-                        <td>o</td>
-                        <td>p</td>
-                        <td>r</td>
-                        <td>s</td>
-                        <td>ŝ</td>
-                        <td>t</td>
-                        <td>u</td>
-                        <td>ŭ</td>
-                        <td>v</td>
-                        <td>z</td>
-                    </tr>
+                <tr>
+                  <td>⠁</td>
+                  <td>⠃</td>
+                  <td>⠉</td>
+                  <td>⠩</td>
+                  <td>⠙</td>
+                  <td>⠑</td>
+                  <td>⠋</td>
+                  <td>⠛</td>
+                  <td>⠻</td>
+                  <td>⠓</td>
+                  <td>⠳</td>
+                  <td>⠊</td>
+                  <td>⠚</td>
+                  <td>⠺</td>
+                </tr>
 
-                    <tr>
-                        <td>𐤊</td>
-                        <td>𐤋</td>
-                        <td>𐤌</td>
-                        <td>𐤍</td>
-                        <td class="missing">-</td>
-                        <td>𐤐</td>
-                        <td>𐤓</td>
-                        <td>𐤎</td>
-                        <td>𐤔</td>
-                        <td>𐤕</td>
-                        <td class="missing">-</td>
-                        <td class="missing">-</td>
-                        <td class="missing">-</td>
-                        <td>𐤆</td>
-                    </tr>
-                </table>
+                <tr class="second-row">
+                  <td>k</td>
+                  <td>l</td>
+                  <td>m</td>
+                  <td>n</td>
+                  <td>o</td>
+                  <td>p</td>
+                  <td>r</td>
+                  <td>s</td>
+                  <td>ŝ</td>
+                  <td>t</td>
+                  <td>u</td>
+                  <td>ŭ</td>
+                  <td>v</td>
+                  <td>z</td>
+                </tr>
+
+                <tr>
+                  <td>⠅</td>
+                  <td>⠇</td>
+                  <td>⠍</td>
+                  <td>⠝</td>
+                  <td>⠕</td>
+                  <td>⠏</td>
+                  <td>⠗</td>
+                  <td>⠎</td>
+                  <td>⠮</td>
+                  <td>⠞</td>
+                  <td>⠥</td>
+                  <td>⠬</td>
+                  <td>⠧</td>
+                  <td>⠵</td>
+                </tr>
+              </table>
             </div>
+          </li>
 
-            <p>Of course I still owe you an A, E, I, O and a U, plus a few extra Esperanto characters.</p>
-
-            <p>Luckily, Phoenician and its close friend Aramaic still had a few extra letters to donate to the cause.</p>
-
-            <p>Here's the result:</p>
+          <li>
+            There are additions to Morse code to capture the Esperanto characters:
 
             <div class="example">
-                <table>
-                    <tr>
-                        <td>a</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>ĉ</td>
-                        <td>d</td>
-                        <td>e</td>
-                        <td>f</td>
-                        <td>g</td>
-                        <td>ĝ</td>
-                        <td>h</td>
-                        <td>ĥ</td>
-                        <td>i</td>
-                        <td>j</td>
-                        <td>ĵ</td>
-                    </tr>
-
-                    <tr>
-                        <td class="new">𐤀</td>
-                        <td>𐤁</td>
-                        <td>𐤑</td>
-                        <td class="new">𐡂</td>
-                        <td>𐤃</td>
-                        <td class="new">𐤈</td>
-                        <td class="new">ࠅ</td>
-                        <td>𐤂</td>
-                        <td class="new">𐡍</td>
-                        <td>𐤄</td>
-                        <td>𐤇</td>
-                        <td class="new">𐡆</td>
-                        <td>𐤉</td>
-                        <td class="new">𐤙</td>
-                    </tr>
-                    
-                    <tr class="second-row">
-                        <td>k</td>
-                        <td>l</td>
-                        <td>m</td>
-                        <td>n</td>
-                        <td>o</td>
-                        <td>p</td>
-                        <td>r</td>
-                        <td>s</td>
-                        <td>ŝ</td>
-                        <td>t</td>
-                        <td>u</td>
-                        <td>ŭ</td>
-                        <td>v</td>
-                        <td>z</td>
-                    </tr>
-
-                    <tr>
-                        <td>𐤊</td>
-                        <td>𐤋</td>
-                        <td>𐤌</td>
-                        <td>𐤍</td>
-                        <td class="new">𐤏</td>
-                        <td>𐤐</td>
-                        <td>𐤓</td>
-                        <td>𐤎</td>
-                        <td>𐤔</td>
-                        <td>𐤕</td>
-                        <td class="new">𐤒</td>
-                        <td class="new">ࠒ</td>
-                        <td class="new">𐡉</td>
-                        <td>𐤆</td>
-                    </tr>
-                </table>
+              <table class="left">
+                <tr>
+                  <td>ĉ</td>
+                  <td class="morse">▄▄▄ ▄ ▄▄▄ ▄ ▄</td>
+                </tr>
+                <tr>
+                  <td>ĝ</td>
+                  <td class="morse">▄▄▄ ▄▄▄ ▄ ▄▄▄ ▄</td>
+                </tr>
+                <tr>
+                  <td>ĥ</td>
+                  <td class="morse">▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄</td>
+                </tr>
+                <tr>
+                  <td>ĵ</td>
+                  <td class="morse">▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄</td>
+                </tr>
+                <tr>
+                  <td>ŝ</td>
+                  <td class="morse">▄ ▄ ▄ ▄▄▄ ▄</td>
+                </tr>
+                <tr>
+                  <td>ŭ</td>
+                  <td class="morse">▄ ▄ ▄▄▄ ▄▄▄</td>
+                </tr>
+              </table>
             </div>
-
-            <p>And here's what it looks like:</p>
-
-            <div class="example left-border">
-                <p>Hello, I'm called Martin</p>
-                <p>Saluton, mi nomiĝas Martin</p>
-                <p dir="ltr">‎𐤍𐤏𐤕𐤒𐤋𐤀𐤎,&nbsp;&nbsp;‎𐡆𐤌&nbsp;&nbsp;‎𐤎𐤀𐡍𐡆𐤌𐤏𐤍&nbsp;&nbsp;‎𐤍𐡆𐤕𐤓𐤀𐤌</p>
-            </div>
-
-            <div class="example left-border">
-                <p>Echo change every Thursday</p>
-                <p>Eĥoŝanĝo ĉiuĵaŭde</p>
-                <p dir="ltr">‎𐤏𐡍𐤍𐤀𐤔𐤏𐤇𐤈&nbsp;&nbsp;‎𐤈𐤃ࠒ𐤀𐤙𐤒𐡆𐡂</p>
-            </div>
-
-            <p>PS: if you're wondering why anybody who could reasonably claim sanity needs to say "echo change every Thursday", don't worry, that's a totally reasonable doubt to have.</p>
-
-            <p>In Esperanto culture, we like to make sure that the way words echo changes roughly once per week, and historically we all get together on Thursdays to figure out which echo we'd like to have for the coming week.</p>
-
-            <p>Rather helpfully, it's also a good example of a phrase that uses all the the Esperanto accented letters at the same time. That's just a totally random coincidence, of course.</p>
-
-            <p>Anyway, it'd be cool if we could play with some custom sentences and magically see what they look like in this new Phoenician-inpired alphabet.</p>
-
-            <p>Old-school witchcraft used big old cauldrons with handfuls of newt eyes and the toes of frogs, but it's mostly done with JavaScript these days. And so with absolutely no impact on the jumping distance of nearby frogs, or the sight of newts, you can now play around with this new alphabet:</p>
-
-            <div class="input phoenician">
-                <div class="icon">⌨</div>
-                <textarea rows="2">Tiuj ĉi krakenoj soifigas min!</textarea>
-                <div class="output" dir="ltr"></div>
-            </div>
-
-            <p>A little after the early Greek alphabet emerged from Phoenician, other regional scripts emerged from that.</p>
-
-            <p>In what today is Bodrum, Turkey, the Carians (11th – 6th century BC) spoke their native Carian and wrote in a cool-looking script.</p>
-
-            <p>Using the Carian script (the Kaunos variant) as inspiration for round two, here's an approximation of Carian's letters mapped to Esperanto's sounds.</p>
-
-            <div class="example">
-                <table>
-                    <tr>
-                        <td>a</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>ĉ</td>
-                        <td>d</td>
-                        <td>e</td>
-                        <td>f</td>
-                        <td>g</td>
-                        <td>ĝ</td>
-                        <td>h</td>
-                        <td>ĥ</td>
-                        <td>i</td>
-                        <td>j</td>
-                        <td>ĵ</td>
-                    </tr>
-
-                    <tr>
-                        <td>𐋎</td>
-                        <td>Γ</td>
-                        <td class="new">𐊡</td>
-                        <td class="new">𐊭</td>
-                        <td>𐊢</td>
-                        <td>𐊺</td>
-                        <td class="new">𐋄</td>
-                        <td class="new">Λ</td>
-                        <td class="new">𐊬</td>
-                        <td class="new">𐋏</td>
-                        <td class="new">Θ</td>
-                        <td>𐊹</td>
-                        <td>𐊑</td>
-                        <td class="new">𐊨</td>
-                    </tr>
-                    
-                    <tr class="second-row">
-                        <td>k</td>
-                        <td>l</td>
-                        <td>m</td>
-                        <td>n</td>
-                        <td>o</td>
-                        <td>p</td>
-                        <td>r</td>
-                        <td>s</td>
-                        <td>ŝ</td>
-                        <td>t</td>
-                        <td>u</td>
-                        <td>ŭ</td>
-                        <td>v</td>
-                        <td>z</td>
-                    </tr>
-
-                    <tr>
-                        <td>𐊼</td>
-                        <td>𐊣</td>
-                        <td>𐊪</td>
-                        <td>𐊵</td>
-                        <td>𐊫</td>
-                        <td>𐊷</td>
-                        <td>𐊥</td>
-                        <td>𐊰</td>
-                        <td>𐊯</td>
-                        <td>𐌓</td>
-                        <td class="new">𐊲</td>
-                        <td class="new">𐊾</td>
-                        <td class="new">𐊴</td>
-                        <td class="new">𐊳</td>
-                    </tr>
-                </table>
-            </div>
-
-            <p>As with the Phoenician approach, I had to add custom characters to fill some gaps where there was no close mapping between the Carian and Esperanto sound.</p>
-
-            <p>Let's see what this looks like:</p>
-
-            <div class="example left-border">
-                <p>Hello, I'm called Martin</p>
-                <p>Saluton, mi nomiĝas Martin</p>
-                <p dir="ltr">‎𐊰𐋎𐊣𐊲𐌓𐊫𐊵,&nbsp;&nbsp;‎𐊪𐊹&nbsp;&nbsp;‎𐊵𐊫𐊪𐊹𐊬𐋎𐊰&nbsp;&nbsp;‎𐊪𐋎𐊥𐌓𐊹𐊵</p>
-            </div>
-
-            <div class="example left-border">
-                <p>Echo change every Thursday</p>
-                <p>Eĥoŝanĝo ĉiuĵaŭde</p>
-                <p dir="ltr">‎𐊺Θ𐊫𐊯𐋎𐊵𐊬𐊫&nbsp;&nbsp;‎𐊭𐊹𐊲𐊨𐋎𐊾𐊢𐊺</p>
-            </div>
-
-            <p>In some way this definitely feels more Greek-inspired, but I was curious whether it would look better if the letters occupied different spots so they more closely mapped to the forms of the Esperanto letters. For instance, the Carian letter "𐊰" creates the sound /s/ and "𐌓" /t/.</p>
-
-            <p>After the great rearrangement, I ended up with this variant:</p>
-
-            <div class="example">
-                <table>
-                    <tr>
-                        <td>a</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>ĉ</td>
-                        <td>d</td>
-                        <td>e</td>
-                        <td>f</td>
-                        <td>g</td>
-                        <td>ĝ</td>
-                        <td>h</td>
-                        <td>ĥ</td>
-                        <td>i</td>
-                        <td>j</td>
-                        <td>ĵ</td>
-                    </tr>
-
-                    <tr>
-                        <td>𐋎</td>
-                        <td class="new">𐊡</td>
-                        <td>𐊢</td>
-                        <td class="new">𐊾</td>
-                        <td>𐊹</td>
-                        <td>𐊺</td>
-                        <td>𐊥</td>
-                        <td class="new">𐊬</td>
-                        <td class="new">Λ</td>
-                        <td class="new">𐋏</td>
-                        <td class="new">Θ</td>
-                        <td>𐊑</td>
-                        <td>𐊵</td>
-                        <td class="new">𐊨</td>
-                    </tr>
-                    
-                    <tr class="second-row">
-                        <td>k</td>
-                        <td>l</td>
-                        <td>m</td>
-                        <td>n</td>
-                        <td>o</td>
-                        <td>p</td>
-                        <td>r</td>
-                        <td>s</td>
-                        <td>ŝ</td>
-                        <td>t</td>
-                        <td>u</td>
-                        <td>ŭ</td>
-                        <td>v</td>
-                        <td>z</td>
-                    </tr>
-
-                    <tr>
-                        <td>𐊣</td>
-                        <td>𐊼</td>
-                        <td>𐊰</td>
-                        <td>𐊪</td>
-                        <td>𐊫</td>
-                        <td>𐌓</td>
-                        <td>Γ</td>
-                        <td class="new">𐊴</td>
-                        <td class="new">𐋄</td>
-                        <td>𐊷</td>
-                        <td class="new">𐊲</td>
-                        <td>𐊯</td>
-                        <td class="new">𐊭</td>
-                        <td class="new">𐊳</td>
-                    </tr>
-                </table>
-            </div>
-
-            <p>And instead we have:</p>
-
-            <div class="example left-border">
-                <p>Hello, I'm called Martin</p>
-                <p>Saluton, mi nomiĝas Martin</p>
-                <p dir="ltr">‎𐊴𐋎𐊼𐊲𐊷𐊫𐊪,&nbsp;&nbsp;‎𐊰𐊑&nbsp;&nbsp;‎𐊪𐊫𐊰𐊑Λ𐋎𐊴&nbsp;&nbsp;‎𐊰𐋎Γ𐊷𐊑𐊪</p>
-            </div>
-
-            <div class="example left-border">
-                <p>Echo change every Thursday</p>
-                <p>Eĥoŝanĝo ĉiuĵaŭde</p>
-                <p dir="ltr">‎𐊺Θ𐊫𐋄𐋎𐊪Λ𐊫&nbsp;&nbsp;‎𐊾𐊑𐊲𐊨𐋎𐊯𐊹𐊺</p>
-            </div>
-
-            <p>Now that some of the letters have similar forms to their Esperanto counterparts, some of this script has become more recognisable. For example, "𐊰𐊑" and "𐊪𐊫𐊰-".</p>
-
-            <p>Damn. Now I'm hungry.</p>
-
-            <p>Here's a Carian-inspired input for you to play with yourself:</p>
-
-            <div class="input carian">
-                <div class="icon">⌨</div>
-                <textarea rows="2">Tiuj ĉi krakenoj soifigas min!</textarea>
-                <div class="output" dir="ltr"></div>
-            </div>
-
-            <p>Now yes, Phoenician and Carian are cool parents. They give me what I need, they don't bug me much, but what if I just left home and went my own way?</p>
-
-            <p>Take 3.</p>
-
-            <p>This time I wanted to cherry-pick the letters myself based entirely on their forms, aiming to build up a complete set that look good together. Like a 28 member boyband.</p>
-
-            <p>Taking inspiration from basically everything (thanks, Unicode), the third incarnation of what started as an innocent attempt to clean myself has now become the following:</p>
-
-            <div class="example">
-                <table>
-                    <tr>
-                        <td>a</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>ĉ</td>
-                        <td>d</td>
-                        <td>e</td>
-                        <td>f</td>
-                        <td>g</td>
-                        <td>ĝ</td>
-                        <td>h</td>
-                        <td>ĥ</td>
-                        <td>i</td>
-                        <td>j</td>
-                        <td>ĵ</td>
-                    </tr>
-
-                    <tr>
-                        <td>ა</td>
-                        <td>ᯖ</td>
-                        <td>c</td>
-                        <td>ċ</td>
-                        <td>မ</td>
-                        <td>ᨧ</td>
-                        <td>σ</td>
-                        <td>г</td>
-                        <td>ґ</td>
-                        <td>h</td>
-                        <td>ħ</td>
-                        <td>ⲓ</td>
-                        <td>𑀯</td>
-                        <td>𑀙</td>
-                    </tr>
-                    
-                    <tr class="second-row">
-                        <td>k</td>
-                        <td>l</td>
-                        <td>m</td>
-                        <td>n</td>
-                        <td>o</td>
-                        <td>p</td>
-                        <td>r</td>
-                        <td>s</td>
-                        <td>ŝ</td>
-                        <td>t</td>
-                        <td>u</td>
-                        <td>ŭ</td>
-                        <td>v</td>
-                        <td>z</td>
-                    </tr>
-
-                    <tr>
-                        <td>ꮵ</td>
-                        <td>𑣜</td>
-                        <td>𐳆</td>
-                        <td>𐳝</td>
-                        <td>ɵ</td>
-                        <td>𐐸</td>
-                        <td>ɾ</td>
-                        <td>ᨣ</td>
-                        <td>ᩆ</td>
-                        <td>𐳇</td>
-                        <td>ᦢ</td>
-                        <td>ᨾ</td>
-                        <td>ꮑ</td>
-                        <td>ᰣ</td>
-                    </tr>
-                </table>
-            </div>
-
-            <p>While I wanted the letters to have unique forms so that the overall alphabet felt unique, I also made sure related letters such as "c" + "ĉ", "g" + "ĝ", "j" + "ĵ", "s" + "ŝ" and "u" and "ŭ" felt like peas in a pod.</p>
-
-            <p>Let's see how this one looks:</p>
-
-            <div class="example left-border">
-                <p>Hello, I'm called Martin</p>
-                <p>Saluton, mi nomiĝas Martin</p>
-                <p dir="ltr">ᨣა𑣜ᦢ𐳇ɵ𐳝,‎&nbsp;&nbsp;𐳆ⲓ&nbsp;&nbsp;𐳝ɵ𐳆ⲓґაᨣ&nbsp;&nbsp;𐳆აɾ𐳇ⲓ𐳝</p>
-            </div>
-
-            <div class="example left-border">
-                <p>Echo change every Thursday</p>
-                <p>Eĥoŝanĝo ĉiuĵaŭde</p>
-                <p dir="ltr">ᨧħɵᩆა𐳝ґɵ&nbsp;&nbsp;ċⲓᦢ𑀙აᨾမэᨧ</p>
-            </div>
-
-            <p>And it'd be unfair of me not to throw in a few extra frog's toes. So please, go wild:</p>
-
-            <div class="input custom">
-                <div class="icon">⌨</div>
-                <textarea rows="2">Tiuj ĉi krakenoj soifigas min!</textarea>
-                <div class="output" dir="ltr"></div>
-            </div>
-
-            <p>You'd think this would be enough.</p>
-
-            <p>You'd think I would've had something more important to do, a friend to meet, just anything that might've led to the conclusion that this is enough. "You've explored your intellectual curiosity Martin! You've honoured the sanctity of the shower thought! Go to bed. Sleep. Sleep is good."</p>
-
-            <p>As you can discern either from my tone of voice or the size of the scroll bar, this in fact did not happen.</p>
-
-            <p>The great thing about silly ideas is that they breed. So, full steam ahead.</p>
-
-            <p>Next up: adjabs.</p>
-
-            <p>An adjab, or "consonantary" if you wish to sound posh my good fellow, is an early writing system used by people so lazy that they didn't even bother to include the vowels.</p>
-
-            <p>Several are still used today, such as Arabic and Hebrew. While reading these languages, or any adjab, your mouth fulfils its oratorial destiny only by way of your brain filling in the blank vowels for you as you read.</p>
-
-            <p>The nice property of an adjab is that, without vowels, the written language feels shorter and more compact. Well, it literally is shorter, and I mean literally in the literal sense of the word.</p>
-
-            <p>Esperanto as an adjab is just Esperanto with no vowels:</p>
-
-            <div class="example">
-                <table>
-                    <tr>
-                        <td class="missing">-</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>ĉ</td>
-                        <td>d</td>
-                        <td class="missing">-</td>
-                        <td>f</td>
-                        <td>g</td>
-                        <td>ĝ</td>
-                        <td>h</td>
-                        <td>ĥ</td>
-                        <td class="missing">-</td>
-                        <td>j</td>
-                        <td>ĵ</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>k</td>
-                        <td>l</td>
-                        <td>m</td>
-                        <td>n</td>
-                        <td class="missing">-</td>
-                        <td>p</td>
-                        <td>r</td>
-                        <td>s</td>
-                        <td>ŝ</td>
-                        <td>t</td>
-                        <td class="missing">-</td>
-                        <td>ŭ</td>
-                        <td>v</td>
-                        <td>z</td>
-                    </tr>
-                </table>
-            </div>
-
-            <p>That table was completely unnecessary. On the other hand, if you were avoiding asking what vowels were, well now you know for sure.</p>
-
-            <p>We then end up with something like:</p>
-
-            <div class="example left-border">
-                <p>Hello, I'm called Martin</p>
-                <p>Saluton, mi nomiĝas Martin</p>
-                <p>Sltn, m nmĝs Mrtn</p>
-            </div>
-
-            <div class="example left-border">
-                <p>Echo change every Thursday</p>
-                <p>Eĥoŝanĝo ĉiuĵaŭde</p>
-                <p>ĥŝnĝ ĉĵŭd</p>
-            </div>
-
-            <div class="example left-border">
-                <p>I already ate so I am neither eating nor will eat</p>
-                <p>Mi jam manĝis do mi nek manĝas nek manĝos</p>
-                <p>M jm mnĝs d m nk mnĝs nk mnĝs</p>
-            </div>
-
-            <p>Clearly this is a non-starter. If we lose the vowel we have no idea whether verbs ending –s are referring to past (–is), present (–as), future (–os) or conditional (–us). It'd be too much work for the reader to figure this out while reading.</p>
-
-            <p>On the other hand, we do read using patterns. If you take out several letters of a long sentence in most languages, people can usually still read the sentence perfectly well. Humans are really good at error correction. Well, other people's errors – I don't make errors personally.</p>
-
-            <p>Shifting gears, what if we dropped the middle of words, but only when it didn't leave some difficult ambiguity to resolve.</p>
-
-            <p>What would that probable atrocity look like?</p>
-
-            <div class="example left-border">
-                <p>Hello, I'm called Martin</p>
-                <p>Saluton, mi nomiĝas Martin</p>
-                <p>Saon, mi noas Martin</p>
-            </div>
-
-            <div class="example left-border">
-                <p>Echo change every Thursday</p>
-                <p>Eĥoŝanĝo ĉiuĵaŭde</p>
-                <p>Eĥĝo ĉide</p>
-            </div>
-
-            <div class="example left-border">
-                <p>I already ate so I am neither eating nor will eat</p>
-                <p>Mi jam manĝis do mi nek manĝas nek manĝos</p>
-                <p>Mi jm mais do mi nk maas nk maos</p>
-            </div>
-
-            <p>The echo change ritual has been completely destroyed, but it kind of works with the other examples. However, there's stil a huge burden on the reader to figure out what's missing while they're reading.</p>
-
-            <p>I like it about as much as I like pineapple on pizza.</p>
-
-            <p>Enter diacritics.</p>
-
-            <p>Diacritics are the little lines, dots and squiggles written above or below letters. They're designed to compliment a letter and give us more information about it.</p>
-
-            <p>Esperanto indicates the grammatical function of many kinds of words in the way the word ends. In theory these could be replaced with some kind of accent to compress the written language and produce a new script at the same time.</p>
-
-            <p>After a few rounds of trying I came up with the following:</p>
-
-            <p>For verbs:</p>
-
-            <div class="example">
-                <table>
-                    <tr>
-                        <td></td>
-                        <td>Example</td>
-                        <td>Unicode</td>
-                        <td>Position</td>
-                    </tr>
-                    <tr>
-                        <td>–i</td>
-                        <td class="dia">X̩</td>
-                        <td>0329</td>
-                        <td>S1</td>
-                    </tr>
-                    <tr>
-                        <td>–is</td>
-                        <td class="dia">X̖</td>
-                        <td>0316</td>
-                        <td>S1</td>
-                    </tr>
-                    <tr>
-                        <td>–as</td>
-                        <td class="dia">X̱</td>
-                        <td>0331</td>
-                        <td>S1</td>
-                    </tr>
-                    <tr>
-                        <td>–os</td>
-                        <td class="dia">X̗</td>
-                        <td>0317</td>
-                        <td>S1</td>
-                    </tr>
-                    <tr>
-                        <td>–u</td>
-                        <td class="dia">X̣</td>
-                        <td>0323</td>
-                        <td>S1</td>
-                    </tr>
-                    <tr>
-                        <td>–us</td>
-                        <td class="dia">X̰</td>
-                        <td>0330</td>
-                        <td>S1</td>
-                    </tr>
-                </table>
-            </div>
-
-            <p>And for everything else:</p>
-            
-            <div class="example">
-                <table>
-                    <tr>
-                        <td></td>
-                        <td>Diacritic</td>
-                        <td>Unicode</td>
-                        <td>Position</td>
-                    </tr>
-                    <tr>
-                        <td>Adverbs</td>
-                        <td class="dia">X̱</td>
-                        <td>0331</td>
-                        <td>E1</td>
-                    </tr>
-                    <tr>
-                        <td>Nouns</td>
-                        <td class="dia">X̥</td>
-                        <td>0325</td>
-                        <td>S1</td>
-                    </tr>
-                    <tr>
-                        <td>Adjectives</td>
-                        <td class="dia">X͚</td>
-                        <td>035A</td>
-                        <td>S1</td>
-                    </tr>
-                    <tr>
-                        <td>Singular</td>
-                        <td class="dia">X̩</td>
-                        <td>0329</td>
-                        <td>S2</td>
-                    </tr>
-                    <tr>
-                        <td>Plural</td>
-                        <td class="dia">X͈</td>
-                        <td>0348</td>
-                        <td>S2</td>
-                    </tr>
-                    <tr>
-                        <td>Object</td>
-                        <td class="dia">X̣</td>
-                        <td>0348</td>
-                        <td>S3 or E3</td>
-                    </tr>
-                </table>
-            </div>
-
-            <p>Now I know this looks complicated. I was just spiralling at this point. Cut me some slack.</p>
-
-            <p>I selected 6 diacritics for the 6 different verb endings. I tried to choose marks that had some sort of logic. Present tense is a single horizontal line to indicate moving forward in time, whereas future tense is a mark that moves up and to the right.</p>
-
-            <p>My use of "S" and "E" (in the position column) indicates whether the diacritic should be placed at the start or end of the word. The numbers indicate how the diacritic should be stacked when several diacritics are used together. It's possible to have a plural, accusative adjective, y'know?</p>
-
-            <p>Focusing on verbs first, let's take a look at some examples of this system:</p>
-
-            <div class="example left-border dia">
-                <p>I would like to have</p>
-                <p>Mi ŝatus havi</p>
-                <p>Mi ŝ̰at h̩av</p>
-            </div>
-
-            <div class="example left-border dia">
-                <p>I will arrive early</p>
-                <p>Mi alvenos frue</p>
-                <p>Mi a̗lven frue</p>
-            </div>
-
-            <div class="example left-border dia">
-                <p>I want you to stay</p>
-                <p>Mi volas ke vi restu</p>
-                <p>Mi v̱ol ke vi ṛest</p>
-            </div>
-
-            <p>Listen, I don't hate it.</p>
-
-            <p>What about adverbs?</p>
-
-            <div class="example left-border dia">
-                <p>Beautifully</p>
-                <p>Bele</p>
-                <p>Beḻ</p>
-            </div>
-
-            <div class="example left-border dia">
-                <p>Wondefully</p>
-                <p>Mirinde</p>
-                <p>Mirinḏ</p>
-            </div>
-
-            <div class="example left-border dia">
-                <p>To the north</p>
-                <p>Norden</p>
-                <p>Norḏ̣</p>
-            </div>
-
-            <p>Notice how for "norden" (to the north), I've stacked the adverb ending with the object ending. How about when we stack more diacritics?</p>
-
-            <div class="example left-border dia">
-                <p>Box</p>
-                <p>Skatolo</p>
-                <p>S̥̩katol</p>
-            </div>
-
-            <div class="example left-border dia">
-                <p>Big boxes</p>
-                <p>Grandaj skatoloj</p>
-                <p>G͚͈rand s̥͈katol</p>
-            </div>
-
-            <div class="example left-border dia">
-                <p>Big boxes (object)</p>
-                <p>Grandajn skatolojn</p>
-                <p class="vert-space">G͚͈̣rand s̥͈̣katol</p>
-            </div>
-
-            <div class="example left-border dia">
-                <p>I would really like to have beautiful sweet cookies to eat</p>
-                <p>Mi tre ŝatus havi belajn dolĉajn kuketojn por manĝi</p>
-                <p class="vert-space">Mi tṟ ŝ̰at h̩av b͚͈̣el d͚͈̣olĉ k̥͈̣uket por m̩anĝ</p>
-            </div>
-
-            <p>There's a reduction in the horizontal length of sentences, but at the cost of some vertical space. The primary issue I have with this system is the fact I'm seeing ice-cream cones everywhere and it's making me hungry again.</p>
-
-            <p>It looks cool though, and it's nice that no information is lost in this encoding.</p>
-
-            <div class="input dia-g">
-                <div class="icon">⌨</div>
-                <textarea rows="2">Tiuj ĉi tre grandaj salitaj krakenoj soifigas min!</textarea>
-                <div class="output" dir="ltr"></div>
-            </div>
-
-            <p>It's almost deceptive the fact that Esperanto encodes so much grammatical information in the way words start and end. However, it's also true that most of those encodings are made up of vowels. Adjectives end with "e", verbs with "i", "o", "a" etc., nouns with "o".</p>
-
-            <p>Maybe there's some more life in the old adjab + diacritics path, but simply using the diacritics to mark the missing vowels. Then we'd have something similarly compressed horizontally, but much easier to use.</p>
-
-            <p>What if we used the missing vowels themselves as superscript diacritics?</p>
-
-            <div class="example">
-                <table>
-                    <tr>
-                        <td>Vowel</td>
-                        <td>a</td>
-                        <td>e</td>
-                        <td>i</td>
-                        <td>o</td>
-                        <td>u</td>
-                    </tr>
-                    <tr>
-                        <td>Diacritic</td>
-                        <td class="dia">Xͣ</td>
-                        <td class="dia">Xͤ</td>
-                        <td class="dia">Xͥ</td>
-                        <td class="dia">Xͦ</td>
-                        <td class="dia">Xͧ</td>
-                    </tr>
-                    <tr>
-                        <td>Unicode</td>
-                        <td>0363</td>
-                        <td>0364</td>
-                        <td>0365</td>
-                        <td>0366</td>
-                        <td>0367</td>
-                    </tr>
-                </table>
-            </div>
-          
-            <p>Let's see how this looks:</p>
-
-            <div class="example left-border dia">
-                <p>I would really like to have beautiful sweet cookies to eat</p>
-                <p>Mi tre ŝatus havi belajn dolĉajn kuketojn por manĝi</p>
-                <p>mͥ trͤ ŝͣtͧs hͣvͥ bͤlͣjn dͦlĉͣjn kͧkͤtͦjn pͦr mͣnĝͥ</p>
-            </div>
-
-            <p>Give me a second... I'm just looking through my thesaurus for a stronger version of "outrageous".</p>
-
-            <p>If there was ever a way to imagine what a sentence would look like drunk out its skull, I think this might be it. I think we can agree that nobody wants to read Esperanto like this.</p>
-
-            <p>But what if we used subscript diacritics instead, and ideally more subtle ones. Something reminiscent of Hebrew's "niqqud" system.</p>
-
-            <div class="example">
-                <table>
-                    <tr>
-                        <td>Vowel</td>
-                        <td>a</td>
-                        <td>e</td>
-                        <td>i</td>
-                        <td>o</td>
-                        <td>u</td>
-                    </tr>
-                    <tr>
-                        <td>Diacritic</td>
-                        <td class="dia">X̠</td>
-                        <td class="dia">X̤</td>
-                        <td class="dia">X̣</td>
-                        <td class="dia">X̥</td>
-                        <td class="dia">X͈</td>
-                    </tr>
-                    <tr>
-                        <td>Unicode</td>
-                        <td>0320</td>
-                        <td>0324</td>
-                        <td>0323</td>
-                        <td>0325</td>
-                        <td>0348</td>
-                    </tr>
-                </table>
-            </div>
-
-            <p>Let's see how this looks with a sentence that carries nothing but truth for me right now.</p>
-
-            <div class="example left-border dia">
-                <p>I would really like to have beautiful sweet cookies to eat</p>
-                <p>Mi tre ŝatus havi belajn dolĉajn kuketojn por manĝi</p>
-                <p>ṃ tr̤ ŝ̠t͈s h̠ṿ b̤l̠jn d̥lĉ̠jn k͈k̤t̥jn p̥r m̠nĝ̣</p>
-            </div>
-
-            <p>This looks more elegant with the vowel markings under the letters, and especially due to using non-letter diacritics.</p>
-
-            <p>I quite like this system. In fact, in the course of this shower-thought-turned-art-project I have almost come to be able to read it naturally.</p>
-
-            <p>Try it out with some of your own examples:</p>
-
-            <div class="input dia-v">
-                <div class="icon">⌨</div>
-                <textarea rows="2">Tiuj ĉi tre grandaj salitaj krakenoj soifigas min!</textarea>
-                <div class="output" dir="ltr"></div>
-            </div>
-
-            <p>Shifting gears, I wanted to refocus on how a new writing system could simply be conventions around what not to write, rather than adding new letters or diacritics.</p>
-
-            <p>Initially I considered that Esperanto has six diphthongs: <b>aj</b>, <b>aŭ</b>, <b>ej</b>, <b>eŭ</b>, <b>oj</b>, <b>uj</b>. If they could be substituted for single-letter alternatives, perhaps that creates a nicely reduced written language.</p>
-
-            <p>But how often do they actually occur in modern Esperanto? Or an even better question: which are the most commonly occurring letter patterns?</p>
-
-            <p>As with any good question, the only way to answer it is with even more questions. The first of which was "where do I find lots of well-written Esperanto?"</p>
-
-            <p>I'm a big fan of the magazine Kontakto, which is published 6 times per year. It's a great example of how you can learn so many interesting things about the world via the Esperanto language. It almost always contains high-quality articles and discussions.</p>
-
-            <p>So, "Kontakto" was the answer, and "How?" the consequent question.</p>
-
-            <p>Conveniently, the UEA's website contains a free archive of every Kontakto edition for every year prior to the current one.</p>
-
-            <div class="image">
-                <img src="/esperanto-writing-systems/img/uea-pdf.png" />
-            </div>
-
-            <p>Inconveniently, when you request the link, you're greeted with an anti-bot challenge:</p>
-
-            <div class="image">
-                <img src="/esperanto-writing-systems/img/uea-code.png" />
-            </div>
-
-            <p>This asks: "Please type in the number nine as a digit." A random digit is chosen each time, naturally.</p>
-
-            <p>Everything would be great if the request to UEA's server didn't include both the answer and the question. Small pro-tip for ya, UEA: don't do that.</p>
-
-            <p>Why? Well because I can just supply my own question and answer each time and very easily bypass your anti-bot protection. And that's exactly what I did, naturally.</p>
-
+          </li>
+
+          <li>
+            <p>
+              John Wesley Starling created the <a href="https://esperanto.us/sxava_alfabeto">Ŝava alphabet</a> to write Esperanto with a custom alphabet that also encodes gramatical endings and common
+              words as specific ligatures.
+            </p>
+            <br />
             <div class="image w-80">
-                <img src="/esperanto-writing-systems/img/curl.png" />
+              <img src="/esperanto-writing-systems/img/sxava.png" />
             </div>
+          </li>
 
-            <p>A quick curl command later and I had 5 years of Kontakto from 2022 to 2018.</p>
-
-            <p>Next I wrote code to parse those documents, combine all the text and analyse how the language is used.</p>
-
+          <li>
+            <p>
+              Esperantists in the soviet era didn't have typewriters with Latin letters, so they wrote Esperanto using the
+              <a href="https://omniglot.com/conscripts/esperantocyrillic.htm">Cyrillic alphabet</a>.
+            </p>
+            <br />
             <div class="image w-80">
-                <img src="/esperanto-writing-systems/img/code.png" />
+              <img src="/esperanto-writing-systems/img/cyrillic.png" />
             </div>
+          </li>
 
-            <p>The dataset contained <b>320,714</b> words, which after processing constituted <b>35,743</b> unique Esperanto words.</p>
-
-            <p>"Rabbit hole" doesn't even cover it at this point.</p>
-
-            <p>Let's see what the most common words were in my data:</p>
-
+          <li>
+            <p>
+              The 2017 Japanese-language visual novel <a href="https://en.wikipedia.org/wiki/The_Expression_Amrilato">The Expression Amrilato</a> and its 2021 sequel Distant Memoraĵo feature a
+              language named Juliamo which is actually Esperanto in a modified Latin alphabet.
+            </p>
+            <br />
             <div class="image w-80">
-                <img src="/esperanto-writing-systems/img/top-20.png" />
+              <img src="/esperanto-writing-systems/img/juliama.png" />
             </div>
-
-            <p>The combination of la, de, kaj, en, mi, por, ne, al make up around 20% of the total words.</p>
-
-            <p>Of course these are full words and diphthongs occur within words. Next I analysed the most common two letter combinations within the data:</p>
-
-            <div class="image w-80">
-                <img src="/esperanto-writing-systems/img/2-letter.png" />
-            </div>
-
-            <p>About as unsurprisingly as a the fact you no longer fit into your old jeans, the diphthongs <b>oj</b> and <b>aj</b> make an appearance, as well as <b>on</b>, <b>an</b>.</p>
-
-            <p>For the non-Esperanto speakers, that by some impressive combination of willpower and stubbornness made it this far, <b>oj</b>, <b>aj</b>, <b>an</b>, <b>on</b> are very common in Esperanto because it's how all adjectives and nouns end.</p>
-
-            <p>So what about three letter combinations?</p>
-
-            <div class="image w-80">
-                <img src="/esperanto-writing-systems/img/3-letter.png" />
-            </div>
-
-            <p>We're down at 0.5% frequency for the most common 3-letter combination. The combinations <b>ant</b>, <b>ojn</b>, <b>toj</b>, <b>ita</b>, <b>ist</b> aren't too surprising as they occur in many Esperanto words.</p>
-
-            <p>The <b>kon</b> may be a result of context: certain words are used more often in a magazine, such as <b>kontrol-</b> (check), <b>enkonduk-</b> (introduce), <b>rakont-</b> (tell), <b>kongres-</b> (congress), etc. The word "Kontako" itself was excluded from the data.</p>
-
-            <p>The most common full words occur more often than the most common two-letter or three-letter intra-word combinations.</p>
-
-            <p>The next idea was to replace the most common full words with their single-letter equivalents. So <b>l</b>, <b>d</b>, <b>k</b>, <b>e</b>, <b>m</b>, <b>p</b>, <b>n</b>, <b>a</b> standing in for <b>la</b>, <b>de</b>, k<b>aj</b>, <b>en</b>, <b>mi</b>, p<b>or</b>, <b>ne</b>, <b>al</b>.</p>
-
-            <p>Some Esperantists already do this by using <b>k</b> for <b>kaj</b> for example.</p>
-
-            <p>Let's see how that looks:</p>
-
-            <div class="example left-border dia">
-                <p>My friend goes to school in the morning to learn and I can't go with her</p>
-                <p>Amikino de mi iras al la lernejo en la mateno por lerni kaj mi ne povas iri kun ŝi</p>
-                <p>(82 characters)</p>
-            </div>
-            
-            <div class="example left-border dia">
-                <p>My friend goes to school in the morning to learn and I can't go with her</p>
-                <p>Amikino d m iras a l lernejo e l mateno p lerni k m n povas iri kun ŝi</p>
-                <p>(70 characters)</p>
-            </div>
-            
-            <p>Another route might be to find a convention around vowel usage that allows a vowel to be omitted. A naïve approach could be to assume a missing vowel is always an "i", but which is actually the most commonly occurring vowel?</p>
-
-            <div class="image w-80">
-                <img src="/esperanto-writing-systems/img/vowels.png" />
-            </div>
-
-            <p>OK, so let's go with "a":</p>
-
-            <div class="example left-border dia">
-                <p>mikino de mi irs l l lernejo en la mteno por lerni kj mi ne povs iri kun ŝi</p>
-                <p>(75 characters)</p>
-            </div>
-
-            <p>But now we're back to not knowing which conjugation was intended by "irs" and "povs".</p>
-
-            <p>The most common vowel in my data set isn't necessarily helpful in another context. Perhaps we could choose which vowel to drop based on the context, but only that vowel can then be dropped from other words.</p>
-            
-            <p>Combined with the single-letter replacements for the top 8 words we end up with:</p>
-
-            <div class="example left-border dia">
-                <p>Amkno d m ras a l lernejo e l mateno p lern k m n povas r kun ŝ</p>
-                <p>(63 characters)</p>
-            </div>
-
-            <p>This system sort of works.</p>
-
-            <p>Once I see "ras" I can deduce that the vowel dropped must be an "i". I then mentally add that back in as I read the rest of the sentence. I know the "l" is "la" not "li" (he) because "l" is one of the top 8 words now being treated as a single letter replacement. Similarly "n" must be "ne" as apposed to "ni" (we).</p>
-
-            <p>However, there's a lot of cognitive overhead for a 25% character reduction, especially for the reader, who now has to work out which vowel was killed in the dining room with the candlestick.</p>
-
-            <p>Of the ideas I've explored here, I quite like the subscript diacritical adjab, and not only due to its catchy name. It has the nice properties of being shorter and looking more unique without overdoing it.</p>
-
-            <div class="example left-border dia">
-                <p>Esperanto is a cool language and you should learn it</p>
-                <p>Esperanto estas mojosa lingvo kaj vi devus lerni ĝin</p>
-                <p class="vert-space">Esp̤r̠nt̥ est̠s m̥j̥s̠ ḷngv̥ k̠j ṿ d̤v͈s l̤rṇ ĝ̣n</p>
-            </div>
-
-            <p>The downside would be writing it without a tool like the ones I've created in this article.</p>
-            
-            <p>In the interest of this article not accidentally becoming a PhD, my <strike>little</strike> journey into creative alternative ways to write Esperanto ends here.</p>
-
-            <p>But before I leave you, I'm pleased to report that I'm not alone in my public demonstrations that I have far too much free time.</p>
-
-            <ul>
-                <li>Ernest L. Jackson has <a href="https://greggshorthand.github.io/espgrg01.html">adapted</a> the Gregg shorthand system for writing Esperanto.</li>
-                <li>
-                    Esperanto already has a braille alphabet.
-                    
-                    <div class="example">
-                        <table>
-                            <tr>
-                                <td>a</td>
-                                <td>b</td>
-                                <td>c</td>
-                                <td>ĉ</td>
-                                <td>d</td>
-                                <td>e</td>
-                                <td>f</td>
-                                <td>g</td>
-                                <td>ĝ</td>
-                                <td>h</td>
-                                <td>ĥ</td>
-                                <td>i</td>
-                                <td>j</td>
-                                <td>ĵ</td>
-                            </tr>
-
-                            <tr>
-                                <td>⠁</td>
-                                <td>⠃</td>
-                                <td>⠉</td>
-                                <td>⠩</td>
-                                <td>⠙</td>
-                                <td>⠑</td>
-                                <td>⠋</td>
-                                <td>⠛</td>
-                                <td>⠻</td>
-                                <td>⠓</td>
-                                <td>⠳</td>
-                                <td>⠊</td>
-                                <td>⠚</td>
-                                <td>⠺</td>
-                            </tr>
-                            
-                            <tr class="second-row">
-                                <td>k</td>
-                                <td>l</td>
-                                <td>m</td>
-                                <td>n</td>
-                                <td>o</td>
-                                <td>p</td>
-                                <td>r</td>
-                                <td>s</td>
-                                <td>ŝ</td>
-                                <td>t</td>
-                                <td>u</td>
-                                <td>ŭ</td>
-                                <td>v</td>
-                                <td>z</td>
-                            </tr>
-        
-                            <tr>
-                                <td>⠅</td>
-                                <td>⠇</td>
-                                <td>⠍</td>
-                                <td>⠝</td>
-                                <td>⠕</td>
-                                <td>⠏</td>
-                                <td>⠗</td>
-                                <td>⠎</td>
-                                <td>⠮</td>
-                                <td>⠞</td>
-                                <td>⠥</td>
-                                <td>⠬</td>
-                                <td>⠧</td>
-                                <td>⠵</td>
-                            </tr>
-                        </table>
-                    </div>
-                </li>
-
-                <li>
-                    There are additions to Morse code to capture the Esperanto characters:
-
-                    <div class="example">
-                        <table class="left">
-                            <tr>
-                                <td>ĉ</td>
-                                <td class="morse">▄▄▄ ▄ ▄▄▄ ▄ ▄</td>
-                            </tr>
-                            <tr>
-                                <td>ĝ</td>
-                                <td class="morse">▄▄▄ ▄▄▄ ▄ ▄▄▄ ▄</td>
-                            </tr>
-                            <tr>
-                                <td>ĥ</td>
-                                <td class="morse">▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄</td>
-                            </tr>
-                            <tr>
-                                <td>ĵ</td>
-                                <td class="morse">▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄</td>
-                            </tr>
-                            <tr>
-                                <td>ŝ</td>
-                                <td class="morse">▄ ▄ ▄ ▄▄▄ ▄ </td>
-                            </tr>
-                            <tr>
-                                <td>ŭ</td>
-                                <td class="morse">▄ ▄ ▄▄▄ ▄▄▄</td>
-                            </tr>
-                        </table>
-                    </div>
-                </li>
-
-                <li>
-                    <p>John Wesley Starling created the <a href="https://esperanto.us/sxava_alfabeto">Ŝava alphabet</a> to write Esperanto with a custom alphabet that also encodes gramatical endings and common words as specific ligatures.</p>
-                    <br/>
-                    <div class="image w-80">
-                        <img src="/esperanto-writing-systems/img/sxava.png" />
-                    </div>
-                </li>
-
-                <li>
-                    <p>Esperantists in the soviet era didn't have typewriters with Latin letters, so they wrote Esperanto using the <a href="https://omniglot.com/conscripts/esperantocyrillic.htm">Cyrillic alphabet</a>.</p>
-                    <br/>
-                    <div class="image w-80">
-                        <img src="/esperanto-writing-systems/img/cyrillic.png" />
-                    </div>
-                </li>
-
-                <li>
-                    <p>The 2017 Japanese-language visual novel <a href="https://en.wikipedia.org/wiki/The_Expression_Amrilato">The Expression Amrilato</a> and its 2021 sequel Distant Memoraĵo feature a language named Juliamo which is actually Esperanto in a modified Latin alphabet.</p>
-                    <br/>
-                    <div class="image w-80">
-                        <img src="/esperanto-writing-systems/img/juliama.png" />
-                    </div>
-                </li>
-            </ul>
-
-        </article>
+          </li>
+        </ul>
+      </article>
     </div>
-</body>
-
+  </body>
 </html>
