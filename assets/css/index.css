@@ -645,6 +645,7 @@ p.esperanto-text.closer {
 
 .past-now-entries .entries {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 15px;
   gap: 15px;
 }
@@ -655,6 +656,7 @@ p.esperanto-text.closer {
   text-transform: uppercase;
   font-size: 15px;
   padding: 4px 7px;
+  white-space: nowrap;
 }
 
 .dark .past-now-entries .entries a {
