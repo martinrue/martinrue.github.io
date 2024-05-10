@@ -1,462 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Feliĉan Zamenhofan Tagon</title>
-    <meta name="description" content="Hey, it's Zamenhofa Tago, otherwise known as Esperanto Book Day. Read on to learn more about the international language and why it's so cool.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hey, it's Zamenhofa Tago, otherwise known as Esperanto Book Day. Read on to learn more about the international language and why it's so cool." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="shortcut icon" href="/assets/images/favicon/favicon-32x32.png" />
-    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS Feed">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS Feed" />
 
-    <link rel="preload" href="/assets/fonts/quicksand-light.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-regular.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-medium.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-semibold.ttf" as="font" crossorigin>
-    <link rel="preload" href="/assets/fonts/quicksand-bold.ttf" as="font" crossorigin>
+    <link rel="preload" href="/assets/fonts/quicksand-light.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-regular.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-medium.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-semibold.ttf" as="font" crossorigin />
+    <link rel="preload" href="/assets/fonts/quicksand-bold.ttf" as="font" crossorigin />
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
 
-    <meta property="og:url" content="https://martinrue.com/zamenhofa-tago-18/">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Feliĉan Zamenhofan Tagon">
-    <meta property="og:description" content="Hey, it's Zamenhofa Tago, otherwise known as Esperanto Book Day. Read on to learn more about the international language and why it's so cool.">
-    <meta property="og:image" content="https://martinrue.com/assets/images/favicon/martin.png">
+    <meta property="og:url" content="https://martinrue.com/zamenhofa-tago-18/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Feliĉan Zamenhofan Tagon" />
+    <meta property="og:description" content="Hey, it's Zamenhofa Tago, otherwise known as Esperanto Book Day. Read on to learn more about the international language and why it's so cool." />
+    <meta property="og:image" content="https://martinrue.com/assets/images/favicon/martin.png" />
 
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@martinrue">
-    <meta name="twitter:creator" content="@martinrue">
-</head>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@martinrue" />
+    <meta name="twitter:creator" content="@martinrue" />
+  </head>
 
-<body>
+  <body>
     <script src="/assets/js/lib.js"></script>
     <script src="/assets/js/dark-mode.js"></script>
 
     <div class="container">
-        <header>
-            <section class="bio">
-                <a href="/">
-                    <h1>Martin Rue</h1>
-                </a>
-
-                <h2>Making things. Writing code. Languages.</h2>
-            </section>
-
-            <!-- START:LINKS -->
-
-            <section class="links">
-                <a href="https://youtube.com/@martinrue" aria-label="YouTube">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 23 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
-                        <path class="yt" d="M7.84499 4.77535C10.4365 4.40822 13.5635 4.40822 16.155 4.77535C18.5096 5.10891 20.3341 6.76142 20.6831 8.54141C21.1056 10.6962 21.1056 13.3038 20.6831 15.4586C20.3341 17.2386 18.5096 18.8911 16.1551 19.2247C13.5635 19.5918 10.4365 19.5918 7.84499 19.2247C5.49049 18.8911 3.666 17.2386 3.31691 15.4586C2.89434 13.3038 2.89438 10.6962 3.31692 8.54142C3.66596 6.76141 5.49048 5.10891 7.84499 4.77535ZM16.4356 2.79512C13.658 2.40163 10.3421 2.40163 7.56446 2.79512C4.54986 3.22219 1.90016 5.37282 1.35429 8.15657C0.881927 10.5655 0.881875 13.4345 1.3543 15.8434C1.90021 18.6272 4.54984 20.7778 7.56446 21.2049C10.3421 21.5984 13.658 21.5984 16.4356 21.2049C19.4502 20.7778 22.0999 18.6272 22.6458 15.8434C23.1181 13.4345 23.1181 10.5655 22.6458 8.15658C22.0999 5.37281 19.4502 3.22219 16.4356 2.79512ZM10.5547 7.16795C10.2478 6.96338 9.8533 6.94431 9.52814 7.11833C9.20299 7.29234 9 7.6312 9 8V16C9 16.3688 9.20299 16.7077 9.52814 16.8817C9.8533 17.0557 10.2478 17.0366 10.5547 16.8321L16.5547 12.8321C16.8329 12.6466 17 12.3344 17 12C17 11.6656 16.8329 11.3534 16.5547 11.1679L10.5547 7.16795ZM14.1972 12L11 14.1315V9.86852L14.1972 12Z"></path>
-                    </svg>
-                </a>
-
-                <a href="https://instagram.com/martinrue" aria-label="Instagram">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>
-                </a>
-
-                <a href="https://twitter.com/martinrue" aria-label="Twitter">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                        </path>
-                    </svg>
-                </a>
-
-                <a href="https://mstdn.social/@martinrue" rel="me" aria-label="Mastodon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
-                        <path class="masto" d="M3.018,12.008 C2.986,10.748 3.006,9.56 3.006,8.566 C3.006,4.228 5.849,2.956 5.849,2.956 C7.282,2.298 9.741,2.021 12.299,2 L12.361,2 C14.918,2.02 17.379,2.298 18.812,2.956 C18.812,2.956 21.655,4.228 21.655,8.566 C21.655,8.566 21.691,11.767 21.259,13.99 C20.984,15.4 18.802,16.945 16.296,17.244 C14.99,17.4 13.703,17.544 12.331,17.48 C10.088,17.377 8.317,16.945 8.317,16.945 C8.317,17.163 8.331,17.371 8.357,17.565 C8.441,18.198 8.656,18.66 8.962,19 C9.728,19.85 11.068,19.93 12.357,19.974 C14.177,20.037 15.797,19.525 15.797,19.525 L15.873,21.171 C15.873,21.171 14.599,21.855 12.331,21.981 C11.081,22.049 9.528,21.949 7.719,21.471 C6.187,21.065 5.151,20.181 4.449,19 C3.356,17.157 3.081,14.594 3.018,12.008 Z M6.318,16.945 L6.318,14.397 L8.792,15.002 C9.22358374,15.0976669 9.6581434,15.1793761 10.095,15.247 C10.848,15.363 11.633,15.447 12.423,15.482 C13.442,15.529 14.324,15.465 16.059,15.258 C17.722,15.059 19.207,14.062 19.295,13.608 C19.377,13.186 19.446,12.686 19.501,12.126 C19.5717075,11.3794052 19.6173998,10.6306525 19.638,9.881 C19.653,9.371 19.658,8.936 19.655,8.625 L19.655,8.566 C19.655,7.136 19.286,6.128 18.692,5.408 C18.5226287,5.20011999 18.3262218,5.01582031 18.108,4.86 C18.018,4.796 17.973,4.771 17.978,4.773 C16.965,4.308 14.885,4.021 12.361,4 L12.315,4 C9.775,4.02 7.695,4.308 6.665,4.782 C6.688,4.772 6.644,4.796 6.553,4.86 C6.33477821,5.01582031 6.13837125,5.20011999 5.969,5.408 C5.375,6.128 5.006,7.137 5.006,8.566 C5.006,8.798 5.006,8.963 5.003,9.441 C4.99402715,10.2803538 4.99869443,11.1197979 5.017,11.959 C5.071,14.156 5.281,15.794 5.717,17 C5.929,17.587 6.189,18.07 6.497,18.45 C6.37026932,17.9585833 6.30973424,17.4524428 6.317,16.945 L6.318,16.945 Z M8.084,6.37 C8.71553761,6.37 9.2275,6.88196239 9.2275,7.5135 C9.2275,8.14503761 8.71553761,8.657 8.084,8.657 C7.45246239,8.657 6.9405,8.14503761 6.9405,7.5135 C6.9405,6.88196239 7.45246239,6.37 8.084,6.37 Z"></path>
-                    </svg>
-                </a>
-
-                <a href="https://github.com/martinrue" aria-label="GitHub">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                        </path>
-                    </svg>
-                </a>
-
-                <a href="mailto:hello@martinrue.com" aria-label="Email">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                </a>
-
-                <a href="#" class="dark-mode" aria-label="Dark mode">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                </a>
-            </section>
-
-            <!-- END:LINKS -->
-        </header>
-
-        <nav>
-            <a href="/articles/">Articles</a>
-            <a href="/projects/">Projects</a>
-            <a href="/books/">Books</a>
-            <a href="/now/">Now</a>
-        </nav>
-
-        <article>
-            <h3>Feliĉan Zamenhofan Tagon</h3>
-
-            <p>
-                Zamenhof Day (also known as Esperanto Book Day) is the birthday of the creator of the constructed
-                language Esperanto, <a href="https://en.wikipedia.org/wiki/L._L._Zamenhof">Ludwik Łazarz Zamenhof</a>.
-                It’s widely celebrated as the Day of Esperanto by many Esperantists across the world.
-            </p>
-
-            <p>
-                I even have a t-shirt for the occasion, and you know I’m serious when I have a t-shirt.
-            </p>
-
-            <p>
-                <img src="/assets/by-post/fzt/cxemizo.png">
-            </p>
-
-            <p>
-                Zamenhof created Esperanto in 1887. His goal was to create an auxillary language that could be shared by
-                everyone equally. A language where everyone is an equal and everyone, regardless of where they were
-                born, can communicate and understand each other.
-            </p>
-
-            <p>
-                I first started learning Esperanto out of sheer curiosity. Almost for the same reason I may have
-                otherwise pondered to myself “Hey, how do you insult someone’s mother in Klingon?” – which by the way,
-                is to suggest that she has a smooth forehead (Hab SoSlI’ Quch).
-            </p>
-
-            <p>
-                Warning: Please don’t say this to any Klingons you know, as it’s very insulting, and they’re pretty good
-                with a <a href="https://en.wikipedia.org/wiki/Bat%27leth">bat’leth</a>.
-            </p>
-
-            <p>
-                To me, Esperanto was much more interesting than other constructed languages. I quickly realised that
-                it’s a complete language with a rich vocabulary, a ridiculously simple grammar, and believe it or not,
-                lots of fluent speakers across the world (and even a <a href="https://en.wikipedia.org/wiki/Native_Esperanto_speakers">few native speakers</a>).
-            </p>
-
-            <p>
-                After dabbling with the language for a long time, and studying it more deliberately in recent years, I
-                have to admit that it has been one of the most enjoyable things I’ve done.
-            </p>
-
-            <p>
-                Esperanto has some unique attributes which makes it a fun hobby to pursue, with some big upsides if you
-                decide to take it further.
-            </p>
-
-            <p>
-                Here’s why I’m a big fan:
-            </p>
-
-            <ul>
-                <li>
-                    ⚡ It’s easy. Esperanto is by far the simplest language to learn, requiring a fraction of the time it
-                    would take to learn a national language.
-                </li>
-
-                <li>
-                    🧠 It’s consistent. It has a regular grammar, with rules that are consistently followed. This is one
-                    of the reasons it’s easier to learn. It’s like a programming language for your mouth.
-                </li>
-
-                <li>
-                    🕺 There’s a strong and very supportive community. Perhaps due to how few speakers there are
-                    (relatively speaking), Esperantists always have time for each other. This is a huge benefit for me,
-                    because it means I can be in almost any country in the world, and I’ll be able to find an Esperanto
-                    speaker who’ll be more than happy to grab a coffee and hang out.
-                </li>
-
-                <li>
-                    🌎 International friends. Through Esperanto, you can make new friends from all over the world. The
-                    first unexpected benefit of this for me was that it gave me a window to a much wider perspective on
-                    things, particularly world events. I can read news in Esperanto from different countries, and get a
-                    sense of what is happening / what people are thinking in the non-English parts of the big rock we
-                    live on.
-                </li>
-
-                <li>
-                    🗣 It’s a gateway language. While Esperanto probably isn’t the best choice for a language that will
-                    open doors to higher paid jobs, it does train your brain in a regular and consistent way to learn a
-                    new language. It trains you to think about different aspects of language, including aspects of your
-                    native language that you don’t start thinking about until you begin learning a second. Many people
-                    go from Esperanto to a third language and find the experience easier with their new
-                    language-learning-primed brains.
-                </li>
-
-                <li>
-                    🛫 Travel. Lots of Esperantists will host other Esperantists in their home towns, for free, making
-                    traveling the world even more appealing (and possible). The
-                    <a href="https://en.wikipedia.org/wiki/Pasporta_Servo">Pasporta Servo</a> has been going since
-                    1966, allowing Esperantists to find hosts to stay with, or host traveling Esperantists themselves.
-                    In each different country, you’ll be able to communicate via Esperanto, and have a completely
-                    different experience than the typical tourist trails.
-                </li>
-            </ul>
-
-            <p>
-                If all that sounds so sweet that you’ve already cancelled your weekend plans, perhaps your next question
-                is “How do I learn it?”
-            </p>
-
-            <p>
-                Well, since I’m here, allow me to give you a few tips:
-            </p>
-
-            <p class="esperanto-text center">
-                Saluton.
-            </p>
-
-            <p class="english-text center closer">
-                Hello.
-            </p>
-
-            <p>
-                That’ll nicely open up a conversation with any Esperanto speaker, and you’ll hear it quite often.
-            </p>
-
-            <p>
-                Just like other languages, you’ll probably immediately throw in:
-            </p>
-
-            <p class="esperanto-text center">
-                Kiel vi fartas?
-            </p>
-
-            <p class="english-text center closer">
-                How are you?
-            </p>
-
-            <p>
-                To your amazement, you did not in fact ask the other person if they broke wind.
-            </p>
-
-            <p>
-                Given that you both speak Esperanto, naturally you’re both feeling pretty awesome about things,
-                warranting the response:
-            </p>
-
-            <p class="esperanto-text center">
-                Bonege dankon, kaj vi?
-            </p>
-
-            <p class="english-text center closer">
-                Great thanks, and you?
-            </p>
-
-            <p>
-                Maybe you’re a bit tired:
-            </p>
-
-            <p class="esperanto-text center">
-                Mi estas iomete laca, sed ne malbona.
-            </p>
-
-            <p class="english-text center closer">
-                I'm a bit tired, but not bad.
-            </p>
-
-            <p>
-                You’ve just noticed your Esperanto friend is
-                <a href="https://i.imgur.com/KykL6rx.gifv">eating her peas one-by-one</a>,
-                and want to wrap up the conversation as quickly as possible:
-            </p>
-
-            <p class="esperanto-text center">
-                Ĝis poste!
-            </p>
-
-            <p class="english-text center closer">
-                See you later!
-            </p>
-
-            <p>
-                Here’s a few cool things to note about this conversation.
-            </p>
-
-            <p>
-                All letters in Esperanto make consistent sounds, so unlike English (where ‘ough’ has approximately 1
-                billion different sounds), you can look at a written word and reliably say it.
-            </p>
-
-            <p>
-                Also notice how we have <strong>-as</strong> on the end of the word fart<strong>as</strong>? That’s how
-                you make a verb (a doing-word) refer to the present tense in Esperanto.
-            </p>
-
-            <p>
-                And guess what? That’s <strong>always</strong> how you get the present tense version of a verb. I mean,
-                how easy is that? Want the past tense instead? No problem, just change the <strong>-as</strong> to
-                <strong>-is</strong>. The future? <strong>-os</strong> will be your friend. The best bit is that these
-                rules never change – all verbs can be produced this way, with no exceptions.
-            </p>
-
-            <p>
-                You probably don’t believe me, but it’s true – if having the sort of grammar that brings tears of joy to
-                the eyes of its learners was a crime, Esperanto would be doing life in maximum security.
-            </p>
-
-            <p>
-                But there’s more.
-            </p>
-
-            <p>
-                Pop-quiz. How do you get the plural of a word in English?
-            </p>
-
-            <p>
-                Add an ‘s’ to the end, you say? Well sometimes, but it doesn’t always work. I definitely don’t have two
-                foots. And while I’ve been told I only have <strong>half</strong> a brain, I figure it’s the stronger of
-                the two <strong>halves</strong> I’ve kept.
-            </p>
-
-            <p>
-                In Esperanto, just add <strong>-j</strong>. You can add it to any singular noun or adjective. That rule
-                never changes either.
-            </p>
-
-            <p>
-                If I have more than one <strong>kato</strong> (cat), I most certainly have <strong>katoj</strong>
-                (cats). If I were to drink more than one <strong>biero</strong> (beer), and honestly, I never do, then
-                I’d have consumed <strong>bieroj</strong> (beers), and would probably slur my <strong>vortoj</strong>
-                (words).
-            </p>
-
-            <p>
-                In Esperanto, we don’t waste space in our dictionaries with both ‘good’ and ‘bad’, ‘left and ‘right’,
-                ‘up’ and ‘down’. We just have one of them, and then use the prefix <strong>mal</strong> to create the
-                logical opposite. Now you have fewer words to learn.
-            </p>
-
-            <p>
-                I can only imagine you’re finding this post <strong>bona</strong> (good), but if you aren’t (and let’s
-                face it… you are), you’d be finding it <strong>malbona</strong> (bad).
-            </p>
-
-            <p>
-                The prefix <strong>mal</strong> can be used to prefix anything, assuming it still makes sense. One could
-                say <strong>malsaluton</strong>, which despite stepping all over the toes of <strong>ĝis</strong> (bye),
-                would make sense to an Esperanto speaker. It would no doubt also make them think you’re a bit weird, but
-                that’s beside the point – perhaps you are.
-            </p>
-
-            <p>
-                Adverbs, adjectives, participles, and every other grammatical aspect of Esperanto has a similar sense of
-                structure and consistency like the examples above, making it much easier to learn.
-            </p>
-
-            <p>
-                At this point, I’m pretty sure you could already have a simple conversation in Esperanto. Not convinced?
-                Well, let’s find out.
-            </p>
-
-            <p>
-                Here’s a cute little Esperanto bot conversation I created for you. You’ll be the guy with the awesome
-                barbo (beard). Look at the English translation to see what you need to say, and use the buttons below to
-                say it in Esperanto. Once you’ve entered your part correctly, expect a response!
-            </p>
-
-            <div id="message-template" class="message-template">
-                <img src="/assets/by-post/fzt/m1.png" />
-                <div class="lines">
-                    <div class="eo">
-                        &nbsp;
-                    </div>
-                    <div class="en">
-                        Hello!
-                    </div>
-                </div>
-            </div>
-
-            <div class="conversation">
-                <div class="info">
-                    You're going to strike up a conversation with your new Esperanto buddy. The English translation
-                    tells you what you're going to say, your job is use the buttons below to say it in Esperanto.
-                </div>
-
-                <div class="messages"></div>
-
-                <div class="input">
-                    <div class="mistake">
-                        That's not quite right, but give it another shot.
-                    </div>
-                    <div class="buttons"></div>
-                    <a href="#" class="skip">Skip</a>
-                    <div class="complete">
-                        🎉 Awesome – you just had an Esperanto conversation 🎉
-                    </div>
-                </div>
-
-                <div class="clap">👏</div>
-            </div>
-
-            <p>
-                So there you go. Now you know a little more about Esperanto, and why this particular day of the year is
-                known as Zamenhof Day.
-            </p>
-
-            <p>
-                Imagine your interest was asked to describe itself in one word. If you think it might use the word
-                ‘piqued’, read on for a few pointers to get started learning.
-            </p>
-
-            <ul>
-                <li>
-                    Head over to <a href="https://www.duolingo.com">Duolingo</a>, where you’ll find a very popular
-                    Esperanto course. It’s free, and it’s a fun introduction to the language. There are about 360,000
-                    active learners currently, so it’s a popular choice.
-                </li>
-
-                <li>
-                    Check out <a href="https://lernu.net/en">Lernu</a>, one of the oldest Esperanto learning resources
-                    on the web. They have their own course in many different languages. They also have a super helpful
-                    section that details the various aspects of Esperanto’s
-                    <a href="https://lernu.net/en/gramatiko">grammar</a>.
-                </li>
-
-                <li>
-                    If you’re a Facebook user, join the <a href="https://www.facebook.com/groups/duolingo.esperanto.learners"> Duolingo Esperanto
-                        Learners</a> group. It’s very well-run and frequented by many fluent Esperanto speakers, who
-                    help people around the clock with their Esperanto questions.
-                </li>
-            </ul>
-
-            <p>
-                For me personally, Esperanto has been a hugely <a href="/seek-out-new-experiences/">rewarding experience</a>,
-                and it’s now something I value far beyond its initial attraction as an interesting idea.
-            </p>
-
-            <p>
-                If you do begin learning or playing with Esperanto, I wish you <strong>bonŝancon</strong> (good luck),
-                and please feel free to reach out if you’d like any more pointers or have any questions.
-            </p>
-
-            <p class="esperanto-text center">
-                Feliĉan Zamenhofan Tagon al ĉiuj Esperantistoj!
-            </p>
-
-            <p class="english-text center closer">
-                Happy Zamenhof Day to all Esperanto speakers!
-            </p>
-        </article>
+      <header>
+        <section class="bio">
+          <a href="/">
+            <h1>Martin Rue</h1>
+          </a>
+
+          <h2>Making things. Writing code. Languages.</h2>
+        </section>
+
+        <!-- START:LINKS -->
+
+        <section class="links">
+          <a href="https://youtube.com/@martinrue" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 23 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                class="yt"
+                d="M7.84499 4.77535C10.4365 4.40822 13.5635 4.40822 16.155 4.77535C18.5096 5.10891 20.3341 6.76142 20.6831 8.54141C21.1056 10.6962 21.1056 13.3038 20.6831 15.4586C20.3341 17.2386 18.5096 18.8911 16.1551 19.2247C13.5635 19.5918 10.4365 19.5918 7.84499 19.2247C5.49049 18.8911 3.666 17.2386 3.31691 15.4586C2.89434 13.3038 2.89438 10.6962 3.31692 8.54142C3.66596 6.76141 5.49048 5.10891 7.84499 4.77535ZM16.4356 2.79512C13.658 2.40163 10.3421 2.40163 7.56446 2.79512C4.54986 3.22219 1.90016 5.37282 1.35429 8.15657C0.881927 10.5655 0.881875 13.4345 1.3543 15.8434C1.90021 18.6272 4.54984 20.7778 7.56446 21.2049C10.3421 21.5984 13.658 21.5984 16.4356 21.2049C19.4502 20.7778 22.0999 18.6272 22.6458 15.8434C23.1181 13.4345 23.1181 10.5655 22.6458 8.15658C22.0999 5.37281 19.4502 3.22219 16.4356 2.79512ZM10.5547 7.16795C10.2478 6.96338 9.8533 6.94431 9.52814 7.11833C9.20299 7.29234 9 7.6312 9 8V16C9 16.3688 9.20299 16.7077 9.52814 16.8817C9.8533 17.0557 10.2478 17.0366 10.5547 16.8321L16.5547 12.8321C16.8329 12.6466 17 12.3344 17 12C17 11.6656 16.8329 11.3534 16.5547 11.1679L10.5547 7.16795ZM14.1972 12L11 14.1315V9.86852L14.1972 12Z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="https://instagram.com/martinrue" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+
+          <a href="https://twitter.com/martinrue" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="https://mstdn.social/@martinrue" rel="me" aria-label="Mastodon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                class="masto"
+                d="M3.018,12.008 C2.986,10.748 3.006,9.56 3.006,8.566 C3.006,4.228 5.849,2.956 5.849,2.956 C7.282,2.298 9.741,2.021 12.299,2 L12.361,2 C14.918,2.02 17.379,2.298 18.812,2.956 C18.812,2.956 21.655,4.228 21.655,8.566 C21.655,8.566 21.691,11.767 21.259,13.99 C20.984,15.4 18.802,16.945 16.296,17.244 C14.99,17.4 13.703,17.544 12.331,17.48 C10.088,17.377 8.317,16.945 8.317,16.945 C8.317,17.163 8.331,17.371 8.357,17.565 C8.441,18.198 8.656,18.66 8.962,19 C9.728,19.85 11.068,19.93 12.357,19.974 C14.177,20.037 15.797,19.525 15.797,19.525 L15.873,21.171 C15.873,21.171 14.599,21.855 12.331,21.981 C11.081,22.049 9.528,21.949 7.719,21.471 C6.187,21.065 5.151,20.181 4.449,19 C3.356,17.157 3.081,14.594 3.018,12.008 Z M6.318,16.945 L6.318,14.397 L8.792,15.002 C9.22358374,15.0976669 9.6581434,15.1793761 10.095,15.247 C10.848,15.363 11.633,15.447 12.423,15.482 C13.442,15.529 14.324,15.465 16.059,15.258 C17.722,15.059 19.207,14.062 19.295,13.608 C19.377,13.186 19.446,12.686 19.501,12.126 C19.5717075,11.3794052 19.6173998,10.6306525 19.638,9.881 C19.653,9.371 19.658,8.936 19.655,8.625 L19.655,8.566 C19.655,7.136 19.286,6.128 18.692,5.408 C18.5226287,5.20011999 18.3262218,5.01582031 18.108,4.86 C18.018,4.796 17.973,4.771 17.978,4.773 C16.965,4.308 14.885,4.021 12.361,4 L12.315,4 C9.775,4.02 7.695,4.308 6.665,4.782 C6.688,4.772 6.644,4.796 6.553,4.86 C6.33477821,5.01582031 6.13837125,5.20011999 5.969,5.408 C5.375,6.128 5.006,7.137 5.006,8.566 C5.006,8.798 5.006,8.963 5.003,9.441 C4.99402715,10.2803538 4.99869443,11.1197979 5.017,11.959 C5.071,14.156 5.281,15.794 5.717,17 C5.929,17.587 6.189,18.07 6.497,18.45 C6.37026932,17.9585833 6.30973424,17.4524428 6.317,16.945 L6.318,16.945 Z M8.084,6.37 C8.71553761,6.37 9.2275,6.88196239 9.2275,7.5135 C9.2275,8.14503761 8.71553761,8.657 8.084,8.657 C7.45246239,8.657 6.9405,8.14503761 6.9405,7.5135 C6.9405,6.88196239 7.45246239,6.37 8.084,6.37 Z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="https://github.com/martinrue" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="mailto:hello@martinrue.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+
+          <a href="#" class="dark-mode" aria-label="Dark mode">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#333"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-moon"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </a>
+        </section>
+
+        <!-- END:LINKS -->
+      </header>
+
+      <nav>
+        <a href="/articles/">Articles</a>
+        <a href="/projects/">Projects</a>
+        <a href="/books/">Books</a>
+        <a href="/now/">Now</a>
+      </nav>
+
+      <article>
+        <h3>Feliĉan Zamenhofan Tagon</h3>
+
+        <p>
+          Zamenhof Day (also known as Esperanto Book Day) is the birthday of the creator of the constructed language Esperanto,
+          <a href="https://en.wikipedia.org/wiki/L._L._Zamenhof">Ludwik Łazarz Zamenhof</a>. It's widely celebrated as the Day of Esperanto by many Esperantists across the world.
+        </p>
+
+        <p>I even have a t-shirt for the occasion, and you know I'm serious when I have a t-shirt.</p>
+
+        <p>
+          <img src="/assets/by-post/fzt/cxemizo.png" />
+        </p>
+
+        <p>
+          Zamenhof created Esperanto in 1887. His goal was to create an auxillary language that could be shared by everyone equally. A language where everyone is an equal and everyone, regardless of
+          where they were born, can communicate and understand each other.
+        </p>
+
+        <p>
+          I first started learning Esperanto out of sheer curiosity. Almost for the same reason I may have otherwise pondered to myself “Hey, how do you insult someone's mother in Klingon?” – which by
+          the way, is to suggest that she has a smooth forehead (Hab SoSlI' Quch).
+        </p>
+
+        <p>Warning: Please don't say this to any Klingons you know, as it's very insulting, and they're pretty good with a <a href="https://en.wikipedia.org/wiki/Bat%27leth">bat'leth</a>.</p>
+
+        <p>
+          To me, Esperanto was much more interesting than other constructed languages. I quickly realised that it's a complete language with a rich vocabulary, a ridiculously simple grammar, and
+          believe it or not, lots of fluent speakers across the world (and even a <a href="https://en.wikipedia.org/wiki/Native_Esperanto_speakers">few native speakers</a>).
+        </p>
+
+        <p>After dabbling with the language for a long time, and studying it more deliberately in recent years, I have to admit that it has been one of the most enjoyable things I've done.</p>
+
+        <p>Esperanto has some unique attributes which makes it a fun hobby to pursue, with some big upsides if you decide to take it further.</p>
+
+        <p>Here's why I'm a big fan:</p>
+
+        <ul>
+          <li>⚡ It's easy. Esperanto is by far the simplest language to learn, requiring a fraction of the time it would take to learn a national language.</li>
+
+          <li>
+            🧠 It's consistent. It has a regular grammar, with rules that are consistently followed. This is one of the reasons it's easier to learn. It's like a programming language for your mouth.
+          </li>
+
+          <li>
+            🕺 There's a strong and very supportive community. Perhaps due to how few speakers there are (relatively speaking), Esperantists always have time for each other. This is a huge benefit for
+            me, because it means I can be in almost any country in the world, and I'll be able to find an Esperanto speaker who'll be more than happy to grab a coffee and hang out.
+          </li>
+
+          <li>
+            🌎 International friends. Through Esperanto, you can make new friends from all over the world. The first unexpected benefit of this for me was that it gave me a window to a much wider
+            perspective on things, particularly world events. I can read news in Esperanto from different countries, and get a sense of what is happening / what people are thinking in the non-English
+            parts of the big rock we live on.
+          </li>
+
+          <li>
+            🗣 It's a gateway language. While Esperanto probably isn't the best choice for a language that will open doors to higher paid jobs, it does train your brain in a regular and consistent way
+            to learn a new language. It trains you to think about different aspects of language, including aspects of your native language that you don't start thinking about until you begin learning
+            a second. Many people go from Esperanto to a third language and find the experience easier with their new language-learning-primed brains.
+          </li>
+
+          <li>
+            🛫 Travel. Lots of Esperantists will host other Esperantists in their home towns, for free, making traveling the world even more appealing (and possible). The
+            <a href="https://en.wikipedia.org/wiki/Pasporta_Servo">Pasporta Servo</a> has been going since 1966, allowing Esperantists to find hosts to stay with, or host traveling Esperantists
+            themselves. In each different country, you'll be able to communicate via Esperanto, and have a completely different experience than the typical tourist trails.
+          </li>
+        </ul>
+
+        <p>If all that sounds so sweet that you've already cancelled your weekend plans, perhaps your next question is “How do I learn it?”</p>
+
+        <p>Well, since I'm here, allow me to give you a few tips:</p>
+
+        <p class="esperanto-text center">Saluton.</p>
+
+        <p class="english-text center closer">Hello.</p>
+
+        <p>That'll nicely open up a conversation with any Esperanto speaker, and you'll hear it quite often.</p>
+
+        <p>Just like other languages, you'll probably immediately throw in:</p>
+
+        <p class="esperanto-text center">Kiel vi fartas?</p>
+
+        <p class="english-text center closer">How are you?</p>
+
+        <p>To your amazement, you did not in fact ask the other person if they broke wind.</p>
+
+        <p>Given that you both speak Esperanto, naturally you're both feeling pretty awesome about things, warranting the response:</p>
+
+        <p class="esperanto-text center">Bonege dankon, kaj vi?</p>
+
+        <p class="english-text center closer">Great thanks, and you?</p>
+
+        <p>Maybe you're a bit tired:</p>
+
+        <p class="esperanto-text center">Mi estas iomete laca, sed ne malbona.</p>
+
+        <p class="english-text center closer">I'm a bit tired, but not bad.</p>
+
+        <p>
+          You've just noticed your Esperanto friend is
+          <a href="https://i.imgur.com/KykL6rx.gifv">eating her peas one-by-one</a>, and want to wrap up the conversation as quickly as possible:
+        </p>
+
+        <p class="esperanto-text center">Ĝis poste!</p>
+
+        <p class="english-text center closer">See you later!</p>
+
+        <p>Here's a few cool things to note about this conversation.</p>
+
+        <p>All letters in Esperanto make consistent sounds, so unlike English (where ‘ough' has approximately 1 billion different sounds), you can look at a written word and reliably say it.</p>
+
+        <p>Also notice how we have <strong>-as</strong> on the end of the word fart<strong>as</strong>? That's how you make a verb (a doing-word) refer to the present tense in Esperanto.</p>
+
+        <p>
+          And guess what? That's <strong>always</strong> how you get the present tense version of a verb. I mean, how easy is that? Want the past tense instead? No problem, just change the
+          <strong>-as</strong> to <strong>-is</strong>. The future? <strong>-os</strong> will be your friend. The best bit is that these rules never change – all verbs can be produced this way, with
+          no exceptions.
+        </p>
+
+        <p>
+          You probably don't believe me, but it's true – if having the sort of grammar that brings tears of joy to the eyes of its learners was a crime, Esperanto would be doing life in maximum
+          security.
+        </p>
+
+        <p>But there's more.</p>
+
+        <p>Pop-quiz. How do you get the plural of a word in English?</p>
+
+        <p>
+          Add an ‘s' to the end, you say? Well sometimes, but it doesn't always work. I definitely don't have two foots. And while I've been told I only have <strong>half</strong> a brain, I figure
+          it's the stronger of the two <strong>halves</strong> I've kept.
+        </p>
+
+        <p>In Esperanto, just add <strong>-j</strong>. You can add it to any singular noun or adjective. That rule never changes either.</p>
+
+        <p>
+          If I have more than one <strong>kato</strong> (cat), I most certainly have <strong>katoj</strong> (cats). If I were to drink more than one <strong>biero</strong> (beer), and honestly, I
+          never do, then I'd have consumed <strong>bieroj</strong> (beers), and would probably slur my <strong>vortoj</strong>
+          (words).
+        </p>
+
+        <p>
+          In Esperanto, we don't waste space in our dictionaries with both ‘good' and ‘bad', ‘left and ‘right', ‘up' and ‘down'. We just have one of them, and then use the prefix
+          <strong>mal</strong> to create the logical opposite. Now you have fewer words to learn.
+        </p>
+
+        <p>I can only imagine you're finding this post <strong>bona</strong> (good), but if you aren't (and let's face it… you are), you'd be finding it <strong>malbona</strong> (bad).</p>
+
+        <p>
+          The prefix <strong>mal</strong> can be used to prefix anything, assuming it still makes sense. One could say <strong>malsaluton</strong>, which despite stepping all over the toes of
+          <strong>ĝis</strong> (bye), would make sense to an Esperanto speaker. It would no doubt also make them think you're a bit weird, but that's beside the point – perhaps you are.
+        </p>
+
+        <p>
+          Adverbs, adjectives, participles, and every other grammatical aspect of Esperanto has a similar sense of structure and consistency like the examples above, making it much easier to learn.
+        </p>
+
+        <p>At this point, I'm pretty sure you could already have a simple conversation in Esperanto. Not convinced? Well, let's find out.</p>
+
+        <p>
+          Here's a cute little Esperanto bot conversation I created for you. You'll be the guy with the awesome barbo (beard). Look at the English translation to see what you need to say, and use the
+          buttons below to say it in Esperanto. Once you've entered your part correctly, expect a response!
+        </p>
+
+        <div id="message-template" class="message-template">
+          <img src="/assets/by-post/fzt/m1.png" />
+          <div class="lines">
+            <div class="eo">&nbsp;</div>
+            <div class="en">Hello!</div>
+          </div>
+        </div>
+
+        <div class="conversation">
+          <div class="info">
+            You're going to strike up a conversation with your new Esperanto buddy. The English translation tells you what you're going to say, your job is use the buttons below to say it in
+            Esperanto.
+          </div>
+
+          <div class="messages"></div>
+
+          <div class="input">
+            <div class="mistake">That's not quite right, but give it another shot.</div>
+            <div class="buttons"></div>
+            <a href="#" class="skip">Skip</a>
+            <div class="complete">🎉 Awesome – you just had an Esperanto conversation 🎉</div>
+          </div>
+
+          <div class="clap">👏</div>
+        </div>
+
+        <p>So there you go. Now you know a little more about Esperanto, and why this particular day of the year is known as Zamenhof Day.</p>
+
+        <p>Imagine your interest was asked to describe itself in one word. If you think it might use the word ‘piqued', read on for a few pointers to get started learning.</p>
+
+        <ul>
+          <li>
+            Head over to <a href="https://www.duolingo.com">Duolingo</a>, where you'll find a very popular Esperanto course. It's free, and it's a fun introduction to the language. There are about
+            360,000 active learners currently, so it's a popular choice.
+          </li>
+
+          <li>
+            Check out <a href="https://lernu.net/en">Lernu</a>, one of the oldest Esperanto learning resources on the web. They have their own course in many different languages. They also have a
+            super helpful section that details the various aspects of Esperanto's <a href="https://lernu.net/en/gramatiko">grammar</a>.
+          </li>
+
+          <li>
+            If you're a Facebook user, join the <a href="https://www.facebook.com/groups/duolingo.esperanto.learners"> Duolingo Esperanto Learners</a> group. It's very well-run and frequented by many
+            fluent Esperanto speakers, who help people around the clock with their Esperanto questions.
+          </li>
+        </ul>
+
+        <p>
+          For me personally, Esperanto has been a hugely <a href="/seek-out-new-experiences/">rewarding experience</a>, and it's now something I value far beyond its initial attraction as an
+          interesting idea.
+        </p>
+
+        <p>
+          If you do begin learning or playing with Esperanto, I wish you <strong>bonŝancon</strong> (good luck), and please feel free to reach out if you'd like any more pointers or have any
+          questions.
+        </p>
+
+        <p class="esperanto-text center">Feliĉan Zamenhofan Tagon al ĉiuj Esperantistoj!</p>
+
+        <p class="english-text center closer">Happy Zamenhof Day to all Esperanto speakers!</p>
+      </article>
     </div>
 
     <script src="/assets/by-post/fzt/jquery-3.3.1.min.js"></script>
     <script src="/assets/by-post/fzt/bot.js"></script>
-</body>
-
+  </body>
 </html>

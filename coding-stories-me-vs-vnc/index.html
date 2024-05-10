@@ -113,8 +113,8 @@
             <h3>Coding Stories: Me vs. The VNC Guy</h3>
 
             <p>
-                I’ve told a few different coding stories over the years on this blog. I enjoy reminiscing about the
-                silly things I used to do. So, in that vein, here’s one I haven’t told yet.
+                I've told a few different coding stories over the years on this blog. I enjoy reminiscing about the
+                silly things I used to do. So, in that vein, here's one I haven't told yet.
             </p>
 
             <p>
@@ -156,49 +156,49 @@
 
             <p>
                 To this day, my intuition tells me that his bonus must have been dependent on how many people he managed
-                to kick off a machine and escort out of the room, and that it’s doubtful he didn’t pay off his mortgage
+                to kick off a machine and escort out of the room, and that it's doubtful he didn't pay off his mortgage
                 early.
             </p>
 
             <p>
                 He sat in the far corner of the computer hall behind a corner desk, where one could fairly conclude that
                 his fertile monitors had found a way to reproduce with an impressively short gestation period. It was
-                anyone’s guess whether he was actually behind them. Of course, I’m kidding… did I mention that he took
+                anyone's guess whether he was actually behind them. Of course, I'm kidding… did I mention that he took
                 his job very seriously?
             </p>
 
             <p>
                 The network of machines ran Windows 2000 at the time. I soon discovered that every login process ran a
                 script that started a VNC server process using a privileged account. Whenever the IT technician made you
-                his next target, he’d connect directly to your machine and watch you. It was creepy, and thinking about
+                his next target, he'd connect directly to your machine and watch you. It was creepy, and thinking about
                 it now, most likely illegal.
             </p>
 
             <p>
                 Having cut my teeth with <a href="/give-yourself-more-playtime/">BASIC on the C64</a>, I was now writing
                 C and even a bit of C++. At the time, I was also really into D, believing it to be a nice overhaul of
-                some of the things I didn’t like about C++.
+                some of the things I didn't like about C++.
             </p>
 
             <p>
                 Most of my visits to the computer hall were to read more about D, or play with the Digital Mars D
-                compiler. When I wasn’t convincing myself that D was the future, I would write C code to hack other
+                compiler. When I wasn't convincing myself that D was the future, I would write C code to hack other
                 Win32 programs via their window handles.
             </p>
 
             <p>
                 Back in the good old days of Win32 programming, finding a window handle was the easy method to start
                 hacking other programs. Unsurprisingly, all visual programs in Windows had a window, even if you
-                couldn’t see it. By writing a program that acquired the window handle (essentially a reference) of
+                couldn't see it. By writing a program that acquired the window handle (essentially a reference) of
                 another process, you could send it messages. That allowed you to do basic things like hide/show the
-                program’s window(s), or do really cool things like cause the process to load a custom DLL into its
+                program's window(s), or do really cool things like cause the process to load a custom DLL into its
                 memory space and begin executing code. You could really start to have some fun once you got into DLL
                 injection territory.
             </p>
 
             <p>
-                During the first 6 weeks of college, Detective Technician didn’t bother me much, connecting briefly to
-                my machine’s VNC server only once or twice. However, one particular session must have piqued his
+                During the first 6 weeks of college, Detective Technician didn't bother me much, connecting briefly to
+                my machine's VNC server only once or twice. However, one particular session must have piqued his
                 interest. I was writing some C code to hide instances of Minesweeper (without closing them) so I could
                 play it more easily in class, when I noticed the white VNC icon in my system tray turn black, meaning he
                 was now watching me.
@@ -207,7 +207,7 @@
             <p>
                 I continued coding as normal, trying to ignore him. Meanwhile, my machine was now grinding to a halt as
                 it attempted to stream the very best frame rate it could over to one of the ridiculous number of
-                monitors in the corner of the room. It wasn’t long before it had become only slightly more resposive
+                monitors in the corner of the room. It wasn't long before it had become only slightly more resposive
                 than a brick, so I logged off and called it a day.
             </p>
 
@@ -223,7 +223,7 @@
             </p>
 
             <p>
-                “You’re nothing without that VNC server!” I told myself <strike>calmly</strike> emphatically
+                “You're nothing without that VNC server!” I told myself <strike>calmly</strike> emphatically
                 <strike>once</strike> more than once.
             </p>
 
@@ -237,9 +237,9 @@
             </p>
 
             <p>
-                My first attempt, I think you’ll agree, was rather weak. Right-clicking the VNC system tray icon, I was
+                My first attempt, I think you'll agree, was rather weak. Right-clicking the VNC system tray icon, I was
                 met with a menu containing those magic letters E-x-i-t. Unfortunately they were written in grey outlined
-                text. They had used the Group Policy Editor to disable the ‘Exit’ menu item, which I had seen done
+                text. They had used the Group Policy Editor to disable the ‘Exit' menu item, which I had seen done
                 before. I also tried to kill the process from Task Manager, but of course it was invisible to me as it
                 was running under another, more privileged account. No dice.
             </p>
@@ -251,7 +251,7 @@
 
             <p>
                 That kept me busy for at least a few days while I tried to work out the protocol and sent it various
-                forms of legitimately structured crap, hoping it would implode. In the end, that also didn’t work. No
+                forms of legitimately structured crap, hoping it would implode. In the end, that also didn't work. No
                 dice again.
             </p>
 
@@ -260,13 +260,13 @@
             </p>
 
             <p>
-                “It must have a window! Maybe if I show it, it’ll have a nice juicy ‘Shut Down’ button I can make very
+                “It must have a window! Maybe if I show it, it'll have a nice juicy ‘Shut Down' button I can make very
                 good use of.”
             </p>
 
             <p>
-                Yielding my already perfected C code to locate a another process’s main window handle, I indeed managed
-                to find VNC’s. It really felt like I was about to strike oil when I dispatched a
+                Yielding my already perfected C code to locate a another process's main window handle, I indeed managed
+                to find VNC's. It really felt like I was about to strike oil when I dispatched a
                 <code>WM_SHOWWINDOW</code> message. Before I tell you, try to guess what appeared before me?
             </p>
 
@@ -277,18 +277,18 @@
             <p>
                 Now I was curious… it had a window alright, but it was ignoring the messages I was sending. I
                 double-checked my code to make sure it worked. I tested it on a few other processes and it worked just
-                fine. I tried sending VNC’s window other kinds of messages, and still nothing.
+                fine. I tried sending VNC's window other kinds of messages, and still nothing.
             </p>
 
             <p>
-                And that’s when it dawned on me!
+                And that's when it dawned on me!
             </p>
 
             <p>
-                Thanks to Charles Petzold’s very heavy <a href="http://amzn.com/157231995X">book</a>, I’d become an avid
+                Thanks to Charles Petzold's very heavy <a href="http://amzn.com/157231995X">book</a>, I'd become an avid
                 student of how Win32 processes worked internally. Every Win32 application has a window, and as part of
-                that it also has a ‘message queue’. Messages caused by user interactions, and those sent by Windows
-                itself are received on the message queue, and it’s the responsibility of the application itself to deal
+                that it also has a ‘message queue'. Messages caused by user interactions, and those sent by Windows
+                itself are received on the message queue, and it's the responsibility of the application itself to deal
                 with those messages.
             </p>
 
@@ -298,14 +298,14 @@
             </p>
 
             <p>
-                Without a second to spare, I was back in front of my C code getting it ready to send VNC’s main window
+                Without a second to spare, I was back in front of my C code getting it ready to send VNC's main window
                 another <code>WM_SHOWWINDOW</code> message. In a loop. Forever. So, lots and lots of
                 <code>WM_SHOWWINDOW</code> messages, which I now knew it intended to completely ignore… to its peril.
             </p>
 
             <p>
-                I compiled and ran 4KB of some of most liberating code I’d ever written. About 3 seconds later Windows
-                informed me that <code>vncserver.exe</code> was not responding, making me an offer I just can’t refuse.
+                I compiled and ran 4KB of some of most liberating code I'd ever written. About 3 seconds later Windows
+                informed me that <code>vncserver.exe</code> was not responding, making me an offer I just can't refuse.
             </p>
 
             <p>
@@ -322,7 +322,7 @@
 
             <p>
                 After a few hours spent digesting my new superpower, I had decided how I was going to use it. Simply
-                killing his session in front of his very eyes would be too easy. I had a better idea – I’d disappear
+                killing his session in front of his very eyes would be too easy. I had a better idea – I'd disappear
                 altogether.
             </p>
 
@@ -330,8 +330,8 @@
                 After my <a href="/zzuy-a-lesson-in-perseverance/">baptism of fire with socket programming</a>, I
                 realised I could write some code that would do two things. First it would bind to the newly freed up TCP
                 port 5900, previously occupied by an ignorant VNC server process. Second it would make a new TCP
-                connection to a designated machine’s VNC server. If the code simply proxied all data between the two
-                sockets, Columbo would think he was connecting to me, when he’d actually be connecting to someone else
+                connection to a designated machine's VNC server. If the code simply proxied all data between the two
+                sockets, Columbo would think he was connecting to me, when he'd actually be connecting to someone else
                 entirely.
             </p>
 
@@ -341,30 +341,30 @@
 
             <p>
                 I got started right away writing my fake VNC bridge. Columbo connected to me a few times, but I
-                continued coding as he watched. I figured he’d have no idea what I was doing as long as I left out
+                continued coding as he watched. I figured he'd have no idea what I was doing as long as I left out
                 obvious things like port numbers, and comments I otherwise might have included, such as
                 <code>// Goodbye creepy VNC spy guy</code>.
             </p>
 
             <p>
                 After a couple of days, I was really struggling to get the code to work correctly. Making matters worse,
-                I wasn’t getting much time without a black VNC icon in my system tray. While he was connected to me, it
+                I wasn't getting much time without a black VNC icon in my system tray. While he was connected to me, it
                 was impossible to free up the port to test my code.
             </p>
 
             <p>
-                If only I’d known about <code>netcat</code> at this point!
+                If only I'd known about <code>netcat</code> at this point!
             </p>
 
             <p>
-                In the end, being an impatient 17-year old and seeing another white VNC server icon turn black, I’m
-                sorry to say that I threw the plan out of the window. I opened up the code I first wrote to flood VNC’s
+                In the end, being an impatient 17-year old and seeing another white VNC server icon turn black, I'm
+                sorry to say that I threw the plan out of the window. I opened up the code I first wrote to flood VNC's
                 message queue and I ran it while he watched. I even waited a couple of seconds before clicking "End
                 Process", just to make sure he saw it.
             </p>
 
             <p>
-                If clicking that button didn’t fully convince me it was worth it, seeing him emerge from behind his
+                If clicking that button didn't fully convince me it was worth it, seeing him emerge from behind his
                 monitor fortress to fast-walk his way over to me and escort me out of the room definitely did.
             </p>
 

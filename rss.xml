@@ -3,7 +3,7 @@
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Martin Rue</title>
-    <description>Making things. Writing code. Languages.</description>
+    <description>I build things on the internet.</description>
     <link>https://martinrue.com</link>
     <atom:link href="https://martinrue.com/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -11,9 +11,9 @@
       <title>Now</title>
       <description>What I'm doing now</description>
       <author>Martin Rue</author>
-      <pubDate>Sat, 20 March 2024 01:00:00 +0100</pubDate>
+      <pubDate>Fri, 10 May 2024 01:00:00 +0100</pubDate>
       <link>https://martinrue.com/now/</link>
-      <guid isPermaLink="false">20032024</guid>
+      <guid isPermaLink="false">10052024</guid>
     </item>
 
     <item>
@@ -171,7 +171,7 @@
 
     <item>
       <title>Head Up, Head Down</title>
-      <description>There are few things more enjoyable to me than the mental solitude that hand-delivers interesting shower thoughts, or that let’s me sit in a bustling coffee shop contemplating life.</description>
+      <description>There are few things more enjoyable to me than the mental solitude that hand-delivers interesting shower thoughts, or that let's me sit in a bustling coffee shop contemplating life.</description>
       <author>Martin Rue</author>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/head-up-head-down/</link>
@@ -180,7 +180,7 @@
 
     <item>
       <title>Progress Is Hard</title>
-      <description>Today wasn’t a failure because I’ve not reached those states. It was a success because I’ve followed the process – a process that accrues results over time. I’ll be back tomorrow for my next batch.</description>
+      <description>Today wasn't a failure because I've not reached those states. It was a success because I've followed the process – a process that accrues results over time. I'll be back tomorrow for my next batch.</description>
       <author>Martin Rue</author>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/progress-is-hard/</link>
@@ -189,7 +189,7 @@
 
     <item>
       <title>Coding Stories: Me vs. The VNC Guy</title>
-      <description>I’ve told a few different coding stories over the years on this blog. I enjoy reminiscing about the silly things I used to do. So, in that vein, here’s one I haven’t told yet.</description>
+      <description>I've told a few different coding stories over the years on this blog. I enjoy reminiscing about the silly things I used to do. So, in that vein, here's one I haven't told yet.</description>
       <author>Martin Rue</author>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       <link>https://martinrue.com/coding-stories-me-vs-vnc/</link>
@@ -207,7 +207,7 @@
 
     <item>
       <title>How Does Esperanto Sound?</title>
-      <description>When people hear Esperanto for the first time, they sometimes think they’re hearing Italian, or maybe Spanish. A good amount of vocabulary in Esperanto is taken from romance roots, so this isn’t totally surprising.</description>
+      <description>When people hear Esperanto for the first time, they sometimes think they're hearing Italian, or maybe Spanish. A good amount of vocabulary in Esperanto is taken from romance roots, so this isn't totally surprising.</description>
       <author>Martin Rue</author>
       <pubDate>Sat, 26 Oct 2019 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/how-does-esperanto-sound/</link>
@@ -225,7 +225,7 @@
 
     <item>
       <title>Seek Out New Experiences</title>
-      <description>We ofen hear the advice “get out of your comfort zone”, and in my experience it’s good advice to avoid becoming stationary in whatever it is you’re trying to get better at.</description>
+      <description>We ofen hear the advice “get out of your comfort zone”, and in my experience it's good advice to avoid becoming stationary in whatever it is you're trying to get better at.</description>
       <author>Martin Rue</author>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/seek-out-new-experiences/</link>
@@ -234,7 +234,7 @@
 
     <item>
       <title>Thoughts on Crypto Currency Mania</title>
-      <description>It’s the end of 2017 and right now there’s a huge amount of interest in buying [insert any crypto currency coin here]. Everyone wants to buy everything, and as a result we’re very much in a bull market at the moment.</description>
+      <description>It's the end of 2017 and right now there's a huge amount of interest in buying [insert any crypto currency coin here]. Everyone wants to buy everything, and as a result we're very much in a bull market at the moment.</description>
       <author>Martin Rue</author>
       <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
       <link>https://martinrue.com/thoughts-on-crypto-currency-mania/</link>
@@ -243,7 +243,7 @@
 
     <item>
       <title>The Gym</title>
-      <description>Anyone who knows me will know that the gym is a fairly big part of my life. While my goal certainly isn’t to become the next Eddie Hall or Phil Heath, during the last 3 years the gym has been a valuable source of discipline and improvement for me.</description>
+      <description>Anyone who knows me will know that the gym is a fairly big part of my life. While my goal certainly isn't to become the next Eddie Hall or Phil Heath, during the last 3 years the gym has been a valuable source of discipline and improvement for me.</description>
       <author>Martin Rue</author>
       <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
       <link>https://martinrue.com/the-gym/</link>
@@ -279,7 +279,7 @@
 
     <item>
       <title>Be With Your Thoughts More Often</title>
-      <description>Whilst walking to work this morning, I noticed myself doing something that I wouldn’t normally give a second thought to. I took out my phone and checked Twitter.</description>
+      <description>Whilst walking to work this morning, I noticed myself doing something that I wouldn't normally give a second thought to. I took out my phone and checked Twitter.</description>
       <author>Martin Rue</author>
       <pubDate>Wed, 19 Mar 2014 00:00:00 +0000</pubDate>
       <link>https://martinrue.com/be-with-your-thoughts-more-often/</link>
@@ -288,7 +288,7 @@
 
     <item>
       <title>Understand How It Works</title>
-      <description>One of the best pieces of advice I ever got was from my grandfather. He didn’t visit very often and so conversation often felt a bit like an ice breaker.</description>
+      <description>One of the best pieces of advice I ever got was from my grandfather. He didn't visit very often and so conversation often felt a bit like an ice breaker.</description>
       <author>Martin Rue</author>
       <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/understand-how-it-works/</link>
@@ -297,7 +297,7 @@
 
     <item>
       <title>Growth Is Not The Goal</title>
-      <description>In the startup world we hear a lot about growth. Startup accelerators focus on being the facilitators of quick growth and the term is thrown around like it’s universally a good thing.</description>
+      <description>In the startup world we hear a lot about growth. Startup accelerators focus on being the facilitators of quick growth and the term is thrown around like it's universally a good thing.</description>
       <author>Martin Rue</author>
       <pubDate>Sat, 6 Apr 2013 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/growth-is-not-the-goal/</link>
@@ -324,7 +324,7 @@
 
     <item>
       <title>What Is 'The Zone', Anyway?</title>
-      <description>Recently I’ve been thinking more and more about the zone. I’ve been trying to work out what it actually is. Most often it’s described as being in a super productive state for short periods of time, where the best code you’ve ever written just flows from your fingertips.</description>
+      <description>Recently I've been thinking more and more about the zone. I've been trying to work out what it actually is. Most often it's described as being in a super productive state for short periods of time, where the best code you've ever written just flows from your fingertips.</description>
       <author>Martin Rue</author>
       <pubDate>Thu, 21 Jun 2012 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/what-is-the-zone-anyway/</link>
@@ -333,7 +333,7 @@
 
     <item>
       <title>Talk About Your Stuff</title>
-      <description>Growing up I was a pretty shy kid. I didn’t talk to many people and I loved hacking away at things almost in secret. I would get pretty nervous if anyone asked me what I was doing.</description>
+      <description>Growing up I was a pretty shy kid. I didn't talk to many people and I loved hacking away at things almost in secret. I would get pretty nervous if anyone asked me what I was doing.</description>
       <author>Martin Rue</author>
       <pubDate>Wed, 1 Feb 2012 00:00:00 +0000</pubDate>
       <link>https://martinrue.com/talk-about-your-stuff/</link>
@@ -342,7 +342,7 @@
 
     <item>
       <title>Agile – 'A' For Adjective</title>
-      <description>Are you doing happy? No, seriously, are you doing happy? OK, what about this, are you doing flexible? You probably think I’m talking nonsense, and that’s because I am – I’m using adjectives as nouns.</description>
+      <description>Are you doing happy? No, seriously, are you doing happy? OK, what about this, are you doing flexible? You probably think I'm talking nonsense, and that's because I am – I'm using adjectives as nouns.</description>
       <author>Martin Rue</author>
       <pubDate>Mon, 3 Oct 2011 00:00:00 +0100</pubDate>
       <link>https://martinrue.com/agile-a-for-adjective/</link>

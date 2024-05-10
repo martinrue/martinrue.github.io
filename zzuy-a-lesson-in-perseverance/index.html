@@ -119,9 +119,9 @@
             </p>
 
             <p>
-                As time went on we got a family PC and my first attempt at programming it wasn’t exactly successful. As
-                it turned out, you couldn’t put BASIC in .html files, which seemed like such a good idea at the time. I
-                quickly realised I had a lot to learn and decided I’d learn a language that I could use on the PC.
+                As time went on we got a family PC and my first attempt at programming it wasn't exactly successful. As
+                it turned out, you couldn't put BASIC in .html files, which seemed like such a good idea at the time. I
+                quickly realised I had a lot to learn and decided I'd learn a language that I could use on the PC.
             </p>
 
             <p>
@@ -137,7 +137,7 @@
             </p>
 
             <p>
-                There’d be two boxes. You would type your code into the box on the left, hit send and your partner would
+                There'd be two boxes. You would type your code into the box on the left, hit send and your partner would
                 see your code in their right hand box. They could copy it across, amend it and hit send to send it back.
                 I distinctly remember being in awe of the fact that by using a TCP socket for sending data, the other
                 person could be on the other side of the world and this would still work – much more fun than BASIC.
@@ -146,7 +146,7 @@
             <p>
                 So I got cosy with <code>socket()</code>, <code>listen()</code>, <code>bind()</code>,
                 <code>connect()</code>, <code>send()</code> and <code>recv()</code>. A few weeks later I had an early
-                version working and I couldn’t wait to test it. It worked perfectly over localhost, but I wanted to see
+                version working and I couldn't wait to test it. It worked perfectly over localhost, but I wanted to see
                 this work over the freaking phone line!
             </p>
 
@@ -161,8 +161,8 @@
             </p>
 
             <p>
-                Jacob’s code had a series of ZZüy characters at the end. They disappeared on the next update, but then
-                came back. I asked him about the strange characters I was seeing, but he couldn’t see them. None of his
+                Jacob's code had a series of ZZüy characters at the end. They disappeared on the next update, but then
+                came back. I asked him about the strange characters I was seeing, but he couldn't see them. None of his
                 code was being lost, but these extra characters were becoming very annoying.
             </p>
 
@@ -170,30 +170,30 @@
                 Over the next day or two I trawled through the code line by line, desperately trying to work out how
                 these extra characters might occur. It was tiring, and each time I thought I had found the issue, as if
                 by magic, there they were again. I came to passionately hate the sequence of characters ZZüy. I think I
-                still do. I’m biting on my fist right now.
+                still do. I'm biting on my fist right now.
             </p>
 
             <p>
                 It was actually a little soul destroying each time we retested a potential fix only to find it was still
                 screwed, because after seeing those damn ZZüy characters come back, I had nothing. I had to go back
                 through the process and find some other explanation. I like to consider myself an optimist, but a real
-                test of that is whether you’re still optimistic when you have nothing.
+                test of that is whether you're still optimistic when you have nothing.
             </p>
 
             <p>
                 After another 10 or so different attempts I finally stumbled upon it. This time, I was absolutely
                 convinced. I had been reading an article about string buffers in C when it mentioned zero–termination,
-                and that’s when it hit me. A string buffer needs to contain a zero character to signify the end of the
+                and that's when it hit me. A string buffer needs to contain a zero character to signify the end of the
                 data. It finally all made sense. Suddenly I could imagine how <code>strlen()</code> might work by
                 counting until it found the zero. Suddenly I knew what the Hungarian word <code>psz</code> meant. And,
-                of course, I was seeing random extra characters because the displaying of the buffer didn’t know when to
+                of course, I was seeing random extra characters because the displaying of the buffer didn't know when to
                 stop reading because there was no zero. Oh yes – this time I had definitely nailed it.
             </p>
 
             <p>
                 So I took the return value from <code>recv()</code> – the total number of bytes received – and used it
                 as an index into the buffer to add the zero terminator. I compiled. I linked. Well, those happened
-                together but I’m trying to build dramatic effect. I took the new executable and sent it across to Jacob.
+                together but I'm trying to build dramatic effect. I took the new executable and sent it across to Jacob.
                 And then I waited.
             </p>
 
@@ -204,9 +204,9 @@
             </p>
 
             <p>
-                I scrolled to the bottom of the box praying that I wouldn’t see them. But the bastards, in all their
+                I scrolled to the bottom of the box praying that I wouldn't see them. But the bastards, in all their
                 glory, were still there. A group of 16 ZZüy characters staring back at me saying “nice try, but better
-                luck next time loser”. I couldn’t believe that I’d failed yet again. Back to the drawing board.
+                luck next time loser”. I couldn't believe that I'd failed yet again. Back to the drawing board.
             </p>
 
             <p>
@@ -220,7 +220,7 @@
 
             <p>
             <blockquote>
-                It’s not that I’m so smart, it’s just that I stay with problems longer.
+                It's not that I'm so smart, it's just that I stay with problems longer.
             </blockquote>
             </p>
 
@@ -241,7 +241,7 @@
 
             <p>
                 In the end, Jacob admitted that he had been adding the ZZüy characters onto the end of his code manually
-                ever since he’d realised the zero termination stuff fixed the bug. I don’t think I’ve ever been so mad
+                ever since he'd realised the zero termination stuff fixed the bug. I don't think I've ever been so mad
                 and so happy at the same time.
             </p>
         </article>
