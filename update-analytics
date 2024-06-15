@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+for file in `find . -name "*.html" -type f`; do
+    if grep -q "START:ANALYTICS" "$file"; then
+        awk '
+            BEGIN           {p=1}
+            /START:ANALYTICS/   {print;system("cat partials/analytics.html; echo");p=0}
+            /END:ANALYTICS/     {p=1}
+            p' "$file" > tmp
+            mv -f tmp "$file"
+
+        echo "updated: $file"
+    fi
+done
