@@ -75,8 +75,14 @@ select {
 
 body {
   padding: 30px 50px;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial,
-    Noto Sans, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif;
   font-size: 2rem;
   color: #222;
 }
@@ -698,23 +704,33 @@ p.esperanto-text.closer {
 }
 
 .dark .typewriter .greetings h3.hebrew {
-  animation: typing 0.5s steps(4, end), blink-caret-dark 0.7s step-end infinite;
+  animation:
+    typing 0.5s steps(4, end),
+    blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .typewriter .greetings h3.esperanto {
-  animation: typing 0.5s steps(7, end), blink-caret-dark 0.7s step-end infinite;
+  animation:
+    typing 0.5s steps(7, end),
+    blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .typewriter .greetings h3.german {
-  animation: typing 0.5s steps(5, end), blink-caret-dark 0.7s step-end infinite;
+  animation:
+    typing 0.5s steps(5, end),
+    blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .typewriter .greetings h3.spanish {
-  animation: typing 0.5s steps(4, end), blink-caret-dark 0.7s step-end infinite;
+  animation:
+    typing 0.5s steps(4, end),
+    blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .typewriter .greetings h3.english {
-  animation: typing 0.5s steps(5, end), blink-caret-dark 0.7s step-end infinite;
+  animation:
+    typing 0.5s steps(5, end),
+    blink-caret-dark 0.7s step-end infinite;
 }
 
 .dark .article-link {
