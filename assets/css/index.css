@@ -216,6 +216,15 @@ nav a {
   margin-bottom: 0;
 }
 
+.info section .item .flags {
+  display: flex;
+  gap: 10px;
+}
+
+.info section .item .flags img {
+  width: 26px;
+}
+
 article {
   font-size: 2rem;
   font-weight: 400;
