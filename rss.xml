@@ -16,7 +16,16 @@
       <guid isPermaLink="false">05122024</guid>
     </item>
 
-     <item>
+    <item>
+      <title>JavaScript Chose Violence</title>
+      <description>Let's take a short tour through the slums of JavaScript.</description>
+      <author>Martin Rue</author>
+      <pubDate>Thu, 26 June 2025 08:00:00 +0000</pubDate>
+      <link>https://martinrue.com/javascript-chose-violence</link>
+      <guid isPermaLink="true">https://martinrue.com/javascript-chose-violence</guid>
+    </item>
+
+    <item>
       <title>A quick review of 2024</title>
       <description>In 2024 I lived in 3 countries and 5 different cities. My favourite is Bangkok. Da Nang is a very close second.</description>
       <author>Martin Rue</author>

@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript Chose Violence</title>
+    <meta name="description" content="Let's take a short tour through the slums of JavaScript." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon-96x96.png" />
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS Feed" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
+
+    <meta property="og:url" content="https://martinrue.com/javascript-chose-violence" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="JavaScript Chose Violence" />
+    <meta property="og:description" content="Let's take a short tour through the slums of JavaScript." />
+    <meta property="og:image" content="https://martinrue.com/assets/images/og/articles.jpg" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@martinrue" />
+    <meta name="twitter:creator" content="@martinrue" />
+
+    <!-- START:ANALYTICS -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="f9b01ef1-688b-4afb-a365-b5508e8f1640"></script>
+    <!-- END:ANALYTICS -->
+  </head>
+
+  <body>
+    <script src="/assets/js/lib.js"></script>
+    <script src="/assets/js/dark-mode.js"></script>
+
+    <div class="container">
+      <header>
+        <section class="bio">
+          <a href="/">
+            <h1>Martin Rue</h1>
+          </a>
+
+          <h2>I build things on the internet.</h2>
+        </section>
+
+        <!-- START:LINKS -->
+
+        <section class="links">
+          <a href="https://youtube.com/@martinrue" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 23 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                class="yt"
+                d="M7.84499 4.77535C10.4365 4.40822 13.5635 4.40822 16.155 4.77535C18.5096 5.10891 20.3341 6.76142 20.6831 8.54141C21.1056 10.6962 21.1056 13.3038 20.6831 15.4586C20.3341 17.2386 18.5096 18.8911 16.1551 19.2247C13.5635 19.5918 10.4365 19.5918 7.84499 19.2247C5.49049 18.8911 3.666 17.2386 3.31691 15.4586C2.89434 13.3038 2.89438 10.6962 3.31692 8.54142C3.66596 6.76141 5.49048 5.10891 7.84499 4.77535ZM16.4356 2.79512C13.658 2.40163 10.3421 2.40163 7.56446 2.79512C4.54986 3.22219 1.90016 5.37282 1.35429 8.15657C0.881927 10.5655 0.881875 13.4345 1.3543 15.8434C1.90021 18.6272 4.54984 20.7778 7.56446 21.2049C10.3421 21.5984 13.658 21.5984 16.4356 21.2049C19.4502 20.7778 22.0999 18.6272 22.6458 15.8434C23.1181 13.4345 23.1181 10.5655 22.6458 8.15658C22.0999 5.37281 19.4502 3.22219 16.4356 2.79512ZM10.5547 7.16795C10.2478 6.96338 9.8533 6.94431 9.52814 7.11833C9.20299 7.29234 9 7.6312 9 8V16C9 16.3688 9.20299 16.7077 9.52814 16.8817C9.8533 17.0557 10.2478 17.0366 10.5547 16.8321L16.5547 12.8321C16.8329 12.6466 17 12.3344 17 12C17 11.6656 16.8329 11.3534 16.5547 11.1679L10.5547 7.16795ZM14.1972 12L11 14.1315V9.86852L14.1972 12Z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="https://instagram.com/martinrue" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+
+          <a href="https://twitter.com/martinrue" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="https://mstdn.social/@martinrue" rel="me" aria-label="Mastodon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                class="masto"
+                d="M3.018,12.008 C2.986,10.748 3.006,9.56 3.006,8.566 C3.006,4.228 5.849,2.956 5.849,2.956 C7.282,2.298 9.741,2.021 12.299,2 L12.361,2 C14.918,2.02 17.379,2.298 18.812,2.956 C18.812,2.956 21.655,4.228 21.655,8.566 C21.655,8.566 21.691,11.767 21.259,13.99 C20.984,15.4 18.802,16.945 16.296,17.244 C14.99,17.4 13.703,17.544 12.331,17.48 C10.088,17.377 8.317,16.945 8.317,16.945 C8.317,17.163 8.331,17.371 8.357,17.565 C8.441,18.198 8.656,18.66 8.962,19 C9.728,19.85 11.068,19.93 12.357,19.974 C14.177,20.037 15.797,19.525 15.797,19.525 L15.873,21.171 C15.873,21.171 14.599,21.855 12.331,21.981 C11.081,22.049 9.528,21.949 7.719,21.471 C6.187,21.065 5.151,20.181 4.449,19 C3.356,17.157 3.081,14.594 3.018,12.008 Z M6.318,16.945 L6.318,14.397 L8.792,15.002 C9.22358374,15.0976669 9.6581434,15.1793761 10.095,15.247 C10.848,15.363 11.633,15.447 12.423,15.482 C13.442,15.529 14.324,15.465 16.059,15.258 C17.722,15.059 19.207,14.062 19.295,13.608 C19.377,13.186 19.446,12.686 19.501,12.126 C19.5717075,11.3794052 19.6173998,10.6306525 19.638,9.881 C19.653,9.371 19.658,8.936 19.655,8.625 L19.655,8.566 C19.655,7.136 19.286,6.128 18.692,5.408 C18.5226287,5.20011999 18.3262218,5.01582031 18.108,4.86 C18.018,4.796 17.973,4.771 17.978,4.773 C16.965,4.308 14.885,4.021 12.361,4 L12.315,4 C9.775,4.02 7.695,4.308 6.665,4.782 C6.688,4.772 6.644,4.796 6.553,4.86 C6.33477821,5.01582031 6.13837125,5.20011999 5.969,5.408 C5.375,6.128 5.006,7.137 5.006,8.566 C5.006,8.798 5.006,8.963 5.003,9.441 C4.99402715,10.2803538 4.99869443,11.1197979 5.017,11.959 C5.071,14.156 5.281,15.794 5.717,17 C5.929,17.587 6.189,18.07 6.497,18.45 C6.37026932,17.9585833 6.30973424,17.4524428 6.317,16.945 L6.318,16.945 Z M8.084,6.37 C8.71553761,6.37 9.2275,6.88196239 9.2275,7.5135 C9.2275,8.14503761 8.71553761,8.657 8.084,8.657 C7.45246239,8.657 6.9405,8.14503761 6.9405,7.5135 C6.9405,6.88196239 7.45246239,6.37 8.084,6.37 Z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="https://github.com/martinrue" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="#" class="dark-mode" aria-label="Dark mode">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#333"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-moon"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </a>
+        </section>
+
+        <!-- END:LINKS -->
+      </header>
+
+      <nav>
+        <a href="/articles/">Articles</a>
+        <a href="/projects/">Projects</a>
+        <a href="/books/">Books</a>
+        <a href="/now/">Now</a>
+      </nav>
+
+      <article>
+        <h3>JavaScript Chose Violence</h3>
+
+        <p>I've been writing JS since web apps were called "DHTML".</p>
+
+        <p>And maybe I'm crazy, but I like JS.</p>
+
+        <p>These days I write TS, but mainly as a hair loss treatment.</p>
+
+        <p>But let's be honest... for a language initially created in 10 days, it doesn't disappoint.</p>
+
+        <p>There are some corners of the language that make 10 days sound like a long time.</p>
+
+        <p>JavaScript is now the world's most used programming language.</p>
+
+        <p>Consequently, "wtf" is now the most common word in spoken English.</p>
+
+        <p>Well, mostly... it sometimes leaves the body of JS programmers as a demonic scream.</p>
+
+        <p>And for good reason.</p>
+
+        <p>So, in the spirit of appreciating history, and cementing our disbelief about our entire industry, let's take a short tour through the slums of JS.</p>
+
+        <p>1: George Washington was born in the year -168</p>
+
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/1.png" /></p>
+
+        <p>That's right – the Date type in JS subtracts <code>1900</code> for you, because let's face it, nothing existed before 1900 anyway.</p>
+
+        <p>The creator of JS actually stole this from Java, which raises serious doubts about the validity of the saying</p>
+
+        <p>
+          <blockquote>
+            "JavaScript is to Java as Pain is to Painting"
+          </blockquote>
+        </p>
+
+        <p>Now if you thought that was weird...</p>
+
+        <p>2: He was also born in January...</p>
+
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/2.png" /></p>
+
+        <p>Why should months get away with not following our zero-based numbering system?</p>
+
+        <p>Well, not on JS's watch!</p>
+
+        <p>cNone of this matters anyway, right? We can just add <code>1900</code>, or <code>1</code>, back to these results to correct them.c</p>
+
+        <p>Because...</p>
+
+        <p>3: Sure, JS has numbers, and they mostly work...</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/3.png" /></p>
+
+        <p>Did a demonic scream just leave your body? Don't worry you're not alone. Totally normal.</p>
+
+        <p>Listen, don't panic! Just remember that <code>0.1</code> + <code>0.2</code> in JS is actually <code>0.30000000000000004</code>.</p>
+
+        <p>I mean, that's pretty close!</p>
+
+        <p>Hopefully it'll come as good news that JS doesn't get ALL fundamental things wrong.</p>
+
+        <p>Oh, wait, hang on...</p>
+
+        <p>4: Equality in JS</p>
+
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/4.png" /></p>
+        
+        <p>We all know this one! Easy fix – always use triple equals!</p>
+
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/5.png" /></p>
+
+        <p>Don't worry, this is an edge case as well.</p>
+
+        <p>Strict equality in JS is just as good as triple-cooked fries in pretty much every other situation.</p>
+
+        <p>For example:</p>
+
+        <p>5: <code>NaN</code> actually is <code>NaN</code></p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/6.png" /></p>
+
+        <p>Phew, finally!</p>
+
+        <p>Oh, no, wait...</p>
+
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/7.png" /></p>
+        
+        <p>There's that demonic scream again!</p>
+
+        <p>PS: <code>Number.isNaN()</code> has your back.</p>
+
+        <p>6: Parsing numbers</p>
+
+        <p>Most of us know that <code>parseInt()</code> should be given a second argument to also specify the number base, narrowing missing the presumably vast use-case of people wanting to parse octal numbers...</p>
+
+        <p>The good news is that in almost all JS environments these days, that is fixed. No more weird behaviour from <code>parseInt()</code>.</p>
+
+        <p>He's done his time and he's turned over a new leaf...</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/8.png" /></p>
+        
+        <p>Sore throat? Don't worry, it hardens over time.</p>
+
+        <p>Let's discuss some obviously good bits of JS advice.</p>
+
+        <p>7: Never use <code>eval</code></p>
+
+        <p>And never accidentally use something that uses <code>eval</code>...</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/9.png" /></p>
+
+        <p>To be fair, if you're writing code that includes its own code in strings, you should probably just switch to C++ and proverbially blow your whole leg off much more elegantly than this.</p>
+
+        <p>At least have some class!</p>
+
+        <p>Speaking of which...</p>
+
+        <p>8: JavaScript has classes... well, kind of.</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/10.png" /></p>
+        
+        <p>Classes were added to JS so we can pretend to do OO programming without really doing it.</p>
+
+        <p>It was a political policy to secure future refactoring and rework jobs for years to come.</p>
+
+        <p>9: And it's not the only thing that seems familiar but ain't</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/11.png" /></p>
+        
+        <p>A return value from <code>finally</code> always overrides whatever happens in <code>try</code>.</p>
+
+        <p>Probably weird if you're coming from most other <code>try/catch</code> languages.</p>
+
+        <p>Still, variety is the spice of life!</p>
+
+        <p>10: Arguments shmarguments</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/12.png" /></p>
+        
+        <p>Of course, <code>Math.min()</code> and <code>Math.max()</code> here are supposed to have things given to them.</p>
+
+        <p>And when they do, they behave as one might expect, which at this point is rather surprising on its own.</p>
+
+        <p>But without arguments they are yes-men, running off into execution to do something that you probably don't want them to do.</p>
+
+        <p>11: This ain't Ruby!</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/13.png" /></p>
+        
+        <p>Thank god!</p>
+
+        <p>Finally some sense from this language!</p>
+
+        <p><code>42</code> is a primitive number, not some kind of object. We can't be calling functions on it...</p>
+       
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/14.png" /></p>
+        
+        <p>How do I uninstall JS?</p>
+
+        <p>No, seriously.</p>
+
+        <p>Does anyone know how the market for tending to farm animals is right now? Any roles going?</p>
+
+        <p>Before we bow out, go for a long lie down, and try to forget this post ever existed, I'd like to share a secret with you.</p>
+
+        <p>12: Arrays in JS have secret rooms where you can hide stuff...</p>
+        
+        <p><img style="width:65%;" src="/javascript-chose-violence/img/15.png" /></p>
+        
+        <p>How wonderful.</p>
+
+        <p>I hope you enjoyed our brief (and sadly, it could have been longer) tour of the slums of JS.</p>
+
+        <p>---</p>
+
+        <p>I hope folks take this post with the jest in which it was written.</p>
+
+        <p>The truth is, JS does absolutely have some ugly parts.</p>
+
+        <p>It's useful to know about them, and know how to avoid them.</p>
+
+        <p>At the same time, JS has really improved since it was 10 days old.</p>
+
+        <p>These days, most of us write TypeScript, or use other tools in vanilla JS, to automatically prevent all of these issues.</p>
+
+        <p>And in the end, JS is here to stay.</p>
+
+        <p>With a little wriggling, we can get out of most of its traps and enjoy some of its real benefits.</p>
+
+        <p>It's not all bad.</p>
+
+        <p>As Bjarne Stroustrup said:</p>
+
+        <p>
+        <blockquote>
+          "There are only two kinds of languages: the ones people complain about and the ones nobody uses."
+        </blockquote>
+        </p>
+      </article>
+    </div>
+  </body>
+</html>
