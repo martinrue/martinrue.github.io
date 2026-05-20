@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Da Nang 2026</title>
+    <link rel="stylesheet" href="/indie-hacker-da-nang/index.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Da Nang 2026</h1>
+        <p>
+          Da Nang 2026 was indie hacker heaven. I met a lot of cool people. I made some new friends for life. I had a hugely meaningful experience. This page captures what I was thinking and feeling
+          based on what I posted on X during this time.
+        </p>
+      </header>
+
+      <nav class="month-jumps" id="month-jumps" aria-label="Jump to month"></nav>
+      <p class="follow-link">
+        <a href="https://x.com/martinrue" target="_blank" rel="noopener noreferrer">@martinrue</a>
+      </p>
+      <div class="section-separator" aria-hidden="true"></div>
+      <section class="tweet-grid" id="tweet-grid"></section>
+    </main>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script>
+      const tweetUrls = [
+        "https://x.com/martinrue/status/2026162083805663564?s=20",
+        "https://x.com/martinrue/status/2026168937596203428?s=20",
+        "https://x.com/martinrue/status/2026249421848264793?s=20",
+        "https://x.com/martinrue/status/2026299375400743033?s=20",
+        "https://x.com/martinrue/status/2026505488561786939?s=20",
+        "https://x.com/martinrue/status/2026579975227453632?s=20",
+        "https://x.com/martinrue/status/2026691960308928908?s=20",
+        "https://x.com/martinrue/status/2026932696983941252?s=20",
+        "https://x.com/martinrue/status/2026977905440690371?s=20",
+        "https://x.com/martinrue/status/2027059302373233066?s=20",
+        "https://x.com/martinrue/status/2027279577673085204?s=20",
+        "https://x.com/martinrue/status/2027325007156936991?s=20",
+        "https://x.com/martinrue/status/2027347769879654733?s=20",
+        "https://x.com/martinrue/status/2027383218253767071?s=20",
+        "https://x.com/martinrue/status/2027572528433271030?s=20",
+        "https://x.com/martinrue/status/2027624663871066125?s=20",
+        "https://x.com/martinrue/status/2027693993069605004?s=20",
+        "https://x.com/martinrue/status/2027777368413376741?s=20",
+        "https://x.com/chrissyinspace/status/2027986792683868655?s=20",
+        "https://x.com/martinrue/status/2028004026735112537?s=20",
+        "https://x.com/martinrue/status/2028022585624342991?s=20",
+        "https://x.com/martinrue/status/2028356318869037319?s=20",
+        "https://x.com/martinrue/status/2028490621368086729?s=20",
+        "https://x.com/martinrue/status/2028715640857747913?s=20",
+        "https://x.com/martinrue/status/2029041910434967636?s=20",
+        "https://x.com/martinrue/status/2029048151714468177?s=20",
+        "https://x.com/martinrue/status/2029433017023049802?s=20",
+        "https://x.com/martinrue/status/2029492085313909019?s=20",
+        "https://x.com/martinrue/status/2029758596108669037?s=20",
+        "https://x.com/martinrue/status/2030158737491775571?s=20",
+        "https://x.com/martinrue/status/2030267831292752307?s=20",
+        "https://x.com/martinrue/status/2030273460082294915?s=20",
+        "https://x.com/martinrue/status/2030288031119446357?s=20",
+        "https://x.com/martinrue/status/2030290189093101801?s=20",
+        "https://x.com/martinrue/status/2030482484316758149?s=20",
+        "https://x.com/martinrue/status/2030520610141737238?s=20",
+        "https://x.com/martinrue/status/2030520959640461577?s=20",
+        "https://x.com/martinrue/status/2030553588204761101?s=20",
+        "https://x.com/martinrue/status/2030586184460906940?s=20",
+        "https://x.com/martinrue/status/2030865098269724740?s=20",
+        "https://x.com/martinrue/status/2031048059845804498?s=20",
+        "https://x.com/martinrue/status/2031625768288330022?s=20",
+        "https://x.com/martinrue/status/2032004634454474861?s=20",
+        "https://x.com/martinrue/status/2032139910485065909?s=20",
+        "https://x.com/martinrue/status/2032376553070346587?s=20",
+        "https://x.com/martinrue/status/2032381416429023723?s=20",
+        "https://x.com/martinrue/status/2032402322366833140?s=20",
+        "https://x.com/martinrue/status/2032459054413730267?s=20",
+        "https://x.com/martinrue/status/2033008223738081489?s=20",
+        "https://x.com/martinrue/status/2033031909148864687?s=20",
+        "https://x.com/martinrue/status/2033065915995271363?s=20",
+        "https://x.com/martinrue/status/2033479996103389372?s=20",
+        "https://x.com/martinrue/status/2033526934261678210?s=20",
+        "https://x.com/dayonefoundry/status/2033521582979817769?s=20",
+        "https://x.com/martinrue/status/2033768001397510420?s=20",
+        "https://x.com/martinrue/status/2033780121858138619?s=20",
+        "https://x.com/martinrue/status/2033826604611473806?s=20",
+        "https://x.com/martinrue/status/2034252387767263630?s=20",
+        "https://x.com/martinrue/status/2034308914209329647?s=20",
+        "https://x.com/martinrue/status/2034491406258147616?s=20",
+        "https://x.com/martinrue/status/2034826855224942812?s=20",
+        "https://x.com/martinrue/status/2034870773446582400?s=20",
+        "https://x.com/martinrue/status/2034899041193164975?s=20",
+        "https://x.com/martinrue/status/2035047230755975310?s=20",
+        "https://x.com/martinrue/status/2035047720822669337?s=20",
+        "https://x.com/martinrue/status/2035258531512033412?s=20",
+        "https://x.com/martinrue/status/2035422735556587930?s=20",
+        "https://x.com/martinrue/status/2035581432324882511?s=20",
+        "https://x.com/martinrue/status/2035655248623419806?s=20",
+        "https://x.com/martinrue/status/2035691676669497812?s=20",
+        "https://x.com/martinrue/status/2035730992053506531?s=20",
+        "https://x.com/martinrue/status/2035980687606763753?s=20",
+        "https://x.com/martinrue/status/2036043966144303478?s=20",
+        "https://x.com/martinrue/status/2036167399792320974?s=20",
+        "https://x.com/martinrue/status/2036472997419294916?s=20",
+        "https://x.com/martinrue/status/2036657952661315807?s=20",
+        "https://x.com/martinrue/status/2036727470205145290?s=20",
+        "https://x.com/martinrue/status/2037486873325752567?s=20",
+        "https://x.com/martinrue/status/2037779124266426823?s=20",
+        "https://x.com/martinrue/status/2037844478988530015?s=20",
+        "https://x.com/martinrue/status/2037858427637203382?s=20",
+        "https://x.com/martinrue/status/2037954348676940039?s=20",
+        "https://x.com/martinrue/status/2038103098846265412?s=20",
+        "https://x.com/martinrue/status/2038153922553233660?s=20",
+        "https://x.com/martinrue/status/2038476776775778371?s=20",
+        "https://x.com/martinrue/status/2038508065746808900?s=20",
+        "https://x.com/martinrue/status/2038521265536025010?s=20",
+        "https://x.com/martinrue/status/2038893233829449838?s=20",
+        "https://x.com/martinrue/status/2039068360844234904?s=20",
+        "https://x.com/martinrue/status/2039175583347916920?s=20",
+        "https://x.com/martinrue/status/2039246922863833449?s=20",
+        "https://x.com/martinrue/status/2039630841593405944?s=20",
+        "https://x.com/martinrue/status/2039634926740685017?s=20",
+        "https://x.com/martinrue/status/2039675003562774938?s=20",
+        "https://x.com/martinrue/status/2039723677923897571?s=20",
+        "https://x.com/martinrue/status/2039748153935835482?s=20",
+        "https://x.com/martinrue/status/2039927781128331760?s=20",
+        "https://x.com/martinrue/status/2039962362426638420?s=20",
+        "https://x.com/martinrue/status/2040277049127088393?s=20",
+        "https://x.com/martinrue/status/2040351597881090119?s=20",
+        "https://x.com/martinrue/status/2040650234972475871?s=20",
+        "https://x.com/martinrue/status/2040685404224127335?s=20",
+        "https://x.com/martinrue/status/2041019702244454479?s=20",
+        "https://x.com/martinrue/status/2041044888343752743?s=20",
+        "https://x.com/martinrue/status/2041410942639231103?s=20",
+        "https://x.com/martinrue/status/2041482074335670776?s=20",
+        "https://x.com/martinrue/status/2041885107993374972?s=20",
+        "https://x.com/martinrue/status/2041901359566614637?s=20",
+        "https://x.com/martinrue/status/2042098056968204611?s=20",
+        "https://x.com/martinrue/status/2042132226255810988?s=20",
+        "https://x.com/martinrue/status/2042315067031765268?s=20",
+        "https://x.com/martinrue/status/2042472972406178304?s=20",
+        "https://x.com/martinrue/status/2042485999658311736?s=20",
+        "https://x.com/martinrue/status/2042817047579750614?s=20",
+        "https://x.com/martinrue/status/2042831079728648242?s=20",
+        "https://x.com/martinrue/status/2042849556187222431?s=20",
+        "https://x.com/martinrue/status/2042921833524269061?s=20",
+        "https://x.com/martinrue/status/2043042914591465615?s=20",
+        "https://x.com/martinrue/status/2043219705507516890?s=20",
+        "https://x.com/martinrue/status/2043271584081969404?s=20",
+        "https://x.com/martinrue/status/2043309770053226608?s=20",
+        "https://x.com/martinrue/status/2043637413738897522?s=20",
+        "https://x.com/martinrue/status/2044270955099512951?s=20",
+        "https://x.com/martinrue/status/2044292978655801420?s=20",
+        "https://x.com/martinrue/status/2044689324776845557?s=20",
+        "https://x.com/martinrue/status/2045165593691906422?s=20",
+        "https://x.com/martinrue/status/2045730350324920425?s=20",
+        "https://x.com/martinrue/status/2045888616451465542?s=20",
+        "https://x.com/martinrue/status/2046485054550159726?s=20",
+        "https://x.com/martinrue/status/2046806313695600922?s=20",
+        "https://x.com/martinrue/status/2046811684283764747?s=20",
+        "https://x.com/martinrue/status/2046837974411903250?s=20",
+        "https://x.com/martinrue/status/2046940675359518892?s=20",
+        "https://x.com/martinrue/status/2046966736772354356?s=20",
+        "https://x.com/martinrue/status/2046987157387321815?s=20",
+        "https://x.com/martinrue/status/2046992716383625556?s=20",
+        "https://x.com/martinrue/status/2047193963543884077?s=20",
+        "https://x.com/martinrue/status/2047209296992276673?s=20",
+        "https://x.com/martinrue/status/2047243321106718939?s=20",
+        "https://x.com/martinrue/status/2047287793639203032?s=20",
+        "https://x.com/martinrue/status/2047626892107530513?s=20",
+        "https://x.com/martinrue/status/2047752665002832131?s=20",
+        "https://x.com/martinrue/status/2047898604011180174?s=20",
+        "https://x.com/martinrue/status/2047947325235192245?s=20",
+        "https://x.com/martinrue/status/2048261759740641687?s=20",
+        "https://x.com/martinrue/status/2048347424822112512?s=20",
+        "https://x.com/martinrue/status/2048621484059549943?s=20",
+        "https://x.com/martinrue/status/2048629637190914248?s=20",
+        "https://x.com/martinrue/status/2048686497688416301?s=20",
+        "https://x.com/martinrue/status/2048783870422913517?s=20",
+        "https://x.com/martinrue/status/2049152813520028111?s=20",
+        "https://x.com/martinrue/status/2049378202343334182?s=20",
+        "https://x.com/martinrue/status/2049388455101350043?s=20",
+        "https://x.com/martinrue/status/2049518166985044124?s=20",
+        "https://x.com/martinrue/status/2049724605624164617?s=20",
+        "https://x.com/nhoss2/status/2049771057612030438?s=20",
+        "https://x.com/martinrue/status/2049787568565408118?s=20",
+        "https://x.com/martinrue/status/2049904281067942018?s=20",
+        "https://x.com/martinrue/status/2050088676764663892?s=20",
+        "https://x.com/martinrue/status/2050145990888608003?s=20",
+        "https://x.com/martinrue/status/2050171402561740922?s=20",
+        "https://x.com/martinrue/status/2050267721536020955?s=20",
+        "https://x.com/martinrue/status/2050497453867278567?s=20",
+        "https://x.com/martinrue/status/2050820326343557615?s=20",
+        "https://x.com/martinrue/status/2050936699472208047?s=20",
+        "https://x.com/martinrue/status/2050973436093354414?s=20",
+        "https://x.com/martinrue/status/2051166292099711349?s=20",
+        "https://x.com/martinrue/status/2051168786183791051?s=20",
+        "https://x.com/martinrue/status/2051487675958587432?s=20",
+        "https://x.com/martinrue/status/2051555432536408113?s=20",
+        "https://x.com/martinrue/status/2051641212919332880?s=20",
+        "https://x.com/martinrue/status/2051686143293522231?s=20",
+        "https://x.com/martinrue/status/2051857070799106476?s=20",
+        "https://x.com/martinrue/status/2051913533886193883?s=20",
+        "https://x.com/martinrue/status/2051960389865488534?s=20",
+        "https://x.com/martinrue/status/2051998056980349126?s=20",
+        "https://x.com/martinrue/status/2052219890774532176?s=20",
+        "https://x.com/martinrue/status/2052242516926504973?s=20",
+        "https://x.com/martinrue/status/2052249418204914153?s=20",
+        "https://x.com/martinrue/status/2052317179639734416?s=20",
+        "https://x.com/martinrue/status/2052330838466163007?s=20",
+        "https://x.com/martinrue/status/2052633264893112776?s=20",
+        "https://x.com/martinrue/status/2052663350493065497?s=20",
+        "https://x.com/martinrue/status/2052789850571743498?s=20",
+        "https://x.com/martinrue/status/2052992075629785381?s=20",
+        "https://x.com/martinrue/status/2053069961770471559?s=20",
+        "https://x.com/martinrue/status/2053339433286676625?s=20",
+        "https://x.com/martinrue/status/2053345467820646709?s=20",
+        "https://x.com/martinrue/status/2053347674431353312?s=20",
+        "https://x.com/martinrue/status/2053368181390238202?s=20",
+        "https://x.com/martinrue/status/2053494810942861335?s=20",
+        "https://x.com/tonnoz/status/2053505383877284022?s=20",
+        "https://x.com/martinrue/status/2053688719102837136?s=20",
+        "https://x.com/martinrue/status/2053750486923403531?s=20",
+        "https://x.com/martinrue/status/2053773016493166810?s=20",
+        "https://x.com/martinrue/status/2054136660926116227?s=20",
+        "https://x.com/martinrue/status/2054524351895220331?s=20",
+        "https://x.com/martinrue/status/2054789369131930017?s=20",
+        "https://x.com/martinrue/status/2054875091247460592?s=20",
+        "https://x.com/martinrue/status/2054878523375182224?s=20",
+        "https://x.com/martinrue/status/2055148755775897835?s=20",
+        "https://x.com/martinrue/status/2055163351211348154?s=20",
+        "https://x.com/martinrue/status/2056229589379391696?s=20",
+        "https://x.com/martinrue/status/2056255802797953392?s=20",
+        "https://x.com/martinrue/status/2056581083857338722?s=20",
+        "https://x.com/martinrue/status/2056707496988020972?s=20",
+      ];
+
+      const TWITTER_EPOCH_MS = 1288834974657n;
+
+      function extractTweetId(url) {
+        const match = url.match(/status\/(\d+)/);
+        return match ? match[1] : null;
+      }
+
+      function dateFromTweetId(tweetId) {
+        const id = BigInt(tweetId);
+        const timestampMs = Number((id >> 22n) + TWITTER_EPOCH_MS);
+        return new Date(timestampMs);
+      }
+
+      function monthKeyFromDate(date) {
+        const year = date.getUTCFullYear();
+        const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+        return `${year}-${month}`;
+      }
+
+      function monthLabelFromDate(date) {
+        return new Intl.DateTimeFormat("en-US", {
+          month: "long",
+          timeZone: "UTC",
+        }).format(date);
+      }
+
+      const tweets = tweetUrls
+        .map((url) => {
+          const id = extractTweetId(url);
+          if (!id) return null;
+          const date = dateFromTweetId(id);
+          return {
+            id,
+            monthKey: monthKeyFromDate(date),
+            monthLabel: monthLabelFromDate(date),
+          };
+        })
+        .filter(Boolean);
+
+      const grid = document.getElementById("tweet-grid");
+      const monthJumps = document.getElementById("month-jumps");
+      const priorityQueue = [];
+      const normalQueue = [];
+      const maxConcurrentLoads = 4;
+      let inflightLoads = 0;
+
+      function isNearViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return rect.top < window.innerHeight + 400 && rect.bottom > -200;
+      }
+
+      function enqueueSlot(slot, highPriority = false) {
+        if (!slot) return;
+        if (slot.dataset.loaded === "true") return;
+        if (slot.dataset.queued === "true") {
+          if (highPriority) {
+            const index = normalQueue.indexOf(slot);
+            if (index !== -1) {
+              normalQueue.splice(index, 1);
+              priorityQueue.push(slot);
+            }
+          }
+          return;
+        }
+
+        slot.dataset.queued = "true";
+        if (highPriority) {
+          priorityQueue.push(slot);
+        } else {
+          normalQueue.push(slot);
+        }
+      }
+
+      function createCard(tweetId) {
+        const card = document.createElement("article");
+        card.className = "tweet-card";
+
+        const slot = document.createElement("div");
+        slot.className = "tweet-slot";
+        slot.dataset.tweetId = tweetId;
+        slot.textContent = "...";
+
+        card.appendChild(slot);
+        return card;
+      }
+
+      function createMonthDivider(label) {
+        const divider = document.createElement("div");
+        divider.className = "month-divider";
+        divider.textContent = label;
+        return divider;
+      }
+
+      function createMonthJump(label, key) {
+        const jump = document.createElement("button");
+        jump.type = "button";
+        jump.className = "month-jump";
+        jump.dataset.targetMonth = key;
+        jump.textContent = label;
+        return jump;
+      }
+
+      function processQueue() {
+        if (!window.twttr || !window.twttr.widgets) return;
+
+        while (inflightLoads < maxConcurrentLoads && (priorityQueue.length > 0 || normalQueue.length > 0)) {
+          const slot = priorityQueue.length > 0 ? priorityQueue.shift() : normalQueue.shift();
+          if (!slot || slot.dataset.loaded === "true") continue;
+
+          const tweetId = slot.dataset.tweetId;
+          if (!tweetId) continue;
+
+          slot.dataset.queued = "false";
+          slot.dataset.loaded = "true";
+          slot.textContent = "";
+          inflightLoads += 1;
+
+          window.twttr.widgets
+            .createTweet(tweetId, slot, { theme: "dark", dnt: true })
+            .catch(() => {
+              slot.innerHTML = '<a href="https://x.com/i/web/status/' + tweetId + '" target="_blank" rel="noopener">View tweet</a>';
+            })
+            .finally(() => {
+              inflightLoads -= 1;
+              processQueue();
+            });
+        }
+      }
+
+      function startLazyLoading() {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (!entry.isIntersecting) continue;
+
+              const slot = entry.target;
+              observer.unobserve(slot);
+              enqueueSlot(slot, isNearViewport(slot));
+            }
+
+            processQueue();
+          },
+          { root: null, rootMargin: "1200px 0px", threshold: 0.01 },
+        );
+
+        let previousMonthKey = null;
+
+        for (const tweet of tweets) {
+          if (tweet.monthKey !== previousMonthKey) {
+            const divider = createMonthDivider(tweet.monthLabel);
+            divider.id = `month-${tweet.monthKey}`;
+            grid.appendChild(divider);
+            monthJumps.appendChild(createMonthJump(tweet.monthLabel, tweet.monthKey));
+            previousMonthKey = tweet.monthKey;
+          }
+
+          const card = createCard(tweet.id);
+          const slot = card.firstElementChild;
+          grid.appendChild(card);
+          observer.observe(slot);
+        }
+
+        function prioritizeVisibleSlots() {
+          const slots = Array.from(grid.querySelectorAll(".tweet-slot"));
+          for (const slot of slots) {
+            if (isNearViewport(slot)) {
+              enqueueSlot(slot, true);
+            }
+          }
+          processQueue();
+        }
+
+        monthJumps.addEventListener("click", (event) => {
+          const jump = event.target.closest(".month-jump");
+          if (!jump) return;
+
+          const targetKey = jump.dataset.targetMonth;
+          if (!targetKey) return;
+
+          const target = document.getElementById(`month-${targetKey}`);
+          if (!target) return;
+
+          target.scrollIntoView({ block: "start" });
+          requestAnimationFrame(prioritizeVisibleSlots);
+          setTimeout(prioritizeVisibleSlots, 120);
+        });
+      }
+
+      function whenWidgetsReady(callback) {
+        if (window.twttr && window.twttr.ready) {
+          window.twttr.ready(callback);
+          return;
+        }
+
+        const timer = setInterval(() => {
+          if (window.twttr && window.twttr.ready) {
+            clearInterval(timer);
+            window.twttr.ready(callback);
+          }
+        }, 100);
+      }
+
+      whenWidgetsReady(startLazyLoading);
+    </script>
+  </body>
+</html>
