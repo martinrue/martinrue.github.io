@@ -235,7 +235,8 @@
         "https://x.com/martinrue/status/2056707496988020972?s=20",
       ];
 
-      const TWITTER_EPOCH_MS = 1288834974657n;
+      const TWITTER_EPOCH_MS = 1288834974657;
+      const TWITTER_ID_TIME_DIVISOR = 4194304;
 
       function extractTweetId(url) {
         const match = url.match(/status\/(\d+)/);
@@ -243,8 +244,9 @@
       }
 
       function dateFromTweetId(tweetId) {
-        const id = BigInt(tweetId);
-        const timestampMs = Number((id >> 22n) + TWITTER_EPOCH_MS);
+        const id = Number(tweetId);
+        const timestampMs =
+          Math.floor(id / TWITTER_ID_TIME_DIVISOR) + TWITTER_EPOCH_MS;
         return new Date(timestampMs);
       }
 
