@@ -154,8 +154,8 @@ header .links a svg:hover {
   stroke: #30a0ff;
 }
 
-header .links a svg:hover .masto,
-header .links a svg:hover .yt {
+header .links a svg:hover .yt,
+header .links a svg:hover .x {
   fill: #30a0ff;
 }
 
@@ -210,6 +210,7 @@ nav a {
   gap: 10px;
   margin-left: 20px;
   margin-bottom: 12px;
+  line-height: 1.4;
 }
 
 .info section .item:last-child {
@@ -761,13 +762,13 @@ p.esperanto-text.closer {
   fill: none;
 }
 
-svg .masto,
-svg .yt {
+svg .yt,
+svg .x {
   fill: #333;
 }
 
-.dark svg .masto,
-.dark svg .yt {
+.dark svg .yt,
+.dark svg .x {
   fill: #fff;
 }
 

@@ -1,3 +1,3 @@
 # martinrue.com
 
-My personal [blog](https://martinrue.com).
+My personal [site](https://martinrue.com).
