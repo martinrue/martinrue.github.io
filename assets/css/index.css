@@ -300,6 +300,10 @@ p.esperanto-text.closer {
   margin-top: 0;
 }
 
+p.secondary {
+  color: #888;
+}
+
 .green-left-border {
   border-left: solid 3px #4bd44bac;
   padding-left: 15px;
@@ -774,6 +778,10 @@ svg .x {
 
 .dark p {
   color: #f0f0f0;
+}
+
+.dark p.secondary {
+  color: #888;
 }
 
 .dark li {
